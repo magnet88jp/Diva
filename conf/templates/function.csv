@@ -1,0 +1,3 @@
+#{list items:datas, as:'data'}
+"${data.functionId}","${data.name}","${data.actionPath}"
+#{/list}

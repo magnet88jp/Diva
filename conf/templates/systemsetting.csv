@@ -1,0 +1,3 @@
+#{list items:datas, as:'data'}
+"${data.adminOnlyFlag?"x":"o"}","${data.name}","${data.fillable}","${data.note}"
+#{/list}

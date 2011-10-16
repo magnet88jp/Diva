@@ -1,0 +1,9 @@
+25 9 2011 09:30:43,883 INFO  ~ Starting /Users/magnet/Workspace/play/Diva
+25 9 2011 09:30:43,889 WARN  ~ Declaring modules in application.conf is deprecated. Use dependencies.yml instead (module.crud)
+25 9 2011 09:30:43,890 INFO  ~ Module crud is available (/usr/local/lib/play-1.2.3/modules/crud)
+25 9 2011 09:30:43,890 WARN  ~ Declaring modules in application.conf is deprecated. Use dependencies.yml instead (module.secure)
+25 9 2011 09:30:43,891 INFO  ~ Module secure is available (/usr/local/lib/play-1.2.3/modules/secure)
+25 9 2011 09:30:45,011 WARN  ~ You're running Play! in DEV mode
+25 9 2011 09:30:45,230 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+25 9 2011 09:30:58,392 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+25 9 2011 09:31:00,050 INFO  ~ Application 'Diva' is now started !

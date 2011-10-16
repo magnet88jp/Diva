@@ -1,0 +1,996 @@
+Setting(89):
+  settingId: 89
+  adminOnlyFlag: 0
+  name: "メールウィザードで重複メールを送信しない"
+  fillable: "1"
+
+Setting(88):
+  settingId: 88
+  adminOnlyFlag: 1
+  name: "テストメーカー用ログ取得"
+  fillable: "0"
+
+Setting(1):
+  settingId: 1
+  adminOnlyFlag: 1
+  name: "ライセンス形態"
+  fillable: "エンタープライズ"
+
+Setting(13):
+  settingId: 13
+  adminOnlyFlag: 1
+  name: "セッションの利用"
+  fillable: "1"
+
+Setting(14):
+  settingId: 14
+  adminOnlyFlag: 1
+  name: "マイページ"
+  fillable: "1"
+
+Setting(18):
+  settingId: 18
+  adminOnlyFlag: 1
+  name: "顧客選別機能"
+  fillable: "0"
+
+Setting(21):
+  settingId: 21
+  adminOnlyFlag: 1
+  name: "セミナー・セッション事後アンケート"
+  fillable: "0"
+
+Setting(24):
+  settingId: 24
+  adminOnlyFlag: 1
+  name: "ヘッダー・フッター"
+  fillable: "1"
+
+Setting(27):
+  settingId: 27
+  adminOnlyFlag: 1
+  name: "認証タイプ"
+  fillable: "0"
+
+Setting(92):
+  settingId: 92
+  adminOnlyFlag: 1
+  name: "リプライによる本人確認"
+  fillable: "0"
+
+Setting(91):
+  settingId: 91
+  adminOnlyFlag: 1
+  name: "パスワード再設定用ページの有効日数"
+  fillable: "0"
+
+Setting(94):
+  settingId: 94
+  adminOnlyFlag: 1
+  name: "パスワードを暗号化して保存する"
+  fillable: "1"
+
+Setting(90):
+  settingId: 90
+  adminOnlyFlag: 1
+  name: "ユーザーによるパスワード入力"
+  fillable: "0"
+
+Setting(95):
+  settingId: 95
+  adminOnlyFlag: 1
+  name: "パッケージ適用時の自動挿入削除"
+  fillable: "1"
+
+Setting(29):
+  settingId: 29
+  adminOnlyFlag: 0
+  name: "セミナー/セッション申し込み時の消費税計算(デフォルト)"
+  fillable: "0"
+
+Setting(30):
+  settingId: 30
+  adminOnlyFlag: 0
+  name: "セミナー/セッション申し込み時の同一時間帯チェック(デフォルト)"
+  fillable: "1"
+
+Setting(31):
+  settingId: 31
+  adminOnlyFlag: 0
+  name: "「残席わずか」の表示しきい値"
+  fillable: "80"
+
+Setting(32):
+  settingId: 32
+  adminOnlyFlag: 0
+  name: "ニュースの表示件数"
+  fillable: "5"
+
+Setting(33):
+  settingId: 33
+  adminOnlyFlag: 0
+  name: "トピックスの表示件数"
+  fillable: "5"
+
+Setting(34):
+  settingId: 34
+  adminOnlyFlag: 1
+  name: "サポート用メールアドレス"
+  fillable: "support@shanon.co.jp"
+
+Setting(35):
+  settingId: 35
+  adminOnlyFlag: 1
+  name: "アラート用メールアドレス"
+  fillable: "ss_alert@shanon.co.jp"
+
+Setting(36):
+  settingId: 36
+  adminOnlyFlag: 1
+  name: "ライセンス違反用メールアドレス"
+  fillable: "ss_license_alert@shanon.co.jp"
+
+Setting(154):
+  settingId: 154
+  adminOnlyFlag: 1
+  name: "エラーメール送信先アドレス"
+  fillable: "system@smartseminar.jp"
+
+Setting(37):
+  settingId: 37
+  adminOnlyFlag: 1
+  name: "自動ログインユーザID"
+  fillable: ""
+
+Setting(38):
+  settingId: 38
+  adminOnlyFlag: 1
+  name: "自動ログインユーザパスワード"
+  fillable: ""
+
+Setting(39):
+  settingId: 39
+  adminOnlyFlag: 1
+  name: "システム利用顧客名"
+  fillable: ""
+
+Setting(41):
+  settingId: 41
+  adminOnlyFlag: 1
+  name: "同時申込募集可能セミナー数"
+  fillable: "0"
+
+Setting(42):
+  settingId: 42
+  adminOnlyFlag: 0
+  name: "お問合せ先名"
+  fillable: ""
+
+Setting(43):
+  settingId: 43
+  adminOnlyFlag: 0
+  name: "お問合せ先担当者"
+  fillable: ""
+
+Setting(44):
+  settingId: 44
+  adminOnlyFlag: 0
+  name: "お問合せ先E-mail"
+  fillable: ""
+
+Setting(45):
+  settingId: 45
+  adminOnlyFlag: 0
+  name: "お問合せ先電話番号"
+  fillable: ""
+
+Setting(46):
+  settingId: 46
+  adminOnlyFlag: 0
+  name: "お問合せ先FAX番号"
+  fillable: ""
+
+Setting(47):
+  settingId: 47
+  adminOnlyFlag: 0
+  name: "お問合せ先備考"
+  fillable: ""
+
+Setting(49):
+  settingId: 49
+  adminOnlyFlag: 1
+  name: "使用する支払方法"
+  fillable: "1:2"
+
+Setting(48):
+  settingId: 48
+  adminOnlyFlag: 1
+  name: "使用するカード会社"
+  fillable: "1:10:11:12:13:14:15:16:17:18:19:2:20:3:4:5:6:7:8:9"
+
+Setting(50):
+  settingId: 50
+  adminOnlyFlag: 0
+  name: "来場者側デフォルトデザイン"
+  fillable: "5"
+
+Setting(51):
+  settingId: 51
+  adminOnlyFlag: 0
+  name: "来場者側最新セミナー表示件数"
+  fillable: "5"
+
+Setting(52):
+  settingId: 52
+  adminOnlyFlag: 0
+  name: "来場者側最新セミナー表示順"
+  fillable: "1"
+
+Setting(53):
+  settingId: 53
+  adminOnlyFlag: 1
+  name: "認証ログインキー"
+  fillable: "login_id"
+
+Setting(54):
+  settingId: 54
+  adminOnlyFlag: 1
+  name: "メール最大選択可能数"
+  fillable: "500"
+
+Setting(55):
+  settingId: 55
+  adminOnlyFlag: 1
+  name: "メール最大送信可能数"
+  fillable: "50000"
+
+Setting(56):
+  settingId: 56
+  adminOnlyFlag: 0
+  name: "クローズドサイト"
+  fillable: "0"
+
+Setting(57):
+  settingId: 57
+  adminOnlyFlag: 1
+  name: "内部エラー時問い合わせ先名"
+  fillable: "株式会社シャノン"
+
+Setting(58):
+  settingId: 58
+  adminOnlyFlag: 1
+  name: "内部エラー時問い合わせ担当者"
+  fillable: "スマートセミナー担当者"
+
+Setting(59):
+  settingId: 59
+  adminOnlyFlag: 1
+  name: "内部エラー時問い合わせE-mail"
+  fillable: "support@shanon.co.jp"
+
+Setting(60):
+  settingId: 60
+  adminOnlyFlag: 1
+  name: "内部エラー時問い合わせ電話番号"
+  fillable: "03-6820-0770"
+
+Setting(61):
+  settingId: 61
+  adminOnlyFlag: 1
+  name: "内部エラー時問い合わせFAX番号"
+  fillable: "03-3519-6512"
+
+Setting(62):
+  settingId: 62
+  adminOnlyFlag: 1
+  name: "内部エラー時問い合わせ備考"
+  fillable: "営業時間：10:00-19:00"
+
+Setting(63):
+  settingId: 63
+  adminOnlyFlag: 0
+  name: "操作エラー時問い合わせ先名"
+  fillable: ""
+
+Setting(64):
+  settingId: 64
+  adminOnlyFlag: 0
+  name: "操作エラー時問い合わせ担当者"
+  fillable: ""
+
+Setting(65):
+  settingId: 65
+  adminOnlyFlag: 0
+  name: "操作エラー時問い合わせE-mail"
+  fillable: ""
+
+Setting(66):
+  settingId: 66
+  adminOnlyFlag: 0
+  name: "操作エラー時問い合わせ電話番号"
+  fillable: ""
+
+Setting(67):
+  settingId: 67
+  adminOnlyFlag: 0
+  name: "操作エラー時問い合わせFAX番号"
+  fillable: ""
+
+Setting(68):
+  settingId: 68
+  adminOnlyFlag: 0
+  name: "操作エラー時問い合わせ備考"
+  fillable: ""
+
+Setting(69):
+  settingId: 69
+  adminOnlyFlag: 0
+  name: "受講票のバーコード種類(デフォルト)"
+  fillable: "7"
+
+Setting(83):
+  settingId: 83
+  adminOnlyFlag: 0
+  name: "受講票バーコード桁数(デフォルト)"
+  fillable: "8"
+
+Setting(70):
+  settingId: 70
+  adminOnlyFlag: 0
+  name: "受講票のバーコード下の文字表示(デフォルト)"
+  fillable: "1"
+
+Setting(218):
+  settingId: 218
+  adminOnlyFlag: 1
+  name: "受講票URLの有効期間(日)"
+  fillable: "7"
+
+Setting(72):
+  settingId: 72
+  adminOnlyFlag: 1
+  name: "SQLバージョン"
+  fillable: "release-2011-10-07-03.sql"
+
+Setting(73):
+  settingId: 73
+  adminOnlyFlag: 0
+  name: "管理者自動送信用メールアドレス"
+  fillable: "nishino+ssreg@shanon.co.jp"
+
+Setting(75):
+  settingId: 75
+  adminOnlyFlag: 0
+  name: "代理申込設定メール送信不可"
+  fillable: "1"
+
+Setting(76):
+  settingId: 76
+  adminOnlyFlag: 0
+  name: "代理申込設定必須入力無視"
+  fillable: "1"
+
+Setting(77):
+  settingId: 77
+  adminOnlyFlag: 0
+  name: "代理申込設定満席制限を無視"
+  fillable: "1"
+
+Setting(78):
+  settingId: 78
+  adminOnlyFlag: 0
+  name: "メール履歴の活動履歴登録"
+  fillable: "0"
+
+Setting(79):
+  settingId: 79
+  adminOnlyFlag: 0
+  name: "新規登録種別（リード／取引先責任者／個人取引先）"
+  fillable: "0"
+
+Setting(243):
+  settingId: 243
+  adminOnlyFlag: 1
+  name: "SFDC:同一取引先の検索キー"
+  fillable: "34"
+
+Setting(87):
+  settingId: 87
+  adminOnlyFlag: 1
+  name: "文字列結合ルール(SFDC)"
+  fillable: "0"
+
+Setting(155):
+  settingId: 155
+  adminOnlyFlag: 1
+  name: "SFDC:申込者のリアルタイム連携"
+  fillable: "1"
+
+Setting(80):
+  settingId: 80
+  adminOnlyFlag: 0
+  name: "既存のリード／取引先責任者をSSから更新"
+  fillable: "0"
+
+Setting(84):
+  settingId: 84
+  adminOnlyFlag: 0
+  name: "来場者側テンプレートへのファイルパス表示"
+  fillable: "0"
+
+Setting(211):
+  settingId: 211
+  adminOnlyFlag: 1
+  name: "メール添付のファイルサイズ制限(M単位）"
+  fillable: "2.5"
+
+Setting(105):
+  settingId: 105
+  adminOnlyFlag: 1
+  name: "公開資料アップロードのファイルサイズ制限(M単位）"
+  fillable: "10"
+
+Setting(85):
+  settingId: 85
+  adminOnlyFlag: 1
+  name: "ファイルアップロードのファイルサイズ制限(M単位）"
+  fillable: "10"
+
+Setting(107):
+  settingId: 107
+  adminOnlyFlag: 1
+  name: "セミナーログイン画面申込件数表示"
+  fillable: "1"
+
+Setting(106):
+  settingId: 106
+  adminOnlyFlag: 1
+  name: "申込者パスワード閲覧制限"
+  fillable: "1"
+
+Setting(93):
+  settingId: 93
+  adminOnlyFlag: 1
+  name: "クレジットカード決済会社"
+  fillable: "0"
+
+Setting(101):
+  settingId: 101
+  adminOnlyFlag: 1
+  name: "クレジットカードの与信・決済方法"
+  fillable: "0"
+
+Setting(96):
+  settingId: 96
+  adminOnlyFlag: 1
+  name: "外部パラメータ文字コード"
+  fillable: ""
+
+Setting(97):
+  settingId: 97
+  adminOnlyFlag: 1
+  name: "外部パラメータフィールド一覧"
+  fillable: ""
+
+Setting(98):
+  settingId: 98
+  adminOnlyFlag: 1
+  name: "外部パラメータ重複フィールド"
+  fillable: ""
+
+Setting(99):
+  settingId: 99
+  adminOnlyFlag: 0
+  name: "トップページからの管理者ログイン"
+  fillable: "1"
+
+Setting(119):
+  settingId: 119
+  adminOnlyFlag: 1
+  name: "IP制限範囲"
+  fillable: "0"
+
+Setting(100):
+  settingId: 100
+  adminOnlyFlag: 1
+  name: "制限IPアドレス"
+  fillable: ""
+
+Setting(102):
+  settingId: 102
+  adminOnlyFlag: 0
+  name: "会員登録/申込完了時自動ログイン"
+  fillable: "0"
+
+Setting(103):
+  settingId: 103
+  adminOnlyFlag: 0
+  name: "申込者情報修正の必須チェック（管理者）"
+  fillable: "1"
+
+Setting(109):
+  settingId: 109
+  adminOnlyFlag: 1
+  name: "ポータルセミナー詳細での最新セミナーの使用"
+  fillable: "1"
+
+Setting(112):
+  settingId: 112
+  adminOnlyFlag: 0
+  name: "アカウントロックの使用"
+  fillable: "0"
+
+Setting(113):
+  settingId: 113
+  adminOnlyFlag: 0
+  name: "アカウントロックの制限回数"
+  fillable: "5"
+
+Setting(114):
+  settingId: 114
+  adminOnlyFlag: 0
+  name: "アカウントロックの制限時間(時間)"
+  fillable: "1"
+
+Setting(115):
+  settingId: 115
+  adminOnlyFlag: 1
+  name: "リモートアドレスによるアカウントロックの使用"
+  fillable: "0"
+
+Setting(116):
+  settingId: 116
+  adminOnlyFlag: 1
+  name: "ポータルセミナー検索結果での最新セミナーの使用"
+  fillable: "0"
+
+Setting(117):
+  settingId: 117
+  adminOnlyFlag: 1
+  name: "最大CSVダウンロード件数"
+  fillable: "30000"
+
+Setting(118):
+  settingId: 118
+  adminOnlyFlag: 1
+  name: "最大CSVアップロード件数"
+  fillable: "30000"
+
+Setting(120):
+  settingId: 120
+  adminOnlyFlag: 1
+  name: "ロゴファイル数"
+  fillable: "3"
+
+Setting(121):
+  settingId: 121
+  adminOnlyFlag: 1
+  name: "申込者基本項目の項目間依存"
+  fillable: ""
+
+Setting(124):
+  settingId: 124
+  adminOnlyFlag: 1
+  name: "ワーニング用メールアドレス"
+  fillable: "ss_warning@shanon.co.jp"
+
+Setting(125):
+  settingId: 125
+  adminOnlyFlag: 0
+  name: "申込者CSVアップロード時の更新キー(デフォルト)"
+  fillable: "email"
+
+Setting(126):
+  settingId: 126
+  adminOnlyFlag: 0
+  name: "申込者情報登録時重複チェック"
+  fillable: ""
+
+Setting(127):
+  settingId: 127
+  adminOnlyFlag: 0
+  name: "プルダウンの空白選択肢ラベルのデフォルト値"
+  fillable: ""
+
+Setting(128):
+  settingId: 128
+  adminOnlyFlag: 0
+  name: "アンケート結果CSVアップロード時の更新キー"
+  fillable: "email"
+
+Setting(129):
+  settingId: 129
+  adminOnlyFlag: 1
+  name: "お問合せ先住所"
+  fillable: ""
+
+Setting(130):
+  settingId: 130
+  adminOnlyFlag: 1
+  name: "連続不達回数の閾値"
+  fillable: "3"
+
+Setting(143):
+  settingId: 143
+  adminOnlyFlag: 1
+  name: "初回ログインパスワード設定URLの有効期間(日)(管理者)"
+  fillable: "1"
+
+Setting(144):
+  settingId: 144
+  adminOnlyFlag: 1
+  name: "初回ログインパスワード設定URLの有効期間(日)(申込者)"
+  fillable: "1"
+
+Setting(145):
+  settingId: 145
+  adminOnlyFlag: 1
+  name: "パスワードの有効期間(日)(管理者)"
+  fillable: "90"
+
+Setting(146):
+  settingId: 146
+  adminOnlyFlag: 1
+  name: "パスワードの有効期間(日)(申込者)"
+  fillable: ""
+
+Setting(147):
+  settingId: 147
+  adminOnlyFlag: 1
+  name: "パスワード再設定URLの有効期間(日)(管理者)"
+  fillable: "1"
+
+Setting(148):
+  settingId: 148
+  adminOnlyFlag: 1
+  name: "パスワード再設定URLの有効期間(日)(申込者)"
+  fillable: "1"
+
+Setting(149):
+  settingId: 149
+  adminOnlyFlag: 1
+  name: "パスワード再設定での秘密の質問の使用(管理者)"
+  fillable: "1"
+
+Setting(150):
+  settingId: 150
+  adminOnlyFlag: 1
+  name: "パスワード再設定での秘密の質問の使用(申込者)"
+  fillable: "1"
+
+Setting(151):
+  settingId: 151
+  adminOnlyFlag: 1
+  name: "パスワード変更履歴の保存件数(管理者)"
+  fillable: "3"
+
+Setting(153):
+  settingId: 153
+  adminOnlyFlag: 1
+  name: "管理者パスワード閲覧制限"
+  fillable: "1"
+
+Setting(152):
+  settingId: 152
+  adminOnlyFlag: 1
+  name: "パスワード変更履歴の保存件数(申込者)"
+  fillable: "3"
+
+Setting(156):
+  settingId: 156
+  adminOnlyFlag: 1
+  name: "メールアドレスによるメール配信停止対象者の検索範囲"
+  fillable: "0"
+
+Setting(157):
+  settingId: 157
+  adminOnlyFlag: 1
+  name: "申込者側CSRF対策"
+  fillable: "1"
+
+Setting(158):
+  settingId: 158
+  adminOnlyFlag: 1
+  name: "パスワード文字列の制限(管理者)"
+  fillable: "2"
+
+Setting(159):
+  settingId: 159
+  adminOnlyFlag: 1
+  name: "パスワード文字列の制限(申込者)"
+  fillable: "2"
+
+Setting(160):
+  settingId: 160
+  adminOnlyFlag: 1
+  name: "最小パスワード長(管理者)"
+  fillable: "1"
+
+Setting(161):
+  settingId: 161
+  adminOnlyFlag: 1
+  name: "最小パスワード長(申込者)"
+  fillable: "1"
+
+Setting(162):
+  settingId: 162
+  adminOnlyFlag: 1
+  name: "ユーザIDとパスワードが同じものを認めない"
+  fillable: "1"
+
+Setting(163):
+  settingId: 163
+  adminOnlyFlag: 1
+  name: "検閲OKの申込者のみマイページにログイン可能"
+  fillable: "0"
+
+Setting(164):
+  settingId: 164
+  adminOnlyFlag: 0
+  name: "コンビニ決済の支払い期限"
+  fillable: ""
+
+Setting(165):
+  settingId: 165
+  adminOnlyFlag: 0
+  name: "使用する支払方法(日本語以外)"
+  fillable: "1:2"
+
+Setting(166):
+  settingId: 166
+  adminOnlyFlag: 0
+  name: "使用する支払方法のデフォルト"
+  fillable: "1"
+
+Setting(167):
+  settingId: 167
+  adminOnlyFlag: 0
+  name: "使用する支払方法(日本語以外)のデフォルト"
+  fillable: "1"
+
+Setting(168):
+  settingId: 168
+  adminOnlyFlag: 0
+  name: "活動履歴CSVアップロード時の更新キー"
+  fillable: "email"
+
+Setting(169):
+  settingId: 169
+  adminOnlyFlag: 0
+  name: "クリックカウントの利用(デフォルト)"
+  fillable: "1"
+
+Setting(170):
+  settingId: 170
+  adminOnlyFlag: 1
+  name: "Webサービスの提供"
+  fillable: "0"
+
+Setting(180):
+  settingId: 180
+  adminOnlyFlag: 0
+  name: "確認画面でのクレジットカード番号表示"
+  fillable: "1"
+
+Setting(181):
+  settingId: 181
+  adminOnlyFlag: 1
+  name: "申込者マージ時の重複検索キー"
+  fillable: "email"
+
+Setting(185):
+  settingId: 185
+  adminOnlyFlag: 0
+  name: "メッセージ機能の使用"
+  fillable: "1"
+
+Setting(182):
+  settingId: 182
+  adminOnlyFlag: 1
+  name: "マージ機能の使用"
+  fillable: "0"
+
+Setting(183):
+  settingId: 183
+  adminOnlyFlag: 1
+  name: "トラッキングの利用"
+  fillable: "0"
+
+Setting(184):
+  settingId: 184
+  adminOnlyFlag: 1
+  name: "トラッキング利用ドメイン"
+  fillable: ""
+
+Setting(190):
+  settingId: 190
+  adminOnlyFlag: 0
+  name: "管理者Emailの重複チェック"
+  fillable: "1"
+
+Setting(221):
+  settingId: 221
+  adminOnlyFlag: 0
+  name: "ステップメールの使用"
+  fillable: "1"
+
+Setting(200):
+  settingId: 200
+  adminOnlyFlag: 1
+  name: "ダブルオプトインの利用"
+  fillable: "0"
+
+Setting(201):
+  settingId: 201
+  adminOnlyFlag: 1
+  name: "ダブルオプトインにおける仮登録期間(時間)"
+  fillable: "0"
+
+Setting(202):
+  settingId: 202
+  adminOnlyFlag: 1
+  name: "Webサービス経由での申込者登録時の更新キーの利用"
+  fillable: ""
+
+Setting(203):
+  settingId: 203
+  adminOnlyFlag: 1
+  name: "認証APIでのログイン確認画面表示"
+  fillable: "0"
+
+Setting(219):
+  settingId: 219
+  adminOnlyFlag: 0
+  name: "管理者CSVアップロード時の更新キー"
+  fillable: "email"
+
+Setting(210):
+  settingId: 210
+  adminOnlyFlag: 1
+  name: "使用するWebサービスのバージョン"
+  fillable: "0"
+
+Setting(212):
+  settingId: 212
+  adminOnlyFlag: 1
+  name: "講演資料を外部サーバーに保存"
+  fillable: "0"
+
+Setting(213):
+  settingId: 213
+  adminOnlyFlag: 1
+  name: "セッション管理者の使用"
+  fillable: "0"
+
+Setting(214):
+  settingId: 214
+  adminOnlyFlag: 1
+  name: "Basic認証の使用(サイト全体)"
+  fillable: "0"
+
+Setting(215):
+  settingId: 215
+  adminOnlyFlag: 1
+  name: "Basic認証ID"
+  fillable: ""
+
+Setting(216):
+  settingId: 216
+  adminOnlyFlag: 1
+  name: "Basic認証パスワード"
+  fillable: ""
+
+Setting(217):
+  settingId: 217
+  adminOnlyFlag: 1
+  name: "コピー元ドメイン名"
+  fillable: ""
+
+Setting(220):
+  settingId: 220
+  adminOnlyFlag: 1
+  name: "申込者ログインIDの使用"
+  fillable: "1"
+
+Setting(222):
+  settingId: 222
+  adminOnlyFlag: 1
+  name: "詳細・編集の表示項目設定"
+  fillable: "0"
+
+Setting(223):
+  settingId: 223
+  adminOnlyFlag: 1
+  name: "一覧・ボタンの表示設定"
+  fillable: "0"
+
+Setting(225):
+  settingId: 225
+  adminOnlyFlag: 1
+  name: "メール送信ウィザードのクリックカウントURLをデフォルトでチェック"
+  fillable: "0"
+
+Setting(228):
+  settingId: 228
+  adminOnlyFlag: 1
+  name: "CSVダウンロード時の検索条件適用"
+  fillable: "0"
+
+Setting(227):
+  settingId: 227
+  adminOnlyFlag: 1
+  name: "来場時に更新する申込者情報"
+  fillable: "0"
+
+Setting(229):
+  settingId: 229
+  adminOnlyFlag: 1
+  name: "申込者追加項目の作成上限"
+  fillable: ""
+
+Setting(230):
+  settingId: 230
+  adminOnlyFlag: 0
+  name: "マイページの申込履歴の表示件数(デフォルト)"
+  fillable: ""
+
+Setting(231):
+  settingId: 231
+  adminOnlyFlag: 0
+  name: "日本語テキストフィールドの最大文字数"
+  fillable: "0"
+
+Setting(232):
+  settingId: 232
+  adminOnlyFlag: 1
+  name: "一括ダウンロードのファイル形式"
+  fillable: "xls"
+
+Setting(233):
+  settingId: 233
+  adminOnlyFlag: 1
+  name: "/publicのセミナー情報表示で改行の互換性を維持する(フリー入力欄と追加項目)"
+  fillable: "0"
+
+Setting(234):
+  settingId: 234
+  adminOnlyFlag: 1
+  name: "LABEL_SYSTEM_SETTING_PUBLIC_SEMINAR_FORMAT_LINEBREAK_COMPATIBLE2"
+  fillable: "0"
+
+Setting(236):
+  settingId: 236
+  adminOnlyFlag: 1
+  name: "申込情報のメモの項目数"
+  fillable: "1"
+
+Setting(237):
+  settingId: 237
+  adminOnlyFlag: 1
+  name: "申込情報の入金フラグの選択肢数"
+  fillable: "3"
+
+Setting(238):
+  settingId: 238
+  adminOnlyFlag: 1
+  name: "申込情報編集での金額変更"
+  fillable: "0"
+
+Setting(240):
+  settingId: 240
+  adminOnlyFlag: 1
+  name: "講演資料の旧ダウンロードURLの使用"
+  fillable: "0"
+
+Setting(242):
+  settingId: 242
+  adminOnlyFlag: 1
+  name: "管理画面のXSSエスケープ"
+  fillable: "0"
+
+Setting(244):
+  settingId: 244
+  adminOnlyFlag: 1
+  name: "TIMEZONE"
+  fillable: "Asia/Tokyo"
+

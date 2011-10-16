@@ -1,0 +1,3 @@
+#{list items:datas, as:'data'}
+"${data.messageId}","${data.code}","${data.defaultMessage}"
+#{/list}

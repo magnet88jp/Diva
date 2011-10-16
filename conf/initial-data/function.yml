@@ -1,0 +1,2814 @@
+# you describe your data using the YAML notation here
+# and then load them using Fixtures.load("data.yml")
+
+# User(bob):
+#   email: bob@gmail.com
+#   password: secret
+#   fullname: Bob
+
+Function(1):
+  functionId: 1
+  name: "ホーム"
+  actionPath: /home
+
+Function(2):
+  functionId: 2
+  name: "システムログイン"
+  actionPath: /public/login
+
+Function(3):
+  functionId: 3
+  name: "システムログアウト"
+  actionPath: /public/logout
+
+Function(4):
+  functionId: 4
+  name: "更新履歴一覧"
+  actionPath: /changelog/list
+
+Function(8):
+  functionId: 8
+  name: "トップページ"
+  actionPath: /public
+
+Function(9):
+  functionId: 9
+  name: "ホーム"
+  actionPath: /home
+
+Function(10):
+  functionId: 10
+  name: "セミナー"
+  actionPath: /seminar/list
+
+Function(11):
+  functionId: 11
+  name: "一覧"
+  actionPath: /seminar/list
+
+Function(12):
+  functionId: 12
+  name: "新規"
+  actionPath: /seminar/add
+
+Function(13):
+  functionId: 13
+  name: "削除"
+  actionPath: /seminar/disable
+
+Function(14):
+  functionId: 14
+  name: "コピー"
+  actionPath: /seminar/copy
+
+Function(15):
+  functionId: 15
+  name: "項目追加"
+  actionPath: /seminarattribute/list
+
+Function(16):
+  functionId: 16
+  name: "新規項目追加"
+  actionPath: /seminarattribute/add
+
+Function(17):
+  functionId: 17
+  name: "項目追加削除"
+  actionPath: /seminarattribute/disable
+
+Function(18):
+  functionId: 18
+  name: "CSVダウンロード"
+  actionPath: /seminar/csvdownload
+
+Function(19):
+  functionId: 19
+  name: "一括登録"
+  actionPath: /seminar/csvupload
+
+Function(22):
+  functionId: 22
+  name: "プレビュー"
+  actionPath: /seminar/preview
+
+Function(23):
+  functionId: 23
+  name: "資料アップロード"
+  actionPath: /multipdoctarget/add
+
+Function(25):
+  functionId: 25
+  name: "資料ダウンロード"
+  actionPath: /multipdoctarget/list
+
+Function(26):
+  functionId: 26
+  name: "資料削除"
+  actionPath: /multipdoctarget/delete
+
+Function(28):
+  functionId: 28
+  name: "セミナーテンプレートファイルのダウンロード"
+  actionPath: /seminartemplate/download
+
+Function(29):
+  functionId: 29
+  name: "セミナーテンプレート変更"
+  actionPath: /seminartemplate/list
+
+Function(30):
+  functionId: 30
+  name: "割引コード"
+  actionPath: /discount/list
+
+Function(31):
+  functionId: 31
+  name: "割引コード新規"
+  actionPath: /discount/add
+
+Function(32):
+  functionId: 32
+  name: "割引コード削除"
+  actionPath: /discount/disable
+
+Function(33):
+  functionId: 33
+  name: "割引コードCSVダウンロード"
+  actionPath: /discount/csvdownload
+
+Function(34):
+  functionId: 34
+  name: "割引コード一括登録"
+  actionPath: /discount/csvupload
+
+Function(37):
+  functionId: 37
+  name: "フロー"
+  actionPath: /applicationflow/list
+
+Function(38):
+  functionId: 38
+  name: "フロー一覧"
+  actionPath: /applicationflow/list
+
+Function(39):
+  functionId: 39
+  name: "フロー新規"
+  actionPath: /applicationflow/add
+
+Function(40):
+  functionId: 40
+  name: "フロー削除"
+  actionPath: /applicationflow/disable
+
+Function(41):
+  functionId: 41
+  name: "フローコピー"
+  actionPath: /applicationflow/copy
+
+Function(42):
+  functionId: 42
+  name: "フローCSVダウンロード"
+  actionPath: /applicationflow/csvdownload
+
+Function(43):
+  functionId: 43
+  name: "フローCSVアップロード"
+  actionPath: /applicationflow/csvupload
+
+Function(46):
+  functionId: 46
+  name: "ステップ"
+  actionPath: /applicationstep/list
+
+Function(47):
+  functionId: 47
+  name: "ステップ追加"
+  actionPath: /applicationstep/add
+
+Function(48):
+  functionId: 48
+  name: "ステップ削除"
+  actionPath: /applicationstep/disable
+
+Function(49):
+  functionId: 49
+  name: "フローオーダー"
+  actionPath: /applicationsteporder/list
+
+Function(50):
+  functionId: 50
+  name: "フローオーダー追加"
+  actionPath: /applicationsteporder/add
+
+Function(51):
+  functionId: 51
+  name: "フローオーダー削除"
+  actionPath: /applicationsteporder/disable
+
+Function(52):
+  functionId: 52
+  name: "ステップテンプレート"
+  actionPath: /applicationsteptemplate/list
+
+Function(53):
+  functionId: 53
+  name: "ステップテンプレート追加"
+  actionPath: /applicationsteptemplate/add
+
+Function(54):
+  functionId: 54
+  name: "ステップテンプレート削除"
+  actionPath: /applicationsteptemplate/disable
+
+Function(55):
+  functionId: 55
+  name: "セミナー設定"
+  actionPath: /seminarsettingdata/list
+
+Function(56):
+  functionId: 56
+  name: "セミナー新規"
+  actionPath: /multiseminar/add
+
+Function(57):
+  functionId: 57
+  name: "セミナー削除"
+  actionPath: /multiseminar/disable
+
+Function(58):
+  functionId: 58
+  name: "セッション"
+  actionPath: /session/list
+
+Function(59):
+  functionId: 59
+  name: "一覧"
+  actionPath: /session/list
+
+Function(60):
+  functionId: 60
+  name: "セッション新規"
+  actionPath: /multisession/add
+
+Function(61):
+  functionId: 61
+  name: "セッション削除"
+  actionPath: /multisession/disable
+
+Function(62):
+  functionId: 62
+  name: "セッションコピー"
+  actionPath: /session/copy
+
+Function(63):
+  functionId: 63
+  name: "セッション項目追加一覧"
+  actionPath: /sessionattribute/list
+
+Function(64):
+  functionId: 64
+  name: "セッション新規項目追加"
+  actionPath: /sessionattribute/add
+
+Function(65):
+  functionId: 65
+  name: "セッション項目追加削除"
+  actionPath: /sessionattribute/disable
+
+Function(66):
+  functionId: 66
+  name: "セッションCSVダウンロード"
+  actionPath: /session/csvdownload
+
+Function(67):
+  functionId: 67
+  name: "セッションCSVアップロード"
+  actionPath: /session/csvupload
+
+Function(70):
+  functionId: 70
+  name: "セッションアクセスカウント詳細"
+  actionPath: /countaccess/list
+
+Function(71):
+  functionId: 71
+  name: "セッションプレビュー"
+  actionPath: /session/preview
+
+Function(72):
+  functionId: 72
+  name: "セッショングループ"
+  actionPath: /sessions/list
+
+Function(73):
+  functionId: 73
+  name: "セッショングループ追加"
+  actionPath: /sessions/add
+
+Function(74):
+  functionId: 74
+  name: "セッショングループ削除"
+  actionPath: /sessions/disable
+
+Function(77):
+  functionId: 77
+  name: "WEB"
+  actionPath: /systemtemplate/list
+
+Function(78):
+  functionId: 78
+  name: "プレビュー"
+  actionPath: /systemtemplate/list
+
+Function(91):
+  functionId: 91
+  name: "ニュース"
+  actionPath: /news/list
+
+Function(92):
+  functionId: 92
+  name: "ニュース追加"
+  actionPath: /news/add
+
+Function(93):
+  functionId: 93
+  name: "ニュース削除"
+  actionPath: /news/disable
+
+Function(94):
+  functionId: 94
+  name: "ニュースCSVダウンロード"
+  actionPath: /news/csvdownload
+
+Function(95):
+  functionId: 95
+  name: "ニュースCSVアップロード"
+  actionPath: /news/csvupload
+
+Function(98):
+  functionId: 98
+  name: "トピックス"
+  actionPath: /topics/list
+
+Function(99):
+  functionId: 99
+  name: "トピックス追加"
+  actionPath: /topics/add
+
+Function(100):
+  functionId: 100
+  name: "トピックス削除"
+  actionPath: /topics/disable
+
+Function(101):
+  functionId: 101
+  name: "トピックスCSVダウンロード"
+  actionPath: /topics/csvdownload
+
+Function(102):
+  functionId: 102
+  name: "トピックスCSVアップロード"
+  actionPath: /topics/csvupload
+
+Function(105):
+  functionId: 105
+  name: "テンプレートファイルのダウンロード"
+  actionPath: /systemtemplate/download
+
+Function(107):
+  functionId: 107
+  name: "申込者"
+  actionPath: /visitordata/list
+
+Function(108):
+  functionId: 108
+  name: "一覧"
+  actionPath: /visitordata/list
+
+Function(109):
+  functionId: 109
+  name: "新規"
+  actionPath: /visitordata/add
+
+Function(110):
+  functionId: 110
+  name: "削除"
+  actionPath: /visitordata/disable
+
+Function(114):
+  functionId: 114
+  name: "新規項目追加"
+  actionPath: /visitorattribute/add
+
+Function(115):
+  functionId: 115
+  name: "項目追加削除"
+  actionPath: /visitorattribute/disable
+
+Function(116):
+  functionId: 116
+  name: "アンケートの実行"
+  actionPath: /visitordata/enquete
+
+Function(117):
+  functionId: 117
+  name: "メール送信"
+  actionPath: /mailsender/first_gate
+
+Function(120):
+  functionId: 120
+  name: "CSVダウンロード"
+  actionPath: /visitordata/csvdownload
+
+Function(124):
+  functionId: 124
+  name: "申込一覧"
+  actionPath: /applicationtransaction/list
+
+Function(125):
+  functionId: 125
+  name: "新規"
+  actionPath: /applicationtransaction/add
+
+Function(126):
+  functionId: 126
+  name: "本削除"
+  actionPath: /applicationtransaction/disable
+
+Function(127):
+  functionId: 127
+  name: "キャンセル"
+  actionPath: /applicationtransaction/cancel
+
+Function(128):
+  functionId: 128
+  name: "CSVダウンロード"
+  actionPath: /applicationtransaction/csvdownload
+
+Function(129):
+  functionId: 129
+  name: "一括登録"
+  actionPath: /applicationtransaction/csvupload
+
+Function(131):
+  functionId: 131
+  name: "基本項目設定"
+  actionPath: /visitordata/setting
+
+Function(132):
+  functionId: 132
+  name: "新規"
+  actionPath: /multivisitor/add
+
+Function(133):
+  functionId: 133
+  name: "削除"
+  actionPath: /multivisitor/disable
+
+Function(134):
+  functionId: 134
+  name: "講演者"
+  actionPath: /speakerdata/list
+
+Function(135):
+  functionId: 135
+  name: "一覧"
+  actionPath: /speakerdata/list
+
+Function(136):
+  functionId: 136
+  name: "新規"
+  actionPath: /speakerdata/add
+
+Function(137):
+  functionId: 137
+  name: "削除"
+  actionPath: /speakerdata/disable
+
+Function(138):
+  functionId: 138
+  name: "CSVダウンロード"
+  actionPath: /speakerdata/csvdownload
+
+Function(139):
+  functionId: 139
+  name: "一括登録"
+  actionPath: /speakerdata/csvupload
+
+Function(142):
+  functionId: 142
+  name: "新規プロフィール"
+  actionPath: /speakerprofile/add
+
+Function(143):
+  functionId: 143
+  name: "プロフィール削除"
+  actionPath: /speakerprofile/disable
+
+Function(145):
+  functionId: 145
+  name: "講演者割り当て"
+  actionPath: /speakerassignattachment/add
+
+Function(147):
+  functionId: 147
+  name: "資料アップロード"
+  actionPath: /publicdocumenttarget/add
+
+Function(148):
+  functionId: 148
+  name: "資料削除"
+  actionPath: /publicdocumenttarget/disable
+
+Function(151):
+  functionId: 151
+  name: "新規"
+  actionPath: /multispeaker/add
+
+Function(152):
+  functionId: 152
+  name: "削除"
+  actionPath: /multispeaker/disable
+
+Function(153):
+  functionId: 153
+  name: "メール"
+  actionPath: /mailsetting
+
+Function(154):
+  functionId: 154
+  name: "テンプレート一覧"
+  actionPath: /mailtemplate/list
+
+Function(155):
+  functionId: 155
+  name: "新規テンプレート新規"
+  actionPath: /mailtemplate/add
+
+Function(156):
+  functionId: 156
+  name: "テンプレートコピー"
+  actionPath: /mailtemplate/copy
+
+Function(157):
+  functionId: 157
+  name: "テンプレート削除"
+  actionPath: /mailtemplate/disable
+
+Function(158):
+  functionId: 158
+  name: "送信ウィザード"
+  actionPath: /mailsender/first_gate
+
+Function(159):
+  functionId: 159
+  name: "テスト送信"
+  actionPath: /testmailsender/add
+
+Function(160):
+  functionId: 160
+  name: "メール送信履歴一覧"
+  actionPath: /mailhistory/list
+
+Function(162):
+  functionId: 162
+  name: "メール送信予約履歴"
+  actionPath: /mailreserved/list
+
+Function(163):
+  functionId: 163
+  name: "メール新規送信予約"
+  actionPath: /mailreserved/add
+
+Function(164):
+  functionId: 164
+  name: "メール送信予約削除"
+  actionPath: /mailreserved/disable
+
+Function(166):
+  functionId: 166
+  name: "CSVダウンロード"
+  actionPath: /mailtemplate/csvdownload
+
+Function(167):
+  functionId: 167
+  name: "CSVアップロード"
+  actionPath: /mailtemplate/csvupload
+
+Function(170):
+  functionId: 170
+  name: "アンケート"
+  actionPath: /enquetehistory/list
+
+Function(173):
+  functionId: 173
+  name: "アンケート使用箇所一覧"
+  actionPath: /enqueteplace/list
+
+Function(174):
+  functionId: 174
+  name: "アンケート使用箇所削除"
+  actionPath: /enqueteplace/disable
+
+Function(181):
+  functionId: 181
+  name: "アンケートテンプレート"
+  actionPath: /enquetetemplate/list
+
+Function(182):
+  functionId: 182
+  name: "アンケートテンプレート新規"
+  actionPath: /enquetetemplate/add
+
+Function(183):
+  functionId: 183
+  name: "アンケートテンプレートコピー"
+  actionPath: /enquetetemplate/copy
+
+Function(184):
+  functionId: 184
+  name: "アンケートテンプレート削除"
+  actionPath: /enquetetemplate/disable
+
+Function(185):
+  functionId: 185
+  name: "アンケートテンプレートプレビュー"
+  actionPath: /enquetetemplate/preview
+
+Function(188):
+  functionId: 188
+  name: "アンケートテンプレートCSVダウンロード"
+  actionPath: /enquetetemplate/csvdownload
+
+Function(189):
+  functionId: 189
+  name: "アンケートテンプレートCSVアップロード"
+  actionPath: /enquetetemplate/csvupload
+
+Function(192):
+  functionId: 192
+  name: "設問"
+  actionPath: /question/list
+
+Function(193):
+  functionId: 193
+  name: "設問の作成"
+  actionPath: /question/add
+
+Function(194):
+  functionId: 194
+  name: "設問の削除"
+  actionPath: /question/disable
+
+Function(195):
+  functionId: 195
+  name: "設問一括CSVダウンロード"
+  actionPath: /question/csvdownload
+
+Function(196):
+  functionId: 196
+  name: "設問一括CSVアップロード"
+  actionPath: /question/csvupload
+
+Function(199):
+  functionId: 199
+  name: "設定"
+  actionPath: /admindata/list
+
+Function(200):
+  functionId: 200
+  name: "システム設定一覧"
+  actionPath: /multisystemsetting/list
+
+Function(201):
+  functionId: 201
+  name: "ユーザ設定"
+  actionPath: /admindata/list
+
+Function(202):
+  functionId: 202
+  name: "ユーザ一覧"
+  actionPath: /admindata/list
+
+Function(203):
+  functionId: 203
+  name: "ユーザ追加"
+  actionPath: /admindata/add
+
+Function(204):
+  functionId: 204
+  name: "ユーザ削除"
+  actionPath: /admindata/disable
+
+Function(205):
+  functionId: 205
+  name: "グループ設定"
+  actionPath: /group/list
+
+Function(206):
+  functionId: 206
+  name: "グループ一覧"
+  actionPath: /group/list
+
+Function(207):
+  functionId: 207
+  name: "グループ追加"
+  actionPath: /group/add
+
+Function(208):
+  functionId: 208
+  name: "グループ削除"
+  actionPath: /group/disable
+
+Function(210):
+  functionId: 210
+  name: "機能一覧"
+  actionPath: /function/list
+
+Function(211):
+  functionId: 211
+  name: "機能追加"
+  actionPath: /function/add
+
+Function(212):
+  functionId: 212
+  name: "機能削除"
+  actionPath: /function/disable
+
+Function(213):
+  functionId: 213
+  name: "ロール設定"
+  actionPath: /role/list
+
+Function(214):
+  functionId: 214
+  name: "ロール一覧"
+  actionPath: /role/list
+
+Function(215):
+  functionId: 215
+  name: "ロール追加"
+  actionPath: /role/add
+
+Function(216):
+  functionId: 216
+  name: "ロール削除"
+  actionPath: /role/disable
+
+Function(217):
+  functionId: 217
+  name: "ロール割当"
+  actionPath: /functiongroup/list
+
+Function(230):
+  functionId: 230
+  name: "外部接続設定一覧"
+  actionPath: /externalservice/list
+
+Function(232):
+  functionId: 232
+  name: "外部オブジェクト登録"
+  actionPath: /externalobject/add
+
+Function(233):
+  functionId: 233
+  name: "外部オブジェクト削除"
+  actionPath: /externalobject/disable
+
+Function(236):
+  functionId: 236
+  name: "ファイル"
+  actionPath: /file/list
+
+Function(238):
+  functionId: 238
+  name: "新規"
+  actionPath: /file/add
+
+Function(239):
+  functionId: 239
+  name: "削除"
+  actionPath: /file/disable
+
+Function(244):
+  functionId: 244
+  name: "ユーザ追加"
+  actionPath: /multiadmin/add
+
+Function(245):
+  functionId: 245
+  name: "ユーザ削除"
+  actionPath: /multiadmin/disable
+
+Function(246):
+  functionId: 246
+  name: "セミナー申し込み（セッション選択）"
+  actionPath: /public/application/select/timetable/input
+
+Function(247):
+  functionId: 247
+  name: "セミナー申し込み（カート）"
+  actionPath: /public/application/select/cart/input
+
+Function(248):
+  functionId: 248
+  name: "セミナー申し込み（会員登録）"
+  actionPath: /public/application/user/input
+
+Function(249):
+  functionId: 249
+  name: "セミナー申し込み（支払方法登録）"
+  actionPath: /public/application/payment/input
+
+Function(250):
+  functionId: 250
+  name: "セミナー申し込み（アンケート）"
+  actionPath: /public/application/enquete/input
+
+Function(251):
+  functionId: 251
+  name: "セミナー申し込み（確認）"
+  actionPath: /public/application/confirm/input
+
+Function(252):
+  functionId: 252
+  name: "セミナー申し込み（完了）"
+  actionPath: /public/application/complete/input
+
+Function(253):
+  functionId: 253
+  name: "セミナー申し込み（会員認証/ログイン）"
+  actionPath: /public/application/login/input
+
+Function(254):
+  functionId: 254
+  name: "セミナー申し込み（その他）"
+  actionPath: /public/application/other/input
+
+Function(255):
+  functionId: 255
+  name: "検索条件の保存"
+  actionPath: /preservesearchcondition/add
+
+Function(256):
+  functionId: 256
+  name: "一覧項目設定"
+  actionPath: /preservecolumn/add
+
+Function(257):
+  functionId: 257
+  name: "表示"
+  actionPath: /multiseminar/view
+
+Function(258):
+  functionId: 258
+  name: "表示"
+  actionPath: /seminarattribute/view
+
+Function(259):
+  functionId: 259
+  name: "資料表示"
+  actionPath: /multipdoctarget/view
+
+Function(260):
+  functionId: 260
+  name: "セミナーテンプレートファイルの表示"
+  actionPath: /seminartemplate/view
+
+Function(261):
+  functionId: 261
+  name: "割引コード表示"
+  actionPath: /discount/view
+
+Function(262):
+  functionId: 262
+  name: "フロー表示"
+  actionPath: /applicationflow/view
+
+Function(263):
+  functionId: 263
+  name: "ステップ表示"
+  actionPath: /applicationstep/view
+
+Function(264):
+  functionId: 264
+  name: "フローオーダー表示"
+  actionPath: /applicationsteporder/view
+
+Function(265):
+  functionId: 265
+  name: "ステップテンプレート表示"
+  actionPath: /applicationsteptemplate/view
+
+Function(267):
+  functionId: 267
+  name: "セッション表示"
+  actionPath: /multisession/view
+
+Function(268):
+  functionId: 268
+  name: "セッション項目追加表示"
+  actionPath: /sessionattribute/view
+
+Function(269):
+  functionId: 269
+  name: "セッショングループ表示"
+  actionPath: /sessions/view
+
+Function(273):
+  functionId: 273
+  name: "ニュース表示"
+  actionPath: /news/view
+
+Function(274):
+  functionId: 274
+  name: "トピック表示"
+  actionPath: /topics/view
+
+Function(275):
+  functionId: 275
+  name: "テンプレートファイルの表示"
+  actionPath: /systemtemplate/view
+
+Function(276):
+  functionId: 276
+  name: "表示"
+  actionPath: /visitordata/view
+
+Function(277):
+  functionId: 277
+  name: "項目追加表示"
+  actionPath: /visitorattribute/view
+
+Function(279):
+  functionId: 279
+  name: "表示"
+  actionPath: /applicationtransaction/view
+
+Function(280):
+  functionId: 280
+  name: "表示"
+  actionPath: /multivisitor/view
+
+Function(281):
+  functionId: 281
+  name: "表示"
+  actionPath: /speakerdata/view
+
+Function(282):
+  functionId: 282
+  name: "プロフィール表示"
+  actionPath: /speakerprofile/view
+
+Function(283):
+  functionId: 283
+  name: "講演者割り当て表示"
+  actionPath: /speakerassignattachment/view
+
+Function(284):
+  functionId: 284
+  name: "資料表示"
+  actionPath: /publicdocumenttarget/view
+
+Function(285):
+  functionId: 285
+  name: "表示"
+  actionPath: /multispeaker/view
+
+Function(286):
+  functionId: 286
+  name: "新規テンプレート表示"
+  actionPath: /mailtemplate/view
+
+Function(287):
+  functionId: 287
+  name: "メール送信予約表示"
+  actionPath: /mailreserved/view
+
+Function(289):
+  functionId: 289
+  name: "設問の表示"
+  actionPath: /question/view
+
+Function(290):
+  functionId: 290
+  name: "ユーザ表示"
+  actionPath: /admindata/view
+
+Function(291):
+  functionId: 291
+  name: "グループ表示"
+  actionPath: /group/view
+
+Function(292):
+  functionId: 292
+  name: "機能表示"
+  actionPath: /function/view
+
+Function(293):
+  functionId: 293
+  name: "ロール表示"
+  actionPath: /role/view
+
+Function(297):
+  functionId: 297
+  name: "外部オブジェクト表示"
+  actionPath: /externalobject/view
+
+Function(298):
+  functionId: 298
+  name: "表示"
+  actionPath: /file/view
+
+Function(299):
+  functionId: 299
+  name: "ユーザ表示"
+  actionPath: /multiadmin/view
+
+Function(300):
+  functionId: 300
+  name: "新規"
+  actionPath: /mailsender/add
+
+Function(301):
+  functionId: 301
+  name: "カテゴリ"
+  actionPath: /seminarcategory/list
+
+Function(302):
+  functionId: 302
+  name: "カテゴリ追加"
+  actionPath: /seminarcategory/add
+
+Function(303):
+  functionId: 303
+  name: "カテゴリ表示"
+  actionPath: /seminarcategory/view
+
+Function(304):
+  functionId: 304
+  name: "カテゴリ削除"
+  actionPath: /seminarcategory/disable
+
+Function(305):
+  functionId: 305
+  name: "セミナー切替"
+  actionPath: /seminar/logout
+
+Function(306):
+  functionId: 306
+  name: "セミナー管理者割り当て"
+  actionPath: /seminar/popup_slist
+
+Function(307):
+  functionId: 307
+  name: "講演者プロフィール選択"
+  actionPath: /speakerprofile/popup_slist
+
+Function(308):
+  functionId: 308
+  name: "ユーザー選択"
+  actionPath: /user/popup_slist
+
+Function(309):
+  functionId: 309
+  name: "一覧項目表示"
+  actionPath: /preservecolumn/list
+
+Function(310):
+  functionId: 310
+  name: "講演者割り当て削除"
+  actionPath: /speakerassignattachment/disable
+
+Function(311):
+  functionId: 311
+  name: "検索条件の一覧"
+  actionPath: /preservesearchcondition/list
+
+Function(312):
+  functionId: 312
+  name: "システム設定追加"
+  actionPath: /multisystemsetting/add
+
+Function(313):
+  functionId: 313
+  name: "システム設定削除"
+  actionPath: /systemsettingdata/disable
+
+Function(314):
+  functionId: 314
+  name: "担当者割り当て"
+  actionPath: /adminassignattachment/add
+
+Function(315):
+  functionId: 315
+  name: "担当者割り当て表示"
+  actionPath: /adminassignattachment/view
+
+Function(316):
+  functionId: 316
+  name: "担当者割り当て削除"
+  actionPath: /adminassignattachment/disable
+
+Function(317):
+  functionId: 317
+  name: "システム設定表示"
+  actionPath: /systemsettingdata/view
+
+Function(318):
+  functionId: 318
+  name: "セミナー設定追加"
+  actionPath: /seminarsettingdata/add
+
+Function(319):
+  functionId: 319
+  name: "セミナー設定表示"
+  actionPath: /seminarsettingdata/view
+
+Function(320):
+  functionId: 320
+  name: "セミナー設定削除"
+  actionPath: /seminarsettingdata/disable
+
+Function(321):
+  functionId: 321
+  name: "セミナー項目追加追加"
+  actionPath: /seminarattributedata/add
+
+Function(322):
+  functionId: 322
+  name: "セミナー項目追加表示"
+  actionPath: /seminarattributedata/view
+
+Function(323):
+  functionId: 323
+  name: "セミナー項目追加削除"
+  actionPath: /seminarattributedata/disable
+
+Function(324):
+  functionId: 324
+  name: "セミナー項目追加一覧"
+  actionPath: /seminarattributedata/list
+
+Function(325):
+  functionId: 325
+  name: "担当者割り当て一覧"
+  actionPath: /adminassignattachment/list
+
+Function(326):
+  functionId: 326
+  name: "資料ダウンロード"
+  actionPath: /publicdocumenttarget/download
+
+Function(327):
+  functionId: 327
+  name: "アンケートテンプレート表示"
+  actionPath: /enquetetemplate/view
+
+Function(328):
+  functionId: 328
+  name: "新規テンプレート新規"
+  actionPath: /multimailtemplate/add
+
+Function(329):
+  functionId: 329
+  name: "新規テンプレート表示"
+  actionPath: /multimailtemplate/view
+
+Function(330):
+  functionId: 330
+  name: "来場者プレビューのニュースのポップアップ"
+  actionPath: /public/menu/news/view
+
+Function(331):
+  functionId: 331
+  name: "メールテンプレートの選択"
+  actionPath: /applicationcompletion/add
+
+Function(332):
+  functionId: 332
+  name: "セミナーリスト"
+  actionPath: /public/seminar/list
+
+Function(333):
+  functionId: 333
+  name: "セミナー"
+  actionPath: /public/seminar
+
+Function(334):
+  functionId: 334
+  name: "ダウンロード"
+  actionPath: /file/download
+
+Function(335):
+  functionId: 335
+  name: "セミナー申し込み（請求先）"
+  actionPath: /public/application/billing/input
+
+Function(336):
+  functionId: 336
+  name: "集計"
+  actionPath: /total/list
+
+Function(337):
+  functionId: 337
+  name: "グラフ一覧"
+  actionPath: /total/list
+
+Function(339):
+  functionId: 339
+  name: "メール設定"
+  actionPath: /mailsetting
+
+Function(340):
+  functionId: 340
+  name: "アンケート履歴"
+  actionPath: /enquetehistory/list
+
+Function(341):
+  functionId: 341
+  name: "セミナー管理開始"
+  actionPath: /seminar/login
+
+Function(342):
+  functionId: 342
+  name: "カテゴリCSVダウンロード"
+  actionPath: /seminarcategory/csvdownload
+
+Function(343):
+  functionId: 343
+  name: "カテゴリ一括登録"
+  actionPath: /seminarcategory/csvupload
+
+Function(346):
+  functionId: 346
+  name: "基本項目設定デフォルト戻す"
+  actionPath: /visitordata/setting_del
+
+Function(347):
+  functionId: 347
+  name: "アンケート履歴表示"
+  actionPath: /enquetehistory/view
+
+Function(348):
+  functionId: 348
+  name: "アンケート履歴削除"
+  actionPath: /enquetehistory/disable
+
+Function(349):
+  functionId: 349
+  name: "グラフ詳細"
+  actionPath: /total/view
+
+Function(350):
+  functionId: 350
+  name: "グラフ出力"
+  actionPath: /graphbuild
+
+Function(351):
+  functionId: 351
+  name: "ユーザCSVダウンロード"
+  actionPath: /admindata/csvdownload
+
+Function(352):
+  functionId: 352
+  name: "ユーザCSVアップロード"
+  actionPath: /admindata/csvupload
+
+Function(353):
+  functionId: 353
+  name: "グループCSVダウンロード"
+  actionPath: /group/csvdownload
+
+Function(354):
+  functionId: 354
+  name: "グループCSVアップロード"
+  actionPath: /group/csvupload
+
+Function(355):
+  functionId: 355
+  name: "ロールCSVダウンロード"
+  actionPath: /role/csvdownload
+
+Function(356):
+  functionId: 356
+  name: "ロールCSVアップロード"
+  actionPath: /role/csvupload
+
+Function(357):
+  functionId: 357
+  name: "設問の選択"
+  actionPath: /enqueteconnection/select
+
+Function(358):
+  functionId: 358
+  name: "設問の並べ替え"
+  actionPath: /enqueteconnection/sort
+
+Function(359):
+  functionId: 359
+  name: "設問の一覧"
+  actionPath: /enqueteconnection/list
+
+Function(360):
+  functionId: 360
+  name: "設問の選択解除"
+  actionPath: /enqueteconnection/cancel
+
+Function(361):
+  functionId: 361
+  name: "アンケートプレビュー"
+  actionPath: /enquetebase/add
+
+Function(362):
+  functionId: 362
+  name: "パスワードリマイダー"
+  actionPath: /public/reminder/add
+
+Function(363):
+  functionId: 363
+  name: "セミナー詳細"
+  actionPath: /public/seminar/view
+
+Function(364):
+  functionId: 364
+  name: "来場側ニュース"
+  actionPath: /public/menu/news/list
+
+Function(365):
+  functionId: 365
+  name: "セミナー一覧"
+  actionPath: /multiseminar/list
+
+Function(366):
+  functionId: 366
+  name: "セッション一覧"
+  actionPath: /multisession/list
+
+Function(367):
+  functionId: 367
+  name: "一覧"
+  actionPath: /multivisitor/list
+
+Function(368):
+  functionId: 368
+  name: "一覧"
+  actionPath: /multispeaker/list
+
+Function(369):
+  functionId: 369
+  name: "ユーザ一覧"
+  actionPath: /multiadmin/list
+
+Function(371):
+  functionId: 371
+  name: "検索条件の削除"
+  actionPath: /preservesearchcondition/disable
+
+Function(372):
+  functionId: 372
+  name: "アンケートの割り当て"
+  actionPath: /enquetehistory/add
+
+Function(373):
+  functionId: 373
+  name: "セミナー申し込み（会員登録）"
+  actionPath: /public/application/add
+
+Function(376):
+  functionId: 376
+  name: "権限の削除"
+  actionPath: /permission/disable
+
+Function(377):
+  functionId: 377
+  name: "アンケートテンプレートの選択"
+  actionPath: /enquetetemplate/popup_slist
+
+Function(378):
+  functionId: 378
+  name: "ファイル選択"
+  actionPath: /file/popup_slist
+
+Function(379):
+  functionId: 379
+  name: "メールテンプレート一覧"
+  actionPath: /applicationcompletion/list
+
+Function(380):
+  functionId: 380
+  name: "アンケートの確認"
+  actionPath: /enquetebase/view
+
+Function(381):
+  functionId: 381
+  name: "新規"
+  actionPath: /session/add
+
+Function(382):
+  functionId: 382
+  name: "表示"
+  actionPath: /session/view
+
+Function(383):
+  functionId: 383
+  name: "テンプレート変数一覧"
+  actionPath: /visitortemplateparameter/list
+
+Function(384):
+  functionId: 384
+  name: "CSVダウンロード"
+  actionPath: /csvdownload/datadownload_checker
+
+Function(385):
+  functionId: 385
+  name: "申込データ出力"
+  actionPath: /applicationtransaction/datadownload
+
+Function(386):
+  functionId: 386
+  name: "カテゴリ"
+  actionPath: /sessioncategory/list
+
+Function(387):
+  functionId: 387
+  name: "カテゴリ追加"
+  actionPath: /sessioncategory/add
+
+Function(388):
+  functionId: 388
+  name: "カテゴリ表示"
+  actionPath: /sessioncategory/view
+
+Function(389):
+  functionId: 389
+  name: "カテゴリ削除"
+  actionPath: /sessioncategory/disable
+
+Function(390):
+  functionId: 390
+  name: "カテゴリCSVダウンロード"
+  actionPath: /sessioncategory/csvdownload
+
+Function(391):
+  functionId: 391
+  name: "カテゴリ一括登録"
+  actionPath: /sessioncategory/csvupload
+
+Function(392):
+  functionId: 392
+  name: "来場登録"
+  actionPath: /attendance/menu
+
+Function(393):
+  functionId: 393
+  name: "会場受付"
+  actionPath: /attendance/matching/add
+
+Function(394):
+  functionId: 394
+  name: "未登録者用会場受付"
+  actionPath: /attendance/noregistration/add
+
+Function(395):
+  functionId: 395
+  name: "セッション受付"
+  actionPath: /attendance/ssattendance/add
+
+Function(397):
+  functionId: 397
+  name: "キャンセル確認画面"
+  actionPath: /applicationtransaction/cancel_application_confirm
+
+Function(398):
+  functionId: 398
+  name: "キャンセル実行"
+  actionPath: /applicationtransaction/do_cancel
+
+Function(399):
+  functionId: 399
+  name: "以前のテンプレートのバージョンに戻す"
+  actionPath: /systemtemplate/copyfile
+
+Function(400):
+  functionId: 400
+  name: "デフォルトテンプレートのダウンロード"
+  actionPath: /systemtemplate/dl_system_file
+
+Function(401):
+  functionId: 401
+  name: "テンプレート登録"
+  actionPath: /multisystemtemplate/add
+
+Function(402):
+  functionId: 402
+  name: "セミナーテンプレートの登録"
+  actionPath: /multiseminartemplate/add
+
+Function(403):
+  functionId: 403
+  name: "デフォルトセミナーテンプレートのダウンロード"
+  actionPath: /seminartemplate/dl_seminar_file
+
+Function(404):
+  functionId: 404
+  name: "以前のセミナーテンプレートのバージョンに戻す"
+  actionPath: /seminartemplate/copyfile
+
+Function(405):
+  functionId: 405
+  name: "セッション管理者割り当て"
+  actionPath: /session/popup_slist
+
+Function(406):
+  functionId: 406
+  name: "来場者側用ファイルダウンロード"
+  actionPath: /public/seminar/file_download
+
+Function(407):
+  functionId: 407
+  name: "アンケートの申込者検索"
+  actionPath: /enquetebase/list
+
+Function(408):
+  functionId: 408
+  name: "来場者側セッション詳細プレビュー"
+  actionPath: /public/session/view
+
+Function(409):
+  functionId: 409
+  name: "来場者側用ファイルダウンロード2"
+  actionPath: /public/seminar/download
+
+Function(410):
+  functionId: 410
+  name: "メール設定変更"
+  actionPath: /mailsetting/selecter
+
+Function(411):
+  functionId: 411
+  name: "外部データ一覧"
+  actionPath: /externaljointdata/list
+
+Function(412):
+  functionId: 412
+  name: "外部データ表示"
+  actionPath: /externaljointdata/view
+
+Function(413):
+  functionId: 413
+  name: "外部データ連携一覧"
+  actionPath: /externaljointmapping/list
+
+Function(414):
+  functionId: 414
+  name: "外部データ連携登録"
+  actionPath: /externaljointmapping/add
+
+Function(415):
+  functionId: 415
+  name: "外部データ連携表示"
+  actionPath: /externaljointmapping/view
+
+Function(416):
+  functionId: 416
+  name: "外部データ連携削除"
+  actionPath: /externaljointmapping/disable
+
+Function(417):
+  functionId: 417
+  name: "文字列変換規則一覧"
+  actionPath: /stringfiltermapping/list
+
+Function(418):
+  functionId: 418
+  name: "文字列変換規則登録"
+  actionPath: /stringfiltermapping/add
+
+Function(419):
+  functionId: 419
+  name: "文字列変換規則表示"
+  actionPath: /stringfiltermapping/view
+
+Function(420):
+  functionId: 420
+  name: "文字列変換規則削除"
+  actionPath: /stringfiltermapping/disable
+
+Function(421):
+  functionId: 421
+  name: "項目追加"
+  actionPath: /speakerattribute/list
+
+Function(422):
+  functionId: 422
+  name: "新規項目追加"
+  actionPath: /speakerattribute/add
+
+Function(423):
+  functionId: 423
+  name: "項目追加表示"
+  actionPath: /speakerattribute/view
+
+Function(424):
+  functionId: 424
+  name: "項目追加削除"
+  actionPath: /speakerattribute/disable
+
+Function(430):
+  functionId: 430
+  name: "講演者一括割り当て"
+  actionPath: /speakerassignattachment/csvupload
+
+Function(436):
+  functionId: 436
+  name: "メール送信履歴表示"
+  actionPath: /mailhistory/view
+
+Function(437):
+  functionId: 437
+  name: "セミナー申込（ユーザー情報+アンケート）"
+  actionPath: /public/application/userenquete/input
+
+Function(438):
+  functionId: 438
+  name: "アイコン"
+  actionPath: /icon/list
+
+Function(439):
+  functionId: 439
+  name: "課金パッケージ一覧"
+  actionPath: /pricepackage/list
+
+Function(440):
+  functionId: 440
+  name: "課金パッケージ追加"
+  actionPath: /pricepackage/add
+
+Function(441):
+  functionId: 441
+  name: "課金パッケージ表示"
+  actionPath: /pricepackage/view
+
+Function(442):
+  functionId: 442
+  name: "課金パッケージ削除"
+  actionPath: /pricepackage/disable
+
+Function(443):
+  functionId: 443
+  name: "課金要素一覧"
+  actionPath: /priceparts/list
+
+Function(444):
+  functionId: 444
+  name: "課金要素追加"
+  actionPath: /priceparts/add
+
+Function(445):
+  functionId: 445
+  name: "課金要素表示"
+  actionPath: /priceparts/view
+
+Function(446):
+  functionId: 446
+  name: "課金要素削除"
+  actionPath: /priceparts/disable
+
+Function(447):
+  functionId: 447
+  name: "合計金額指定の要素追加"
+  actionPath: /multipricepartssum/add
+
+Function(448):
+  functionId: 448
+  name: "合計金額指定の要素表示"
+  actionPath: /multipricepartssum/view
+
+Function(449):
+  functionId: 449
+  name: "合計金額指定の要素削除"
+  actionPath: /multipricepartssum/disable
+
+Function(450):
+  functionId: 450
+  name: "日数指定の要素追加"
+  actionPath: /multipricepartsdaily/add
+
+Function(451):
+  functionId: 451
+  name: "日数指定の要素表示"
+  actionPath: /multipricepartsdaily/view
+
+Function(452):
+  functionId: 452
+  name: "日数指定の要素削除"
+  actionPath: /multipricepartsdaily/disable
+
+Function(453):
+  functionId: 453
+  name: "個数指定の要素追加"
+  actionPath: /multipricepartssessionpack/add
+
+Function(454):
+  functionId: 454
+  name: "個数指定の要素表示"
+  actionPath: /multipricepartssessionpack/view
+
+Function(455):
+  functionId: 455
+  name: "個数指定の要素削除"
+  actionPath: /multipricepartssessionpack/disable
+
+Function(456):
+  functionId: 456
+  name: "フローにパッケージ課金を選択"
+  actionPath: /packageflow/add
+
+Function(457):
+  functionId: 457
+  name: "合計金額指定の要素一覧"
+  actionPath: /multipricepartssum/list
+
+Function(458):
+  functionId: 458
+  name: "日数指定の要素一覧"
+  actionPath: /multipricepartsdaily/list
+
+Function(459):
+  functionId: 459
+  name: "個数指定の要素一覧"
+  actionPath: /multipricepartssessionpack/list
+
+Function(460):
+  functionId: 460
+  name: "言語別エラー設定"
+  actionPath: /visitorattribute/set_error_type
+
+Function(461):
+  functionId: 461
+  name: "項目名変更"
+  actionPath: /visitorattribute/change_item_name
+
+Function(462):
+  functionId: 462
+  name: "言語別エラー設定"
+  actionPath: /question/set_error_type
+
+Function(463):
+  functionId: 463
+  name: "設問項目名変更"
+  actionPath: /question/change_item_name
+
+Function(464):
+  functionId: 464
+  name: "請求書"
+  actionPath: /public/mypage/bill/plain
+
+Function(465):
+  functionId: 465
+  name: "請求CODE、申込者CODEの連番設定"
+  actionPath: /idrule/list
+
+Function(466):
+  functionId: 466
+  name: "請求CODE、申込者CODEの連番設定詳細"
+  actionPath: /idrule/view
+
+Function(467):
+  functionId: 467
+  name: "請求CODE、申込者CODEの連番設定追加/修正"
+  actionPath: /idrule/add
+
+Function(468):
+  functionId: 468
+  name: "請求CODE、申込者CODEの連番設定削除"
+  actionPath: /idrule/disable
+
+Function(469):
+  functionId: 469
+  name: "代理申込"
+  actionPath: /public/login/login_from_admin
+
+Function(470):
+  functionId: 470
+  name: "CSVダウンロード設定"
+  actionPath: /csvdownloadsetting/visitordata/list
+
+Function(471):
+  functionId: 471
+  name: "CSVダウンロード設定"
+  actionPath: /csvdownloadsetting/applicationtransaction/list
+
+Function(472):
+  functionId: 472
+  name: "CSVダウンロード設定"
+  actionPath: /csvdownloadsetting/enquetetemplate/list
+
+Function(473):
+  functionId: 473
+  name: "CSVダウンロード設定"
+  actionPath: /csvdownloadsetting/list
+
+Function(474):
+  functionId: 474
+  name: "CSVダウンロード設定"
+  actionPath: /csvdownloadsetting/add
+
+Function(475):
+  functionId: 475
+  name: "CSVダウンロード設定"
+  actionPath: /csvdownloadsetting/view
+
+Function(476):
+  functionId: 476
+  name: "CSVダウンロード設定"
+  actionPath: /csvdownloadsetting/disable
+
+Function(477):
+  functionId: 477
+  name: "来場登録のCSV一括登録"
+  actionPath: /attendance/ssattendance/csvupload
+
+Function(478):
+  functionId: 478
+  name: "一括登録"
+  actionPath: /visitordata/csvupload
+
+Function(479):
+  functionId: 479
+  name: "一括登録詳細結果表示"
+  actionPath: /visitordata/do_csvup_finished
+
+Function(480):
+  functionId: 480
+  name: "来場登録のCSV一括登録詳細結果表示"
+  actionPath: /attendance/ssattendance/do_csvup_finished
+
+Function(481):
+  functionId: 481
+  name: "CSVダウンロード設定"
+  actionPath: /csvdownloadsetting/visitordata/datadownload
+
+Function(482):
+  functionId: 482
+  name: "CSVダウンロード設定"
+  actionPath: /csvdownloadsetting/applicationtransaction/datadownload
+
+Function(483):
+  functionId: 483
+  name: "CSVダウンロード設定"
+  actionPath: /csvdownloadsetting/enquetetemplate/datadownload
+
+Function(486):
+  functionId: 486
+  name: "受講票"
+  actionPath: /public/mypage/ticket/plain
+
+Function(487):
+  functionId: 487
+  name: "バーコード表示"
+  actionPath: /public/mypage/ticket/barcord
+
+Function(491):
+  functionId: 491
+  name: "公開資料"
+  actionPath: /publicdocumenttarget/list
+
+Function(492):
+  functionId: 492
+  name: "資料カテゴリ"
+  actionPath: /documentcategory/list
+
+Function(493):
+  functionId: 493
+  name: "資料カテゴリ"
+  actionPath: /documentcategory/add
+
+Function(494):
+  functionId: 494
+  name: "資料カテゴリ"
+  actionPath: /documentcategory/view
+
+Function(495):
+  functionId: 495
+  name: "資料カテゴリ"
+  actionPath: /documentcategory/disable
+
+Function(496):
+  functionId: 496
+  name: "お勧めセミナー"
+  actionPath: /attention/seminar/list
+
+Function(497):
+  functionId: 497
+  name: "お勧めセミナー追加"
+  actionPath: /attention/seminar/add
+
+Function(498):
+  functionId: 498
+  name: "お勧めセミナー表示"
+  actionPath: /attention/seminar/view
+
+Function(499):
+  functionId: 499
+  name: "お勧めセミナー削除"
+  actionPath: /attention/seminar/disable
+
+Function(500):
+  functionId: 500
+  name: "請求先編集"
+  actionPath: /billing/add
+
+Function(501):
+  functionId: 501
+  name: "講演者役割"
+  actionPath: /speakerrole/list
+
+Function(502):
+  functionId: 502
+  name: "新規"
+  actionPath: /speakerrole/add
+
+Function(503):
+  functionId: 503
+  name: "表示"
+  actionPath: /speakerrole/view
+
+Function(504):
+  functionId: 504
+  name: "削除"
+  actionPath: /speakerrole/disable
+
+Function(505):
+  functionId: 505
+  name: "講演者選択"
+  actionPath: /speakerdata/popup_slist
+
+Function(506):
+  functionId: 506
+  name: "項目名変更"
+  actionPath: /speakerattribute/change_item_name
+
+Function(507):
+  functionId: 507
+  name: "言語別エラー設定"
+  actionPath: /speakerattribute/set_error_type
+
+Function(508):
+  functionId: 508
+  name: "CSVアップロード完了"
+  actionPath: /speakerdata/do_csvup_finished
+
+Function(510):
+  functionId: 510
+  name: "アカウントロック解除"
+  actionPath: /useraccountlock/action_unlock
+
+Function(511):
+  functionId: 511
+  name: "CSVアップロード完了"
+  actionPath: /session/do_csvup_finished
+
+Function(512):
+  functionId: 512
+  name: "割引一括登録完了"
+  actionPath: /discount/do_csvup_finished
+
+Function(513):
+  functionId: 513
+  name: "ログ設定"
+  actionPath: /changelogconfirming/setting
+
+Function(514):
+  functionId: 514
+  name: "更新履歴詳細"
+  actionPath: /changelog/view
+
+Function(515):
+  functionId: 515
+  name: "管理者ログイン"
+  actionPath: /public/login/login_go_back_to_admin
+
+Function(516):
+  functionId: 516
+  name: "代理ログインナビゲーション"
+  actionPath: /agencynavigation
+
+Function(517):
+  functionId: 517
+  name: "アンケート回答詳細"
+  actionPath: /questiondata/view
+
+Function(518):
+  functionId: 518
+  name: "アンケート回答修正"
+  actionPath: /questiondata/add
+
+Function(519):
+  functionId: 519
+  name: "CSVダウンロード"
+  actionPath: /csvdownloadfile/download
+
+Function(520):
+  functionId: 520
+  name: "ヘッダーフッター編集"
+  actionPath: /headerfooter/add
+
+Function(521):
+  functionId: 521
+  name: "基本項目修正"
+  actionPath: /visitordatasetting/edit_item
+
+Function(522):
+  functionId: 522
+  name: "基本項目設定エクスポート"
+  actionPath: /visitordata/setting_export
+
+Function(525):
+  functionId: 525
+  name: "メール未送信申込者一覧"
+  actionPath: /mailreserved/not_sended
+
+Function(526):
+  functionId: 526
+  name: "基本項目並び替え"
+  actionPath: /visitordatasettingsort/do
+
+Function(527):
+  functionId: 527
+  name: "セミナーテンプレートの一覧"
+  actionPath: /multiseminartemplate/list
+
+Function(528):
+  functionId: 528
+  name: "ヘッダーフッターロゴファイル表示"
+  actionPath: /public/logo
+
+Function(529):
+  functionId: 529
+  name: "申込者検索"
+  actionPath: /complexsearch/list
+
+Function(530):
+  functionId: 530
+  name: "一括削除"
+  actionPath: /visitordata/disable_selectable
+
+Function(531):
+  functionId: 531
+  name: "メール設定"
+  actionPath: /mailsetting/replace
+
+Function(532):
+  functionId: 532
+  name: "申込者追加項目選択肢追加"
+  actionPath: /visitorattributeitem/add
+
+Function(533):
+  functionId: 533
+  name: "申込者追加項目選択肢並び替え"
+  actionPath: /visitorattributeitem/replace
+
+Function(534):
+  functionId: 534
+  name: "申込者追加項目選択肢修正"
+  actionPath: /visitorattributeitem/edit
+
+Function(535):
+  functionId: 535
+  name: "申込者追加項目選択肢削除"
+  actionPath: /visitorattributeitem/disable
+
+Function(536):
+  functionId: 536
+  name: "アンケート設問選択肢追加"
+  actionPath: /questionitem/add
+
+Function(537):
+  functionId: 537
+  name: "アンケート設問選択肢並び替え"
+  actionPath: /questionitem/replace
+
+Function(538):
+  functionId: 538
+  name: "アンケート設問選択肢修正"
+  actionPath: /questionitem/edit
+
+Function(539):
+  functionId: 539
+  name: "アンケート設問選択肢削除"
+  actionPath: /questionitem/disable
+
+Function(540):
+  functionId: 540
+  name: "複合検索"
+  actionPath: /complexview/list/107
+
+Function(541):
+  functionId: 541
+  name: "複合検索"
+  actionPath: /complexview/list
+
+Function(542):
+  functionId: 542
+  name: "セミナー追加項目選択肢追加"
+  actionPath: /seminarattributeitem/add
+
+Function(543):
+  functionId: 543
+  name: "セミナー追加項目選択肢並び替え"
+  actionPath: /seminarattributeitem/replace
+
+Function(544):
+  functionId: 544
+  name: "セミナー追加項目選択肢修正"
+  actionPath: /seminarattributeitem/edit
+
+Function(545):
+  functionId: 545
+  name: "セミナー追加項目選択肢削除"
+  actionPath: /seminarattributeitem/disable
+
+Function(546):
+  functionId: 546
+  name: "セッション追加項目選択肢追加"
+  actionPath: /sessionattributeitem/add
+
+Function(547):
+  functionId: 547
+  name: "セッション追加項目選択肢並び替え"
+  actionPath: /sessionattributeitem/replace
+
+Function(548):
+  functionId: 548
+  name: "セッション追加項目選択肢修正"
+  actionPath: /sessionattributeitem/edit
+
+Function(549):
+  functionId: 549
+  name: "セッション追加項目選択肢削除"
+  actionPath: /sessionattributeitem/disable
+
+Function(550):
+  functionId: 550
+  name: "講演者追加項目選択肢追加"
+  actionPath: /speakerattributeitem/add
+
+Function(551):
+  functionId: 551
+  name: "講演者追加項目選択肢並び替え"
+  actionPath: /speakerattributeitem/replace
+
+Function(552):
+  functionId: 552
+  name: "講演者追加項目選択肢修正"
+  actionPath: /speakerattributeitem/edit
+
+Function(553):
+  functionId: 553
+  name: "講演者追加項目選択肢削除"
+  actionPath: /speakerattributeitem/disable
+
+Function(554):
+  functionId: 554
+  name: "アンケート回答CSVアップロード"
+  actionPath: /questiondata/csvupload
+
+Function(555):
+  functionId: 555
+  name: "アンケート回答CSVアップロード結果"
+  actionPath: /questiondata/do_csvup_finished
+
+Function(556):
+  functionId: 556
+  name: "セミナーテンプレート削除プレビュー"
+  actionPath: /seminartemplate/default_set
+
+Function(557):
+  functionId: 557
+  name: "セミナーテンプレート削除機能"
+  actionPath: /seminartemplate/do_default_set
+
+Function(558):
+  functionId: 558
+  name: "検閲"
+  actionPath: /visitordata/inspection
+
+Function(559):
+  functionId: 559
+  name: "クリックカウントURL追加"
+  actionPath: /clickcounturl/regist_url
+
+Function(560):
+  functionId: 560
+  name: "項目追加"
+  actionPath: /activityattribute/list
+
+Function(561):
+  functionId: 561
+  name: "新規項目追加"
+  actionPath: /activityattribute/add
+
+Function(562):
+  functionId: 562
+  name: "項目追加表示"
+  actionPath: /activityattribute/view
+
+Function(563):
+  functionId: 563
+  name: "項目追加削除"
+  actionPath: /activityattribute/disable
+
+Function(564):
+  functionId: 564
+  name: "活動履歴追加項目選択肢追加"
+  actionPath: /activityattributeitem/add
+
+Function(565):
+  functionId: 565
+  name: "活動履歴追加項目選択肢並び替え"
+  actionPath: /activityattributeitem/replace
+
+Function(566):
+  functionId: 566
+  name: "活動履歴追加項目選択肢修正"
+  actionPath: /activityattributeitem/edit
+
+Function(567):
+  functionId: 567
+  name: "活動履歴追加項目選択肢削除"
+  actionPath: /activityattributeitem/disable
+
+Function(568):
+  functionId: 568
+  name: "活動履歴"
+  actionPath: /activityhistory/menu
+
+Function(569):
+  functionId: 569
+  name: "活動履歴"
+  actionPath: /activityhistory/list
+
+Function(570):
+  functionId: 570
+  name: "活動履歴追加"
+  actionPath: /activityhistory/add
+
+Function(571):
+  functionId: 571
+  name: "活動履歴詳細"
+  actionPath: /activityhistory/view
+
+Function(572):
+  functionId: 572
+  name: "活動履歴削除"
+  actionPath: /activityhistory/disable
+
+Function(573):
+  functionId: 573
+  name: "活動履歴一括登録"
+  actionPath: /activityhistory/csvupload
+
+Function(574):
+  functionId: 574
+  name: "活動履歴追加"
+  actionPath: /multiactivityhistory/add
+
+Function(575):
+  functionId: 575
+  name: "活動履歴詳細"
+  actionPath: /multiactivityhistory/view
+
+Function(576):
+  functionId: 576
+  name: "活動履歴削除"
+  actionPath: /multiactivityhistory/disable
+
+Function(577):
+  functionId: 577
+  name: "クリックカウントＵＲＬ一覧"
+  actionPath: /clickcounturl/list
+
+Function(578):
+  functionId: 578
+  name: "メール簡易送信"
+  actionPath: /visitordata/mailsend
+
+Function(579):
+  functionId: 579
+  name: "簡易メール送信"
+  actionPath: /simplemailsender/add
+
+Function(580):
+  functionId: 580
+  name: "ログイン履歴"
+  actionPath: /loginhistory
+
+Function(581):
+  functionId: 581
+  name: "パスワード変更"
+  actionPath: /changepassword/add
+
+Function(582):
+  functionId: 582
+  name: "ログインキー再設定ＵＲＬ発行(管理者)"
+  actionPath: /multiadmin/publish_login_key
+
+Function(583):
+  functionId: 583
+  name: "ログインキー設定(管理者)"
+  actionPath: /public/admin/accountsetting
+
+Function(584):
+  functionId: 584
+  name: "ログインパスワード変更(ログインなし)(管理者)"
+  actionPath: /public/admin/changepassword
+
+Function(585):
+  functionId: 585
+  name: "ログインパスワード変更ＵＲＬ発行(管理者)"
+  actionPath: /public/admin/reminder
+
+Function(586):
+  functionId: 586
+  name: "ログインキー設定(申込者)"
+  actionPath: /public/accountsetting
+
+Function(587):
+  functionId: 587
+  name: "ログインパスワード変更(ログインなし)(申込者)"
+  actionPath: /public/changepassword
+
+Function(588):
+  functionId: 588
+  name: "ログインパスワード変更ＵＲＬ発行(申込者)"
+  actionPath: /public/reminder
+
+Function(589):
+  functionId: 589
+  name: "ログインキー再設定ＵＲＬ発行(申込者)"
+  actionPath: /multivisitor/publish_login_key
+
+Function(590):
+  functionId: 590
+  name: "外部接続設定"
+  actionPath: /multiseminarsystemsetting/list
+
+Function(591):
+  functionId: 591
+  name: "システム設定追加"
+  actionPath: /multiseminarsystemsetting/add
+
+Function(593):
+  functionId: 593
+  name: "アンケート依存関係設定の追加"
+  actionPath: /question/add_validation
+
+Function(594):
+  functionId: 594
+  name: "アンケート依存関係設定の編集"
+  actionPath: /question/edit_validation
+
+Function(595):
+  functionId: 595
+  name: "アンケート依存関係設定の削除"
+  actionPath: /question/disable_validation
+
+Function(596):
+  functionId: 596
+  name: "システム設定削除"
+  actionPath: /multiseminarsystemsetting/disable
+
+Function(597):
+  functionId: 597
+  name: "SFDC同期"
+  actionPath: /visitordata/sfdcsync
+
+Function(598):
+  functionId: 598
+  name: "アンケート履歴CSVダウンロード"
+  actionPath: /enquetehistory/csvdownload
+
+Function(599):
+  functionId: 599
+  name: "キャッシュクリア"
+  actionPath: /cache/flush
+
+Function(600):
+  functionId: 600
+  name: "活動履歴一括削除"
+  actionPath: /activityhistory/disable_selectable
+
+Function(601):
+  functionId: 601
+  name: "クリックカウントURL追加"
+  actionPath: /clickcounturl/add
+
+Function(602):
+  functionId: 602
+  name: "クリックカウントURL詳細"
+  actionPath: /clickcounturl/view
+
+Function(603):
+  functionId: 603
+  name: "クリックカウントURL削除"
+  actionPath: /clickcounturl/disable
+
+Function(604):
+  functionId: 604
+  name: "クリックカウントURLCSVダウンロード"
+  actionPath: /clickcounturl/csvdownload
+
+Function(605):
+  functionId: 605
+  name: "セミナーコピー選択"
+  actionPath: /seminarcopy/view
+
+Function(606):
+  functionId: 606
+  name: "セミナーコピー実行"
+  actionPath: /seminarcopy/copy
+
+Function(607):
+  functionId: 607
+  name: "申込側セッションチェック(チェック起動)"
+  actionPath: /public/sessioncheck/plain
+
+Function(608):
+  functionId: 608
+  name: "申込側セッションチェック(セッションクリア)"
+  actionPath: /public/sessioncheck/clearsession
+
+Function(609):
+  functionId: 609
+  name: "活動履歴"
+  actionPath: /multiactivityhistory/list
+
+Function(610):
+  functionId: 610
+  name: "ユーザクリックログ"
+  actionPath: /clickcountuserlogdata/list
+
+Function(611):
+  functionId: 611
+  name: "連番設定振り直し"
+  actionPath: /idrule/re_reply
+
+Function(612):
+  functionId: 612
+  name: "代理申込ナビゲーション"
+  actionPath: /agencynavigation/application
+
+Function(613):
+  functionId: 613
+  name: "活動履歴一括登録完了"
+  actionPath: /activityhistory/do_csvup_finished
+
+Function(614):
+  functionId: 614
+  name: "キャッシュ全クリア"
+  actionPath: /cache/flushall
+
+Function(615):
+  functionId: 615
+  name: "セミナー申し込み（カスタム）"
+  actionPath: /public/application/custom/input
+
+Function(616):
+  functionId: 616
+  name: "項目CSVダウンロード"
+  actionPath: /activityattribute/csvdownload
+
+Function(617):
+  functionId: 617
+  name: "メール送信履歴CSVダウンロード"
+  actionPath: /mailreserved/csvdownload
+
+Function(618):
+  functionId: 618
+  name: "個別メール送信履歴CSVダウンロード"
+  actionPath: /mailhistory/csvdownload
+
+Function(619):
+  functionId: 619
+  name: "システムテンプレート変数簡易一覧ダウンロード"
+  actionPath: /reference/publishsystemhtmlvars
+
+Function(620):
+  functionId: 620
+  name: "セミナーテンプレート変数簡易一覧ダウンロード"
+  actionPath: /reference/publishseminarhtmlvars
+
+Function(621):
+  functionId: 621
+  name: "公開資料ダウンロード"
+  actionPath: /public/menu/document/download
+
+Function(622):
+  functionId: 622
+  name: "マイページ資料ダウンロード"
+  actionPath: /public/mypage/download/plain
+
+Function(630):
+  functionId: 630
+  name: "活動履歴CSVダウンロード"
+  actionPath: /activityhistory/csvdownload
+
+Function(631):
+  functionId: 631
+  name: "申込者のマージ"
+  actionPath: /merger/single
+
+Function(632):
+  functionId: 632
+  name: "トラッキングURL一覧"
+  actionPath: /trackingurl/list
+
+Function(633):
+  functionId: 633
+  name: "トラッキングタグ情報"
+  actionPath: /tracking/tag/view
+
+Function(640):
+  functionId: 640
+  name: "メッセージ"
+  actionPath: /message/list
+
+Function(641):
+  functionId: 641
+  name: "メッセージ編集"
+  actionPath: /message/add
+
+Function(642):
+  functionId: 642
+  name: "CSVダウンロード"
+  actionPath: /trackingurl/csvdownload
+
+Function(643):
+  functionId: 643
+  name: "ユーザアクセスログ"
+  actionPath: /tracking/session/view
+
+Function(644):
+  functionId: 644
+  name: "お勧めセミナーCSVダウンロード"
+  actionPath: /attention/seminar/csvdownload
+
+Function(645):
+  functionId: 645
+  name: "CSVダウンロード"
+  actionPath: /publicdocumenttarget/csvdownload
+
+Function(646):
+  functionId: 646
+  name: "API定義のダウンロード"
+  actionPath: /serviceinterface/wsdl
+
+Function(673):
+  functionId: 673
+  name: "申込者画像表示"
+  actionPath: /visitordata/file/view
+
+Function(674):
+  functionId: 674
+  name: "申込者画像ポップアップ"
+  actionPath: /visitordata/file/popup_image
+
+Function(675):
+  functionId: 675
+  name: "申込者画像回転"
+  actionPath: /visitordata/file/rotate
+
+Function(676):
+  functionId: 676
+  name: "申込者画像交換"
+  actionPath: /visitordata/file/replace_bizcard
+
+Function(677):
+  functionId: 677
+  name: "会場受付(会場IDマッピングあり)"
+  actionPath: /attendance/matchingmapping/add
+
+Function(678):
+  functionId: 678
+  name: "セッション受付(会場IDマッピングあり)"
+  actionPath: /attendance/ssattendancemapping/add
+
+Function(679):
+  functionId: 679
+  name: "未登録者用セッション受付"
+  actionPath: /attendance/ssattendancenoregistration/add
+
+Function(680):
+  functionId: 680
+  name: "来場登録セッションの選択"
+  actionPath: /visitordata/registattendance/add
+
+Function(681):
+  functionId: 681
+  name: "来場取消セッションの選択"
+  actionPath: /visitordata/registattendance/delete
+
+Function(682):
+  functionId: 682
+  name: "セッション来場の依存関係の設定の一覧"
+  actionPath: /attendance/ssattendancedependence/view
+
+Function(683):
+  functionId: 683
+  name: "セッション来場の依存関係の設定の編集"
+  actionPath: /attendance/ssattendancedependence/edit
+
+Function(684):
+  functionId: 684
+  name: "受講票２"
+  actionPath: /public/mypage/ticket/plain2
+
+Function(685):
+  functionId: 685
+  name: "受講票３"
+  actionPath: /public/mypage/ticket/plain3
+
+Function(686):
+  functionId: 686
+  name: "受講票URL"
+  actionPath: /public/t
+
+Function(687):
+  functionId: 687
+  name: "バーコード出力"
+  actionPath: /public/t/barcode
+
+Function(688):
+  functionId: 688
+  name: "ユーザ一括削除"
+  actionPath: /admindata/disable_selectable
+
+Function(689):
+  functionId: 689
+  name: "ユーザ一括登録完了"
+  actionPath: /admindata/do_csvup_finished
+
+Function(690):
+  functionId: 690
+  name: "ステップメール"
+  actionPath: /stepmail/list
+
+Function(691):
+  functionId: 691
+  name: "ステップメール新規設定"
+  actionPath: /stepmail/add
+
+Function(692):
+  functionId: 692
+  name: "ステップメール表示"
+  actionPath: /stepmail/view
+
+Function(693):
+  functionId: 693
+  name: "ステップメール新規設定"
+  actionPath: /stepmail/first_gate
+
+Function(694):
+  functionId: 694
+  name: "ステップメール未送信者一覧"
+  actionPath: /stepmail/not_sended
+
+Function(695):
+  functionId: 695
+  name: "ステップメール削除"
+  actionPath: /stepmail/disable
+
+Function(696):
+  functionId: 696
+  name: "ステップメール一時停止"
+  actionPath: /stepmail/selecter
+
+Function(697):
+  functionId: 697
+  name: "ステップメール設定CSVダウンロード"
+  actionPath: /stepmail/csvdownload
+
+Function(698):
+  functionId: 698
+  name: "ステップメール未送信者一覧（配信停止期間）"
+  actionPath: /stepmail/not_sended_paused
+
+Function(699):
+  functionId: 699
+  name: "会場IDの置換"
+  actionPath: /attendance/changeid/edit
+
+Function(700):
+  functionId: 700
+  name: "ID/パスワード変更"
+  actionPath: /public/mypage/authdata/add
+
+Function(701):
+  functionId: 701
+  name: "ユーザー情報の確認・変更"
+  actionPath: /public/mypage/personal/add
+
+Function(703):
+  functionId: 703
+  name: "秘密の質問設定"
+  actionPath: /public/secretquestion
+
+Function(704):
+  functionId: 704
+  name: "マイページキャンセル内容の確認"
+  actionPath: /public/mypage/cancel/do_cancel
+
+Function(705):
+  functionId: 705
+  name: "ステップメール送信"
+  actionPath: /public/task/stepmailsend/execute
+
+Function(706):
+  functionId: 706
+  name: "メール予約配信"
+  actionPath: /public/task/reservedmail/execute
+
+Function(707):
+  functionId: 707
+  name: "リマインドメール送信"
+  actionPath: /public/task/reminder/execute
+
+Function(708):
+  functionId: 708
+  name: "メールウィザードの再実行"
+  actionPath: /public/task/restartmail/execute
+
+Function(709):
+  functionId: 709
+  name: "メッセージ一斉置換"
+  actionPath: /message/replace
+
+Function(710):
+  functionId: 710
+  name: "言語設定"
+  actionPath: /i18n/view
+
+Function(711):
+  functionId: 711
+  name: "言語設定編集"
+  actionPath: /i18n/edit
+
+Function(712):
+  functionId: 712
+  name: "$FORM{LABEL_IDRULE_CSVDOWNLOAD}"
+  actionPath: /idrule/csvdownload
+
+Function(713):
+  functionId: 713
+  name: "$FORM{LABEL_SEMINARATTRIBUTE_CSVDOWNLOAD}"
+  actionPath: /seminarattribute/csvdownload
+
+Function(714):
+  functionId: 714
+  name: "$FORM{LABEL_SESSIONATTRIBUTE_CSVDOWNLOAD}"
+  actionPath: /sessionattribute/csvdownload
+
+Function(715):
+  functionId: 715
+  name: "一括決済"
+  actionPath: /applicationtransaction/bulksettlement
+
+Function(716):
+  functionId: 716
+  name: "一括決済完了"
+  actionPath: /applicationtransaction/bulksettlement_finished
+
+Function(717):
+  functionId: 717
+  name: "$FORM{LABEL_PUBLIC_FILE_DOWNLOAD}"
+  actionPath: /public/file/download
+
+Function(718):
+  functionId: 718
+  name: "$FORM{LABEL_VISITORDATA_CANCEL_SELECTABLE}"
+  actionPath: /visitordata/cancel/selectable
+
+Function(719):
+  functionId: 719
+  name: "$FORM{LABEL_I18NSEMINAR_VIEW}"
+  actionPath: /i18nseminar/view
+
+Function(720):
+  functionId: 720
+  name: "$FORM{LABEL_I18NSEMINAR_EDIT}"
+  actionPath: /i18nseminar/edit
+
+Function(721):
+  functionId: 721
+  name: "$FORM{LABEL_I18NSEMINAR_FORK}"
+  actionPath: /i18nseminar/fork
+
+Function(722):
+  functionId: 722
+  name: "$FORM{LABEL_I18NSEMINAR_DELETE}"
+  actionPath: /i18nseminar/delete
+
+

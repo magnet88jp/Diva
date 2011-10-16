@@ -1,0 +1,8 @@
+.crudField .crudHelp {
+  clear: both;
+}
+
+/*
+.crud_text, .crud_logntext { position:relative }
+.crud_text label, .crud_longtext label { position:absolute; top:14px; left:20px}
+*/

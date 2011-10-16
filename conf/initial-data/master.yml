@@ -1,0 +1,24 @@
+# you describe your data using the YAML notation here
+# and then load them using Fixtures.load("data.yml")
+
+# User(bob):
+#   email: bob@gmail.com
+#   password: secret
+#   fullname: Bob
+
+User(admin):
+  email: admin@shanon.co.jp
+  password: abcd0123
+  fullname: shanon_admin1
+
+TaskMode(1):
+  name: アクション生成
+
+TaskMode(2):
+  name: 設定生成
+
+TaskMode(3):
+  name: ファンクション生成
+
+TaskMode(4):
+  name: メッセージ生成

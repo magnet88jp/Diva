@@ -1,0 +1,32 @@
+# you describe your data using the YAML notation here
+# and then load them using Fixtures.load("data.yml")
+
+# User(bob):
+#   email: bob@gmail.com
+#   password: secret
+#   fullname: Bob
+
+MajorMessage(26237):
+  messageId: 26237
+  code: C_APPLICATIONTRANSACTION_COMMITING_DATA
+  defaultMessage: 決済処理を完了しました
+  note: ""
+
+MajorMessage(26225):
+  messageId: 26225
+  code: V_ADMIN_QUESTION_REDIRECT_CONFIRM_MODIFIED
+  defaultMessage: このページを抜けようとしています。現在の変更内容は破棄されますがよろしいですか？変更を適用する場合は、先に登録をしてください。
+  note: ""
+
+MajorMessage(13001):
+  messageId: 13001
+  code: P_ERRORCHECK_PULLDOWN_NOT_NULL
+  defaultMessage: 必ず入力してください
+  note: ""
+
+MajorMessage(3200):
+  messageId: 3200
+  code: C_DISCOUNT_INPUT_THRESHOLD
+  defaultMessage: この種別の場合はしきい値は必ず入力してください。
+  note: ""
+

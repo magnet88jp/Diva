@@ -1,0 +1,53 @@
+# You can specialize this file for each language.
+# For example, for French create a messages.fr file
+#
+name=名前
+
+# play/modules/crud (administration) 
+crud.title = DIVA
+crud.home = ホーム
+crud.blank = ブランク
+crud.index.title = オブジェクト一覧
+crud.index.objectType = オブジェクトタイプ
+crud.index.action = アクション
+crud.index.add = 追加
+crud.add = &{%s} 追加
+crud.list.title = &{%s} 
+crud.list.size = %d &{%s} 
+crud.list.totalSize = 合計 %d 
+crud.pagination.previous = ≪ 前へ
+crud.pagination.next = 次へ ≫ 
+crud.pagination.last = 最後へ ≫≫ 
+crud.pagination.first = ≪≪ 最初へ
+crud.show.title = &{%s} タイトル
+crud.save = 保存
+crud.saveAndContinue = 保存して続ける
+crud.cancel = キャンセル
+crud.hasErrors = エラー
+crud.blank.title = &{%s} ブランクタイトル
+crud.saveAndAddAnother = 保存して新規追加
+crud.delete = &{%s} 削除
+crud.created = &{%s} を作成しました
+crud.saved = &{%s} を保存しました
+crud.deleted = &{%s} を削除しました
+crud.delete.error = 削除に失敗しました
+crud.search = 検索
+crud.none = (選択してください) 
+crud.help.required = 必須
+crud.help.minlength = 最小 %d 文字 
+crud.help.maxlength = 最大 %d 文字 
+crud.help.email = メールアドレス
+crud.help.dateformat = 形式は YYYY-MM-DD. 
+crud.help.numeric = 数値を入力してください 
+crud.help.min = 最小の長さは %d 文字. 
+crud.help.future = 未来
+crud.help.past = 過去
+crud.help.after = 後ろ %s. 
+crud.help.before = 前 %s. 
+crud.help.range = %d と %d の間
+ 
+# play/modules/secure 
+secure.username = ユーザ名: 
+secure.password = パスワード: 
+secure.signin = サインイン
+
