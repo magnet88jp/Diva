@@ -7,7 +7,8 @@ import play.data.validation.*;
 
 @Entity
 public class Action extends Model {
-  public int availableMode;
+  @ManyToMany
+  public List<ActionMode> actionModes;
   public String title;
   @MaxSize(4000)
   public String summary;
@@ -28,8 +29,8 @@ public class Action extends Model {
   @ManyToMany
   public List<Faq> faqs;
 
-  public Action(int availableMode, String title, String summary, String process, String restriction, String supplement, String privateComment, Function function) {
-    this.availableMode = availableMode;
+  public Action(String title, String summary, String process, String restriction, String supplement, String privateComment, Function function) {
+    this.actionModes = new ArrayList<ActionMode>();
     this.title = title;
     this.summary = summary;
     this.settings = new ArrayList<Setting>();

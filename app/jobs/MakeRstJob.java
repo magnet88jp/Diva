@@ -21,15 +21,19 @@ public class MakeRstJob extends Job {
         String label = data.function.actionPath.replaceFirst("^/","").replace("/", "-");
         Logger.info("Maintenance job ...%s", label);
         String mode = "";
-        if(data.availableMode == 0) {
-          mode = "利用可能モード：[全キャンペーン管理モード]/[個別キャンペーン管理モード]";
-        } else if(data.availableMode == 1) {
-          mode = "利用可能モード：[全キャンペーン管理モード]";
-        } else if(data.availableMode == 2) {
-          mode = "利用可能モード：[個別キャンペーン管理モード]";
-        } else {
-          mode = "利用可能モード：[全キャンペーン管理モード]/[個別キャンペーン管理モード]";
+
+        for (ActionMode actionMode : data.actionModes) {
+          mode = mode + actionMode.name;
         }
+//        if(data.availableMode == 0) {
+//          mode = "利用可能モード：[全キャンペーン管理モード]/[個別キャンペーン管理モード]";
+//        } else if(data.availableMode == 1) {
+//          mode = "利用可能モード：[全キャンペーン管理モード]";
+//        } else if(data.availableMode == 2) {
+//          mode = "利用可能モード：[個別キャンペーン管理モード]";
+//        } else {
+//          mode = "利用可能モード：[全キャンペーン管理モード]/[個別キャンペーン管理モード]";
+//        }
         String availableMode = mode;
         String title = data.title;
         String summary = data.summary;
