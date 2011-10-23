@@ -2,3 +2,5 @@
 
 require:
     - play
+    - com.madgag -> util-diff 1.33
+
