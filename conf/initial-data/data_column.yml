@@ -1,0 +1,5516 @@
+DataColumn(access_ranking_master#id):
+  dataTable: access_ranking_master
+  name: id
+
+DataColumn(access_ranking_master#ss_target_type_master_id):
+  dataTable: access_ranking_master
+  name: ss_target_type_master_id
+
+DataColumn(access_ranking_master#disable):
+  dataTable: access_ranking_master
+  name: disable
+
+DataColumn(access_ranking_master#ss_target_data_id):
+  dataTable: access_ranking_master
+  name: ss_target_data_id
+
+DataColumn(access_ranking_master#start_day):
+  dataTable: access_ranking_master
+  name: start_day
+
+DataColumn(access_ranking_master#end_day):
+  dataTable: access_ranking_master
+  name: end_day
+
+DataColumn(access_ranking_master#ranking_comment):
+  dataTable: access_ranking_master
+  name: ranking_comment
+
+DataColumn(access_ranking_master#sortorder):
+  dataTable: access_ranking_master
+  name: sortorder
+
+DataColumn(access_ranking_master#date_regist):
+  dataTable: access_ranking_master
+  name: date_regist
+
+DataColumn(access_ranking_master#date_update):
+  dataTable: access_ranking_master
+  name: date_update
+
+DataColumn(access_ranking_master#lastupdate_user_master_id):
+  dataTable: access_ranking_master
+  name: lastupdate_user_master_id
+
+DataColumn(activity_attribute_data#id):
+  dataTable: activity_attribute_data
+  name: id
+
+DataColumn(activity_attribute_data#disable):
+  dataTable: activity_attribute_data
+  name: disable
+
+DataColumn(activity_attribute_data#activity_history_id):
+  dataTable: activity_attribute_data
+  name: activity_history_id
+
+DataColumn(activity_attribute_data#activity_attribute_item_id):
+  dataTable: activity_attribute_data
+  name: activity_attribute_item_id
+
+DataColumn(activity_attribute_data#reply):
+  dataTable: activity_attribute_data
+  name: reply
+
+DataColumn(activity_attribute_data#date_regist):
+  dataTable: activity_attribute_data
+  name: date_regist
+
+DataColumn(activity_attribute_data#date_update):
+  dataTable: activity_attribute_data
+  name: date_update
+
+DataColumn(activity_attribute_data#lastupdate_user_master_id):
+  dataTable: activity_attribute_data
+  name: lastupdate_user_master_id
+
+DataColumn(activity_attribute_data#ss_table_master_id):
+  dataTable: activity_attribute_data
+  name: ss_table_master_id
+
+DataColumn(activity_attribute_data#ss_table_data_id):
+  dataTable: activity_attribute_data
+  name: ss_table_data_id
+
+DataColumn(activity_attribute_item#id):
+  dataTable: activity_attribute_item
+  name: id
+
+DataColumn(activity_attribute_item#disable):
+  dataTable: activity_attribute_item
+  name: disable
+
+DataColumn(activity_attribute_item#activity_attribute_master_id):
+  dataTable: activity_attribute_item
+  name: activity_attribute_master_id
+
+DataColumn(activity_attribute_item#name):
+  dataTable: activity_attribute_item
+  name: name
+
+DataColumn(activity_attribute_item#date_regist):
+  dataTable: activity_attribute_item
+  name: date_regist
+
+DataColumn(activity_attribute_item#date_update):
+  dataTable: activity_attribute_item
+  name: date_update
+
+DataColumn(activity_attribute_item#lastupdate_user_master_id):
+  dataTable: activity_attribute_item
+  name: lastupdate_user_master_id
+
+DataColumn(activity_attribute_item#sort_order):
+  dataTable: activity_attribute_item
+  name: sort_order
+
+DataColumn(activity_attribute_master#id):
+  dataTable: activity_attribute_master
+  name: id
+
+DataColumn(activity_attribute_master#disable):
+  dataTable: activity_attribute_master
+  name: disable
+
+DataColumn(activity_attribute_master#name):
+  dataTable: activity_attribute_master
+  name: name
+
+DataColumn(activity_attribute_master#admin_only_flag):
+  dataTable: activity_attribute_master
+  name: admin_only_flag
+
+DataColumn(activity_attribute_master#date_regist):
+  dataTable: activity_attribute_master
+  name: date_regist
+
+DataColumn(activity_attribute_master#date_update):
+  dataTable: activity_attribute_master
+  name: date_update
+
+DataColumn(activity_attribute_master#lastupdate_user_master_id):
+  dataTable: activity_attribute_master
+  name: lastupdate_user_master_id
+
+DataColumn(activity_attribute_master#comment_on_form):
+  dataTable: activity_attribute_master
+  name: comment_on_form
+
+DataColumn(activity_attribute_master#comment_under_form):
+  dataTable: activity_attribute_master
+  name: comment_under_form
+
+DataColumn(activity_attribute_master#comment_left_form):
+  dataTable: activity_attribute_master
+  name: comment_left_form
+
+DataColumn(activity_attribute_master#comment_right_form):
+  dataTable: activity_attribute_master
+  name: comment_right_form
+
+DataColumn(activity_attribute_master#memo):
+  dataTable: activity_attribute_master
+  name: memo
+
+DataColumn(activity_attribute_master#form_type_master_id):
+  dataTable: activity_attribute_master
+  name: form_type_master_id
+
+DataColumn(activity_attribute_master#extend):
+  dataTable: activity_attribute_master
+  name: extend
+
+DataColumn(activity_attribute_master#sort_order):
+  dataTable: activity_attribute_master
+  name: sort_order
+
+DataColumn(activity_history#id):
+  dataTable: activity_history
+  name: id
+
+DataColumn(activity_history#disable):
+  dataTable: activity_history
+  name: disable
+
+DataColumn(activity_history#date_regist):
+  dataTable: activity_history
+  name: date_regist
+
+DataColumn(activity_history#date_update):
+  dataTable: activity_history
+  name: date_update
+
+DataColumn(activity_history#lastupdate_user_master_id):
+  dataTable: activity_history
+  name: lastupdate_user_master_id
+
+DataColumn(activity_history#schedule_date):
+  dataTable: activity_history
+  name: schedule_date
+
+DataColumn(activity_history#visitor_data_id):
+  dataTable: activity_history
+  name: visitor_data_id
+
+DataColumn(activity_history#latest_flag):
+  dataTable: activity_history
+  name: latest_flag
+
+DataColumn(admin_assign_attachment#id):
+  dataTable: admin_assign_attachment
+  name: id
+
+DataColumn(admin_assign_attachment#disable):
+  dataTable: admin_assign_attachment
+  name: disable
+
+DataColumn(admin_assign_attachment#user_master_id):
+  dataTable: admin_assign_attachment
+  name: user_master_id
+
+DataColumn(admin_assign_attachment#ss_target_type_master_id):
+  dataTable: admin_assign_attachment
+  name: ss_target_type_master_id
+
+DataColumn(admin_assign_attachment#assign_data_id):
+  dataTable: admin_assign_attachment
+  name: assign_data_id
+
+DataColumn(admin_assign_attachment#date_regist):
+  dataTable: admin_assign_attachment
+  name: date_regist
+
+DataColumn(admin_assign_attachment#date_update):
+  dataTable: admin_assign_attachment
+  name: date_update
+
+DataColumn(admin_assign_attachment#lastupdate_user_master_id):
+  dataTable: admin_assign_attachment
+  name: lastupdate_user_master_id
+
+DataColumn(admin_data#id):
+  dataTable: admin_data
+  name: id
+
+DataColumn(admin_data#admin_level_master_id):
+  dataTable: admin_data
+  name: admin_level_master_id
+
+DataColumn(admin_data#disable):
+  dataTable: admin_data
+  name: disable
+
+DataColumn(admin_data#name1):
+  dataTable: admin_data
+  name: name1
+
+DataColumn(admin_data#name2):
+  dataTable: admin_data
+  name: name2
+
+DataColumn(admin_data#name3):
+  dataTable: admin_data
+  name: name3
+
+DataColumn(admin_data#name1_ka):
+  dataTable: admin_data
+  name: name1_ka
+
+DataColumn(admin_data#name2_ka):
+  dataTable: admin_data
+  name: name2_ka
+
+DataColumn(admin_data#company_name):
+  dataTable: admin_data
+  name: company_name
+
+DataColumn(admin_data#division):
+  dataTable: admin_data
+  name: division
+
+DataColumn(admin_data#position):
+  dataTable: admin_data
+  name: position
+
+DataColumn(admin_data#tel):
+  dataTable: admin_data
+  name: tel
+
+DataColumn(admin_data#sub_tel):
+  dataTable: admin_data
+  name: sub_tel
+
+DataColumn(admin_data#fax):
+  dataTable: admin_data
+  name: fax
+
+DataColumn(admin_data#email):
+  dataTable: admin_data
+  name: email
+
+DataColumn(admin_data#sub_email):
+  dataTable: admin_data
+  name: sub_email
+
+DataColumn(admin_data#style_main):
+  dataTable: admin_data
+  name: style_main
+
+DataColumn(admin_data#reserve1):
+  dataTable: admin_data
+  name: reserve1
+
+DataColumn(admin_data#reserve2):
+  dataTable: admin_data
+  name: reserve2
+
+DataColumn(admin_data#reserve3):
+  dataTable: admin_data
+  name: reserve3
+
+DataColumn(admin_data#memo):
+  dataTable: admin_data
+  name: memo
+
+DataColumn(admin_data#date_regist):
+  dataTable: admin_data
+  name: date_regist
+
+DataColumn(admin_data#date_update):
+  dataTable: admin_data
+  name: date_update
+
+DataColumn(admin_data#lastupdate_user_master_id):
+  dataTable: admin_data
+  name: lastupdate_user_master_id
+
+DataColumn(admin_data#normalized_email):
+  dataTable: admin_data
+  name: normalized_email
+
+DataColumn(admin_data#normalized_sub_email):
+  dataTable: admin_data
+  name: normalized_sub_email
+
+DataColumn(admin_data#language_master_id):
+  dataTable: admin_data
+  name: language_master_id
+
+DataColumn(admin_level_master#id):
+  dataTable: admin_level_master
+  name: id
+
+DataColumn(admin_level_master#disable):
+  dataTable: admin_level_master
+  name: disable
+
+DataColumn(admin_level_master#name):
+  dataTable: admin_level_master
+  name: name
+
+DataColumn(admin_level_master#memo):
+  dataTable: admin_level_master
+  name: memo
+
+DataColumn(admin_visitor_assignment#id):
+  dataTable: admin_visitor_assignment
+  name: id
+
+DataColumn(admin_visitor_assignment#disable):
+  dataTable: admin_visitor_assignment
+  name: disable
+
+DataColumn(admin_visitor_assignment#admin_data_id):
+  dataTable: admin_visitor_assignment
+  name: admin_data_id
+
+DataColumn(admin_visitor_assignment#visitor_data_id):
+  dataTable: admin_visitor_assignment
+  name: visitor_data_id
+
+DataColumn(admin_visitor_assignment#date_regist):
+  dataTable: admin_visitor_assignment
+  name: date_regist
+
+DataColumn(admin_visitor_assignment#date_update):
+  dataTable: admin_visitor_assignment
+  name: date_update
+
+DataColumn(admin_visitor_assignment#lastupdate_user_master_id):
+  dataTable: admin_visitor_assignment
+  name: lastupdate_user_master_id
+
+DataColumn(application_amount#id):
+  dataTable: application_amount
+  name: id
+
+DataColumn(application_amount#ss_target_type_master_id):
+  dataTable: application_amount
+  name: ss_target_type_master_id
+
+DataColumn(application_amount#disable):
+  dataTable: application_amount
+  name: disable
+
+DataColumn(application_amount#ss_target_data_id):
+  dataTable: application_amount
+  name: ss_target_data_id
+
+DataColumn(application_amount#amount):
+  dataTable: application_amount
+  name: amount
+
+DataColumn(application_amount#date_regist):
+  dataTable: application_amount
+  name: date_regist
+
+DataColumn(application_amount#date_update):
+  dataTable: application_amount
+  name: date_update
+
+DataColumn(application_attachment#id):
+  dataTable: application_attachment
+  name: id
+
+DataColumn(application_attachment#application_status_id):
+  dataTable: application_attachment
+  name: application_status_id
+
+DataColumn(application_attachment#application_transaction_master_id):
+  dataTable: application_attachment
+  name: application_transaction_master_id
+
+DataColumn(application_attachment#ss_target_type_master_id):
+  dataTable: application_attachment
+  name: ss_target_type_master_id
+
+DataColumn(application_attachment#application_attachment_id):
+  dataTable: application_attachment
+  name: application_attachment_id
+
+DataColumn(application_attachment#user_master_id):
+  dataTable: application_attachment
+  name: user_master_id
+
+DataColumn(application_attachment#disable):
+  dataTable: application_attachment
+  name: disable
+
+DataColumn(application_attachment#application_data_id):
+  dataTable: application_attachment
+  name: application_data_id
+
+DataColumn(application_attachment#memo):
+  dataTable: application_attachment
+  name: memo
+
+DataColumn(application_attachment#date_regist):
+  dataTable: application_attachment
+  name: date_regist
+
+DataColumn(application_attachment#date_update):
+  dataTable: application_attachment
+  name: date_update
+
+DataColumn(application_attachment#lastupdate_user_master_id):
+  dataTable: application_attachment
+  name: lastupdate_user_master_id
+
+DataColumn(application_bill#id):
+  dataTable: application_bill
+  name: id
+
+DataColumn(application_bill#disable):
+  dataTable: application_bill
+  name: disable
+
+DataColumn(application_bill#body):
+  dataTable: application_bill
+  name: body
+
+DataColumn(application_bill#date_regist):
+  dataTable: application_bill
+  name: date_regist
+
+DataColumn(application_bill#date_update):
+  dataTable: application_bill
+  name: date_update
+
+DataColumn(application_bill#lastupdate_user_master_id):
+  dataTable: application_bill
+  name: lastupdate_user_master_id
+
+DataColumn(application_bill#application_transaction_master_id):
+  dataTable: application_bill
+  name: application_transaction_master_id
+
+DataColumn(application_bill#body_file_id):
+  dataTable: application_bill
+  name: body_file_id
+
+DataColumn(application_completion#id):
+  dataTable: application_completion
+  name: id
+
+DataColumn(application_completion#disable):
+  dataTable: application_completion
+  name: disable
+
+DataColumn(application_completion#application_step_order_id):
+  dataTable: application_completion
+  name: application_step_order_id
+
+DataColumn(application_completion#mail_template_master_id):
+  dataTable: application_completion
+  name: mail_template_master_id
+
+DataColumn(application_completion#date_regist):
+  dataTable: application_completion
+  name: date_regist
+
+DataColumn(application_completion#date_update):
+  dataTable: application_completion
+  name: date_update
+
+DataColumn(application_completion#lastupdate_user_master_id):
+  dataTable: application_completion
+  name: lastupdate_user_master_id
+
+DataColumn(application_data_master#id):
+  dataTable: application_data_master
+  name: id
+
+DataColumn(application_data_master#disable):
+  dataTable: application_data_master
+  name: disable
+
+DataColumn(application_data_master#date_regist):
+  dataTable: application_data_master
+  name: date_regist
+
+DataColumn(application_data_master#date_update):
+  dataTable: application_data_master
+  name: date_update
+
+DataColumn(application_data_master#name):
+  dataTable: application_data_master
+  name: name
+
+DataColumn(application_data_master#data_class_name):
+  dataTable: application_data_master
+  name: data_class_name
+
+DataColumn(application_data_master#lastupdate_user_master_id):
+  dataTable: application_data_master
+  name: lastupdate_user_master_id
+
+DataColumn(application_data_type_master#id):
+  dataTable: application_data_type_master
+  name: id
+
+DataColumn(application_data_type_master#disable):
+  dataTable: application_data_type_master
+  name: disable
+
+DataColumn(application_data_type_master#date_regist):
+  dataTable: application_data_type_master
+  name: date_regist
+
+DataColumn(application_data_type_master#date_update):
+  dataTable: application_data_type_master
+  name: date_update
+
+DataColumn(application_data_type_master#name):
+  dataTable: application_data_type_master
+  name: name
+
+DataColumn(application_data_type_master#lastupdate_user_master_id):
+  dataTable: application_data_type_master
+  name: lastupdate_user_master_id
+
+DataColumn(application_discount_amount#id):
+  dataTable: application_discount_amount
+  name: id
+
+DataColumn(application_discount_amount#disable):
+  dataTable: application_discount_amount
+  name: disable
+
+DataColumn(application_discount_amount#discount_master_id):
+  dataTable: application_discount_amount
+  name: discount_master_id
+
+DataColumn(application_discount_amount#amount):
+  dataTable: application_discount_amount
+  name: amount
+
+DataColumn(application_discount_amount#date_regist):
+  dataTable: application_discount_amount
+  name: date_regist
+
+DataColumn(application_discount_amount#date_update):
+  dataTable: application_discount_amount
+  name: date_update
+
+DataColumn(application_discount_amount#lastupdate_user_master_id):
+  dataTable: application_discount_amount
+  name: lastupdate_user_master_id
+
+DataColumn(application_discount_history#id):
+  dataTable: application_discount_history
+  name: id
+
+DataColumn(application_discount_history#disable):
+  dataTable: application_discount_history
+  name: disable
+
+DataColumn(application_discount_history#application_transaction_master_id):
+  dataTable: application_discount_history
+  name: application_transaction_master_id
+
+DataColumn(application_discount_history#discount_master_id):
+  dataTable: application_discount_history
+  name: discount_master_id
+
+DataColumn(application_discount_history#date_regist):
+  dataTable: application_discount_history
+  name: date_regist
+
+DataColumn(application_discount_history#date_update):
+  dataTable: application_discount_history
+  name: date_update
+
+DataColumn(application_discount_history#lastupdate_user_master_id):
+  dataTable: application_discount_history
+  name: lastupdate_user_master_id
+
+DataColumn(application_flow_category#id):
+  dataTable: application_flow_category
+  name: id
+
+DataColumn(application_flow_category#disable):
+  dataTable: application_flow_category
+  name: disable
+
+DataColumn(application_flow_category#name):
+  dataTable: application_flow_category
+  name: name
+
+DataColumn(application_flow_category#memo):
+  dataTable: application_flow_category
+  name: memo
+
+DataColumn(application_flow_category#date_regist):
+  dataTable: application_flow_category
+  name: date_regist
+
+DataColumn(application_flow_category#date_update):
+  dataTable: application_flow_category
+  name: date_update
+
+DataColumn(application_flow_category#lastupdate_user_master_id):
+  dataTable: application_flow_category
+  name: lastupdate_user_master_id
+
+DataColumn(application_flow_master#id):
+  dataTable: application_flow_master
+  name: id
+
+DataColumn(application_flow_master#application_flow_category_id):
+  dataTable: application_flow_master
+  name: application_flow_category_id
+
+DataColumn(application_flow_master#seminar_master_id):
+  dataTable: application_flow_master
+  name: seminar_master_id
+
+DataColumn(application_flow_master#disable):
+  dataTable: application_flow_master
+  name: disable
+
+DataColumn(application_flow_master#name):
+  dataTable: application_flow_master
+  name: name
+
+DataColumn(application_flow_master#flow_comment):
+  dataTable: application_flow_master
+  name: flow_comment
+
+DataColumn(application_flow_master#memo):
+  dataTable: application_flow_master
+  name: memo
+
+DataColumn(application_flow_master#base_flag):
+  dataTable: application_flow_master
+  name: base_flag
+
+DataColumn(application_flow_master#throw_cart):
+  dataTable: application_flow_master
+  name: throw_cart
+
+DataColumn(application_flow_master#date_regist):
+  dataTable: application_flow_master
+  name: date_regist
+
+DataColumn(application_flow_master#date_update):
+  dataTable: application_flow_master
+  name: date_update
+
+DataColumn(application_flow_master#lastupdate_user_master_id):
+  dataTable: application_flow_master
+  name: lastupdate_user_master_id
+
+DataColumn(application_flow_master#application_link_member_flag):
+  dataTable: application_flow_master
+  name: application_link_member_flag
+
+DataColumn(application_flow_master#throw_user):
+  dataTable: application_flow_master
+  name: throw_user
+
+DataColumn(application_flow_master#use_multi_application):
+  dataTable: application_flow_master
+  name: use_multi_application
+
+DataColumn(application_flow_master#use_discount):
+  dataTable: application_flow_master
+  name: use_discount
+
+DataColumn(application_flow_master#use_timetable_restor):
+  dataTable: application_flow_master
+  name: use_timetable_restor
+
+DataColumn(application_flow_master#use_package_change):
+  dataTable: application_flow_master
+  name: use_package_change
+
+DataColumn(application_flow_master#restore_login_user):
+  dataTable: application_flow_master
+  name: restore_login_user
+
+DataColumn(application_flow_master#throw_payment_and_billing_in_free):
+  dataTable: application_flow_master
+  name: throw_payment_and_billing_in_free
+
+DataColumn(application_flow_master#new_enquete_answer):
+  dataTable: application_flow_master
+  name: new_enquete_answer
+
+DataColumn(application_status#id):
+  dataTable: application_status
+  name: id
+
+DataColumn(application_status#disable):
+  dataTable: application_status
+  name: disable
+
+DataColumn(application_status#name):
+  dataTable: application_status
+  name: name
+
+DataColumn(application_status#memo):
+  dataTable: application_status
+  name: memo
+
+DataColumn(application_status#date_regist):
+  dataTable: application_status
+  name: date_regist
+
+DataColumn(application_status#date_update):
+  dataTable: application_status
+  name: date_update
+
+DataColumn(application_status#lastupdate_user_master_id):
+  dataTable: application_status
+  name: lastupdate_user_master_id
+
+DataColumn(application_step_master#id):
+  dataTable: application_step_master
+  name: id
+
+DataColumn(application_step_master#disable):
+  dataTable: application_step_master
+  name: disable
+
+DataColumn(application_step_master#name):
+  dataTable: application_step_master
+  name: name
+
+DataColumn(application_step_master#function_master_id):
+  dataTable: application_step_master
+  name: function_master_id
+
+DataColumn(application_step_master#memo):
+  dataTable: application_step_master
+  name: memo
+
+DataColumn(application_step_master#date_regist):
+  dataTable: application_step_master
+  name: date_regist
+
+DataColumn(application_step_master#date_update):
+  dataTable: application_step_master
+  name: date_update
+
+DataColumn(application_step_master#lastupdate_user_master_id):
+  dataTable: application_step_master
+  name: lastupdate_user_master_id
+
+DataColumn(application_step_order#id):
+  dataTable: application_step_order
+  name: id
+
+DataColumn(application_step_order#disable):
+  dataTable: application_step_order
+  name: disable
+
+DataColumn(application_step_order#application_flow_master_id):
+  dataTable: application_step_order
+  name: application_flow_master_id
+
+DataColumn(application_step_order#application_step_master_id):
+  dataTable: application_step_order
+  name: application_step_master_id
+
+DataColumn(application_step_order#sortorder):
+  dataTable: application_step_order
+  name: sortorder
+
+DataColumn(application_step_order#date_regist):
+  dataTable: application_step_order
+  name: date_regist
+
+DataColumn(application_step_order#date_update):
+  dataTable: application_step_order
+  name: date_update
+
+DataColumn(application_step_order#lastupdate_user_master_id):
+  dataTable: application_step_order
+  name: lastupdate_user_master_id
+
+DataColumn(application_step_template#id):
+  dataTable: application_step_template
+  name: id
+
+DataColumn(application_step_template#disable):
+  dataTable: application_step_template
+  name: disable
+
+DataColumn(application_step_template#application_step_order_id):
+  dataTable: application_step_template
+  name: application_step_order_id
+
+DataColumn(application_step_template#template_path):
+  dataTable: application_step_template
+  name: template_path
+
+DataColumn(application_step_template#date_regist):
+  dataTable: application_step_template
+  name: date_regist
+
+DataColumn(application_step_template#date_update):
+  dataTable: application_step_template
+  name: date_update
+
+DataColumn(application_step_template#lastupdate_user_master_id):
+  dataTable: application_step_template
+  name: lastupdate_user_master_id
+
+DataColumn(application_transaction_master#id):
+  dataTable: application_transaction_master
+  name: id
+
+DataColumn(application_transaction_master#user_master_id):
+  dataTable: application_transaction_master
+  name: user_master_id
+
+DataColumn(application_transaction_master#application_flow_master_id):
+  dataTable: application_transaction_master
+  name: application_flow_master_id
+
+DataColumn(application_transaction_master#application_bill_id):
+  dataTable: application_transaction_master
+  name: application_bill_id
+
+DataColumn(application_transaction_master#payment_type_master_id):
+  dataTable: application_transaction_master
+  name: payment_type_master_id
+
+DataColumn(application_transaction_master#disable):
+  dataTable: application_transaction_master
+  name: disable
+
+DataColumn(application_transaction_master#before_discount_price):
+  dataTable: application_transaction_master
+  name: before_discount_price
+
+DataColumn(application_transaction_master#after_discount_price):
+  dataTable: application_transaction_master
+  name: after_discount_price
+
+DataColumn(application_transaction_master#payment_flag):
+  dataTable: application_transaction_master
+  name: payment_flag
+
+DataColumn(application_transaction_master#proxy_flag):
+  dataTable: application_transaction_master
+  name: proxy_flag
+
+DataColumn(application_transaction_master#memo):
+  dataTable: application_transaction_master
+  name: memo
+
+DataColumn(application_transaction_master#date_regist):
+  dataTable: application_transaction_master
+  name: date_regist
+
+DataColumn(application_transaction_master#date_update):
+  dataTable: application_transaction_master
+  name: date_update
+
+DataColumn(application_transaction_master#lastupdate_user_master_id):
+  dataTable: application_transaction_master
+  name: lastupdate_user_master_id
+
+DataColumn(application_transaction_master#cancel_parent_id):
+  dataTable: application_transaction_master
+  name: cancel_parent_id
+
+DataColumn(application_transaction_master#billing_id):
+  dataTable: application_transaction_master
+  name: billing_id
+
+DataColumn(application_transaction_master#admin_output_bill):
+  dataTable: application_transaction_master
+  name: admin_output_bill
+
+DataColumn(application_transaction_master#visitor_output_bill):
+  dataTable: application_transaction_master
+  name: visitor_output_bill
+
+DataColumn(application_transaction_master#language_master_id):
+  dataTable: application_transaction_master
+  name: language_master_id
+
+DataColumn(application_transaction_master#transaction_code_all_seminar):
+  dataTable: application_transaction_master
+  name: transaction_code_all_seminar
+
+DataColumn(application_transaction_master#transaction_code_seminar):
+  dataTable: application_transaction_master
+  name: transaction_code_seminar
+
+DataColumn(application_transaction_master#visitordata_code_all_seminar):
+  dataTable: application_transaction_master
+  name: visitordata_code_all_seminar
+
+DataColumn(application_transaction_master#visitordata_code_seminar):
+  dataTable: application_transaction_master
+  name: visitordata_code_seminar
+
+DataColumn(application_transaction_master#txn_count_per_seminar):
+  dataTable: application_transaction_master
+  name: txn_count_per_seminar
+
+DataColumn(application_transaction_master#credit_date):
+  dataTable: application_transaction_master
+  name: credit_date
+
+DataColumn(application_transaction_master#last_transaction_id):
+  dataTable: application_transaction_master
+  name: last_transaction_id
+
+DataColumn(application_transaction_master#last_transaction_date):
+  dataTable: application_transaction_master
+  name: last_transaction_date
+
+DataColumn(application_transaction_master#cancel_flag):
+  dataTable: application_transaction_master
+  name: cancel_flag
+
+DataColumn(application_transaction_master#receipt_no):
+  dataTable: application_transaction_master
+  name: receipt_no
+
+DataColumn(application_transaction_master#payment_form_url):
+  dataTable: application_transaction_master
+  name: payment_form_url
+
+DataColumn(application_transaction_master#payment_order_id):
+  dataTable: application_transaction_master
+  name: payment_order_id
+
+DataColumn(application_transaction_master#payment_access_id):
+  dataTable: application_transaction_master
+  name: payment_access_id
+
+DataColumn(application_transaction_master#payment_access_password):
+  dataTable: application_transaction_master
+  name: payment_access_password
+
+DataColumn(application_transaction_master#payment_result_id):
+  dataTable: application_transaction_master
+  name: payment_result_id
+
+DataColumn(application_transaction_master#credit_status_master_id):
+  dataTable: application_transaction_master
+  name: credit_status_master_id
+
+DataColumn(application_transaction_master#memo2):
+  dataTable: application_transaction_master
+  name: memo2
+
+DataColumn(application_transaction_master#memo3):
+  dataTable: application_transaction_master
+  name: memo3
+
+DataColumn(application_transaction_master#memo4):
+  dataTable: application_transaction_master
+  name: memo4
+
+DataColumn(application_transaction_master#memo5):
+  dataTable: application_transaction_master
+  name: memo5
+
+DataColumn(application_transaction_master#memo6):
+  dataTable: application_transaction_master
+  name: memo6
+
+DataColumn(application_transaction_master#memo7):
+  dataTable: application_transaction_master
+  name: memo7
+
+DataColumn(application_transaction_master#memo8):
+  dataTable: application_transaction_master
+  name: memo8
+
+DataColumn(application_transaction_master#memo9):
+  dataTable: application_transaction_master
+  name: memo9
+
+DataColumn(application_transaction_master#memo10):
+  dataTable: application_transaction_master
+  name: memo10
+
+DataColumn(application_transaction_master#payment_error):
+  dataTable: application_transaction_master
+  name: payment_error
+
+DataColumn(application_transaction_master#before_discount_price_org):
+  dataTable: application_transaction_master
+  name: before_discount_price_org
+
+DataColumn(application_transaction_master#after_discount_price_org):
+  dataTable: application_transaction_master
+  name: after_discount_price_org
+
+DataColumn(application_transaction_master#enquete_data_id):
+  dataTable: application_transaction_master
+  name: enquete_data_id
+
+DataColumn(attendance#id):
+  dataTable: attendance
+  name: id
+
+DataColumn(attendance#disable):
+  dataTable: attendance
+  name: disable
+
+DataColumn(attendance#user_master_id):
+  dataTable: attendance
+  name: user_master_id
+
+DataColumn(attendance#date_regist):
+  dataTable: attendance
+  name: date_regist
+
+DataColumn(attendance#date_update):
+  dataTable: attendance
+  name: date_update
+
+DataColumn(attendance#lastupdate_user_master_id):
+  dataTable: attendance
+  name: lastupdate_user_master_id
+
+DataColumn(attendance#anonymous_id):
+  dataTable: attendance
+  name: anonymous_id
+
+DataColumn(attention_master#id):
+  dataTable: attention_master
+  name: id
+
+DataColumn(attention_master#ss_target_type_master_id):
+  dataTable: attention_master
+  name: ss_target_type_master_id
+
+DataColumn(attention_master#disable):
+  dataTable: attention_master
+  name: disable
+
+DataColumn(attention_master#ss_target_data_id):
+  dataTable: attention_master
+  name: ss_target_data_id
+
+DataColumn(attention_master#attention_comment):
+  dataTable: attention_master
+  name: attention_comment
+
+DataColumn(attention_master#sortorder):
+  dataTable: attention_master
+  name: sortorder
+
+DataColumn(attention_master#date_regist):
+  dataTable: attention_master
+  name: date_regist
+
+DataColumn(attention_master#date_update):
+  dataTable: attention_master
+  name: date_update
+
+DataColumn(attention_master#lastupdate_user_master_id):
+  dataTable: attention_master
+  name: lastupdate_user_master_id
+
+DataColumn(attention_master#start_day):
+  dataTable: attention_master
+  name: start_day
+
+DataColumn(attention_master#end_day):
+  dataTable: attention_master
+  name: end_day
+
+DataColumn(attribute_type_master#id):
+  dataTable: attribute_type_master
+  name: id
+
+DataColumn(attribute_type_master#disable):
+  dataTable: attribute_type_master
+  name: disable
+
+DataColumn(attribute_type_master#name):
+  dataTable: attribute_type_master
+  name: name
+
+DataColumn(barcode_type_master#id):
+  dataTable: barcode_type_master
+  name: id
+
+DataColumn(barcode_type_master#disable):
+  dataTable: barcode_type_master
+  name: disable
+
+DataColumn(barcode_type_master#name):
+  dataTable: barcode_type_master
+  name: name
+
+DataColumn(barcode_type_master#memo):
+  dataTable: barcode_type_master
+  name: memo
+
+DataColumn(billing#id):
+  dataTable: billing
+  name: id
+
+DataColumn(billing#disable):
+  dataTable: billing
+  name: disable
+
+DataColumn(billing#user_master_id):
+  dataTable: billing
+  name: user_master_id
+
+DataColumn(billing#prefecture_master_id):
+  dataTable: billing
+  name: prefecture_master_id
+
+DataColumn(billing#name):
+  dataTable: billing
+  name: name
+
+DataColumn(billing#zip1):
+  dataTable: billing
+  name: zip1
+
+DataColumn(billing#zip2):
+  dataTable: billing
+  name: zip2
+
+DataColumn(billing#zip3):
+  dataTable: billing
+  name: zip3
+
+DataColumn(billing#address1):
+  dataTable: billing
+  name: address1
+
+DataColumn(billing#address2):
+  dataTable: billing
+  name: address2
+
+DataColumn(billing#address3):
+  dataTable: billing
+  name: address3
+
+DataColumn(billing#address4):
+  dataTable: billing
+  name: address4
+
+DataColumn(billing#tel):
+  dataTable: billing
+  name: tel
+
+DataColumn(billing#date_regist):
+  dataTable: billing
+  name: date_regist
+
+DataColumn(billing#date_update):
+  dataTable: billing
+  name: date_update
+
+DataColumn(billing#lastupdate_user_master_id):
+  dataTable: billing
+  name: lastupdate_user_master_id
+
+DataColumn(billing#name1):
+  dataTable: billing
+  name: name1
+
+DataColumn(billing#name2):
+  dataTable: billing
+  name: name2
+
+DataColumn(billing#name3):
+  dataTable: billing
+  name: name3
+
+DataColumn(billing#name1_ka):
+  dataTable: billing
+  name: name1_ka
+
+DataColumn(billing#name2_ka):
+  dataTable: billing
+  name: name2_ka
+
+DataColumn(billing#company_name):
+  dataTable: billing
+  name: company_name
+
+DataColumn(billing#company_name_ka):
+  dataTable: billing
+  name: company_name_ka
+
+DataColumn(billing#division):
+  dataTable: billing
+  name: division
+
+DataColumn(billing#position):
+  dataTable: billing
+  name: position
+
+DataColumn(billing#address5):
+  dataTable: billing
+  name: address5
+
+DataColumn(billing#sub_tel):
+  dataTable: billing
+  name: sub_tel
+
+DataColumn(billing#fax):
+  dataTable: billing
+  name: fax
+
+DataColumn(billing#email):
+  dataTable: billing
+  name: email
+
+DataColumn(billing#sub_email):
+  dataTable: billing
+  name: sub_email
+
+DataColumn(billing#country_master_id):
+  dataTable: billing
+  name: country_master_id
+
+DataColumn(billing#same_data_as_visitor):
+  dataTable: billing
+  name: same_data_as_visitor
+
+DataColumn(card_company_master#id):
+  dataTable: card_company_master
+  name: id
+
+DataColumn(card_company_master#disable):
+  dataTable: card_company_master
+  name: disable
+
+DataColumn(card_company_master#name):
+  dataTable: card_company_master
+  name: name
+
+DataColumn(card_company_master#code):
+  dataTable: card_company_master
+  name: code
+
+DataColumn(changelog#id):
+  dataTable: changelog
+  name: id
+
+DataColumn(changelog#disable):
+  dataTable: changelog
+  name: disable
+
+DataColumn(changelog#datas):
+  dataTable: changelog
+  name: datas
+
+DataColumn(changelog#confirm_url):
+  dataTable: changelog
+  name: confirm_url
+
+DataColumn(changelog#date_regist):
+  dataTable: changelog
+  name: date_regist
+
+DataColumn(changelog#date_update):
+  dataTable: changelog
+  name: date_update
+
+DataColumn(changelog#lastupdate_user_master_id):
+  dataTable: changelog
+  name: lastupdate_user_master_id
+
+DataColumn(changelog#user_master_id):
+  dataTable: changelog
+  name: user_master_id
+
+DataColumn(changelog#seminar_master_id):
+  dataTable: changelog
+  name: seminar_master_id
+
+DataColumn(changelog#function_master_id):
+  dataTable: changelog
+  name: function_master_id
+
+DataColumn(changelog#request_url):
+  dataTable: changelog
+  name: request_url
+
+DataColumn(changelog_confirming#id):
+  dataTable: changelog_confirming
+  name: id
+
+DataColumn(changelog_confirming#disable):
+  dataTable: changelog_confirming
+  name: disable
+
+DataColumn(changelog_confirming#user_master_id):
+  dataTable: changelog_confirming
+  name: user_master_id
+
+DataColumn(changelog_confirming#selected_type):
+  dataTable: changelog_confirming
+  name: selected_type
+
+DataColumn(changelog_confirming#date_regist):
+  dataTable: changelog_confirming
+  name: date_regist
+
+DataColumn(changelog_confirming#date_update):
+  dataTable: changelog_confirming
+  name: date_update
+
+DataColumn(changelog_confirming#lastupdate_user_master_id):
+  dataTable: changelog_confirming
+  name: lastupdate_user_master_id
+
+DataColumn(changelog_confirming#function_master_id):
+  dataTable: changelog_confirming
+  name: function_master_id
+
+DataColumn(changelog_place_master#id):
+  dataTable: changelog_place_master
+  name: id
+
+DataColumn(changelog_place_master#disable):
+  dataTable: changelog_place_master
+  name: disable
+
+DataColumn(changelog_place_master#function_master_id):
+  dataTable: changelog_place_master
+  name: function_master_id
+
+DataColumn(changelog_place_master#name):
+  dataTable: changelog_place_master
+  name: name
+
+DataColumn(changelog_place_master#memo):
+  dataTable: changelog_place_master
+  name: memo
+
+DataColumn(check_error_attachment#id):
+  dataTable: check_error_attachment
+  name: id
+
+DataColumn(check_error_attachment#disable):
+  dataTable: check_error_attachment
+  name: disable
+
+DataColumn(check_error_attachment#type_master_id):
+  dataTable: check_error_attachment
+  name: type_master_id
+
+DataColumn(check_error_attachment#item_id):
+  dataTable: check_error_attachment
+  name: item_id
+
+DataColumn(check_error_attachment#dependency):
+  dataTable: check_error_attachment
+  name: dependency
+
+DataColumn(check_error_attachment#date_regist):
+  dataTable: check_error_attachment
+  name: date_regist
+
+DataColumn(check_error_attachment#date_update):
+  dataTable: check_error_attachment
+  name: date_update
+
+DataColumn(check_error_attachment#lastupdate_user_master_id):
+  dataTable: check_error_attachment
+  name: lastupdate_user_master_id
+
+DataColumn(count_access#id):
+  dataTable: count_access
+  name: id
+
+DataColumn(count_access#disable):
+  dataTable: count_access
+  name: disable
+
+DataColumn(count_access#ss_target_type_master_id):
+  dataTable: count_access
+  name: ss_target_type_master_id
+
+DataColumn(count_access#ss_target_data_id):
+  dataTable: count_access
+  name: ss_target_data_id
+
+DataColumn(count_access#access_year):
+  dataTable: count_access
+  name: access_year
+
+DataColumn(count_access#access_month):
+  dataTable: count_access
+  name: access_month
+
+DataColumn(count_access#access_day):
+  dataTable: count_access
+  name: access_day
+
+DataColumn(count_access#access_hour):
+  dataTable: count_access
+  name: access_hour
+
+DataColumn(country_master#id):
+  dataTable: country_master
+  name: id
+
+DataColumn(country_master#disable):
+  dataTable: country_master
+  name: disable
+
+DataColumn(country_master#name):
+  dataTable: country_master
+  name: name
+
+DataColumn(country_master#form_ignore):
+  dataTable: country_master
+  name: form_ignore
+
+DataColumn(credit_status_master#id):
+  dataTable: credit_status_master
+  name: id
+
+DataColumn(credit_status_master#disable):
+  dataTable: credit_status_master
+  name: disable
+
+DataColumn(credit_status_master#name):
+  dataTable: credit_status_master
+  name: name
+
+DataColumn(date_type_master#id):
+  dataTable: date_type_master
+  name: id
+
+DataColumn(date_type_master#date_regist):
+  dataTable: date_type_master
+  name: date_regist
+
+DataColumn(date_type_master#date_update):
+  dataTable: date_type_master
+  name: date_update
+
+DataColumn(date_type_master#name):
+  dataTable: date_type_master
+  name: name
+
+DataColumn(discount_master#id):
+  dataTable: discount_master
+  name: id
+
+DataColumn(discount_master#discount_type_master_id):
+  dataTable: discount_master
+  name: discount_type_master_id
+
+DataColumn(discount_master#seminar_master_id):
+  dataTable: discount_master
+  name: seminar_master_id
+
+DataColumn(discount_master#discount_master_id):
+  dataTable: discount_master
+  name: discount_master_id
+
+DataColumn(discount_master#disable):
+  dataTable: discount_master
+  name: disable
+
+DataColumn(discount_master#name):
+  dataTable: discount_master
+  name: name
+
+DataColumn(discount_master#code):
+  dataTable: discount_master
+  name: code
+
+DataColumn(discount_master#threshold):
+  dataTable: discount_master
+  name: threshold
+
+DataColumn(discount_master#discount_price):
+  dataTable: discount_master
+  name: discount_price
+
+DataColumn(discount_master#discount_percent):
+  dataTable: discount_master
+  name: discount_percent
+
+DataColumn(discount_master#limit_user_num):
+  dataTable: discount_master
+  name: limit_user_num
+
+DataColumn(discount_master#uses):
+  dataTable: discount_master
+  name: uses
+
+DataColumn(discount_master#memo):
+  dataTable: discount_master
+  name: memo
+
+DataColumn(discount_master#date_regist):
+  dataTable: discount_master
+  name: date_regist
+
+DataColumn(discount_master#date_update):
+  dataTable: discount_master
+  name: date_update
+
+DataColumn(discount_master#lastupdate_user_master_id):
+  dataTable: discount_master
+  name: lastupdate_user_master_id
+
+DataColumn(discount_master#discount_price_fix):
+  dataTable: discount_master
+  name: discount_price_fix
+
+DataColumn(discount_master#date_limit):
+  dataTable: discount_master
+  name: date_limit
+
+DataColumn(discount_type_master#id):
+  dataTable: discount_type_master
+  name: id
+
+DataColumn(discount_type_master#disable):
+  dataTable: discount_type_master
+  name: disable
+
+DataColumn(discount_type_master#name):
+  dataTable: discount_type_master
+  name: name
+
+DataColumn(discount_type_master#memo):
+  dataTable: discount_type_master
+  name: memo
+
+DataColumn(document_publication_type_master#id):
+  dataTable: document_publication_type_master
+  name: id
+
+DataColumn(document_publication_type_master#disable):
+  dataTable: document_publication_type_master
+  name: disable
+
+DataColumn(document_publication_type_master#name):
+  dataTable: document_publication_type_master
+  name: name
+
+DataColumn(email_valid_master#id):
+  dataTable: email_valid_master
+  name: id
+
+DataColumn(email_valid_master#disable):
+  dataTable: email_valid_master
+  name: disable
+
+DataColumn(email_valid_master#name):
+  dataTable: email_valid_master
+  name: name
+
+DataColumn(enquete_amount_master#id):
+  dataTable: enquete_amount_master
+  name: id
+
+DataColumn(enquete_amount_master#disable):
+  dataTable: enquete_amount_master
+  name: disable
+
+DataColumn(enquete_amount_master#enquete_history_id):
+  dataTable: enquete_amount_master
+  name: enquete_history_id
+
+DataColumn(enquete_amount_master#question_item_id):
+  dataTable: enquete_amount_master
+  name: question_item_id
+
+DataColumn(enquete_amount_master#amount):
+  dataTable: enquete_amount_master
+  name: amount
+
+DataColumn(enquete_amount_master#date_regist):
+  dataTable: enquete_amount_master
+  name: date_regist
+
+DataColumn(enquete_amount_master#date_update):
+  dataTable: enquete_amount_master
+  name: date_update
+
+DataColumn(enquete_connection#id):
+  dataTable: enquete_connection
+  name: id
+
+DataColumn(enquete_connection#disable):
+  dataTable: enquete_connection
+  name: disable
+
+DataColumn(enquete_connection#enquete_template_master_id):
+  dataTable: enquete_connection
+  name: enquete_template_master_id
+
+DataColumn(enquete_connection#question_master_id):
+  dataTable: enquete_connection
+  name: question_master_id
+
+DataColumn(enquete_connection#sort_order):
+  dataTable: enquete_connection
+  name: sort_order
+
+DataColumn(enquete_connection#admin_only_flag):
+  dataTable: enquete_connection
+  name: admin_only_flag
+
+DataColumn(enquete_connection#date_regist):
+  dataTable: enquete_connection
+  name: date_regist
+
+DataColumn(enquete_connection#date_update):
+  dataTable: enquete_connection
+  name: date_update
+
+DataColumn(enquete_connection#lastupdate_user_master_id):
+  dataTable: enquete_connection
+  name: lastupdate_user_master_id
+
+DataColumn(enquete_history#id):
+  dataTable: enquete_history
+  name: id
+
+DataColumn(enquete_history#enquete_template_master_id):
+  dataTable: enquete_history
+  name: enquete_template_master_id
+
+DataColumn(enquete_history#disable):
+  dataTable: enquete_history
+  name: disable
+
+DataColumn(enquete_history#enquete_place_master_id):
+  dataTable: enquete_history
+  name: enquete_place_master_id
+
+DataColumn(enquete_history#enquete_place_data_id):
+  dataTable: enquete_history
+  name: enquete_place_data_id
+
+DataColumn(enquete_history#name):
+  dataTable: enquete_history
+  name: name
+
+DataColumn(enquete_history#memo):
+  dataTable: enquete_history
+  name: memo
+
+DataColumn(enquete_history#start_day):
+  dataTable: enquete_history
+  name: start_day
+
+DataColumn(enquete_history#end_day):
+  dataTable: enquete_history
+  name: end_day
+
+DataColumn(enquete_history#enquete_status):
+  dataTable: enquete_history
+  name: enquete_status
+
+DataColumn(enquete_history#date_regist):
+  dataTable: enquete_history
+  name: date_regist
+
+DataColumn(enquete_history#date_update):
+  dataTable: enquete_history
+  name: date_update
+
+DataColumn(enquete_history#lastupdate_user_master_id):
+  dataTable: enquete_history
+  name: lastupdate_user_master_id
+
+DataColumn(enquete_place_master#id):
+  dataTable: enquete_place_master
+  name: id
+
+DataColumn(enquete_place_master#disable):
+  dataTable: enquete_place_master
+  name: disable
+
+DataColumn(enquete_place_master#name):
+  dataTable: enquete_place_master
+  name: name
+
+DataColumn(enquete_place_master#memo):
+  dataTable: enquete_place_master
+  name: memo
+
+DataColumn(enquete_status_master#id):
+  dataTable: enquete_status_master
+  name: id
+
+DataColumn(enquete_status_master#disable):
+  dataTable: enquete_status_master
+  name: disable
+
+DataColumn(enquete_status_master#name):
+  dataTable: enquete_status_master
+  name: name
+
+DataColumn(enquete_template_master#id):
+  dataTable: enquete_template_master
+  name: id
+
+DataColumn(enquete_template_master#disable):
+  dataTable: enquete_template_master
+  name: disable
+
+DataColumn(enquete_template_master#name):
+  dataTable: enquete_template_master
+  name: name
+
+DataColumn(enquete_template_master#memo):
+  dataTable: enquete_template_master
+  name: memo
+
+DataColumn(enquete_template_master#date_regist):
+  dataTable: enquete_template_master
+  name: date_regist
+
+DataColumn(enquete_template_master#date_update):
+  dataTable: enquete_template_master
+  name: date_update
+
+DataColumn(enquete_template_master#lastupdate_user_master_id):
+  dataTable: enquete_template_master
+  name: lastupdate_user_master_id
+
+DataColumn(error_type_master#id):
+  dataTable: error_type_master
+  name: id
+
+DataColumn(error_type_master#disable):
+  dataTable: error_type_master
+  name: disable
+
+DataColumn(error_type_master#name):
+  dataTable: error_type_master
+  name: name
+
+DataColumn(error_type_master#type_name):
+  dataTable: error_type_master
+  name: type_name
+
+DataColumn(error_type_master#memo):
+  dataTable: error_type_master
+  name: memo
+
+DataColumn(external_joint_data#id):
+  dataTable: external_joint_data
+  name: id
+
+DataColumn(external_joint_data#disable):
+  dataTable: external_joint_data
+  name: disable
+
+DataColumn(external_joint_data#external_object_master_id):
+  dataTable: external_joint_data
+  name: external_object_master_id
+
+DataColumn(external_joint_data#ss_table_master_id):
+  dataTable: external_joint_data
+  name: ss_table_master_id
+
+DataColumn(external_joint_data#external_joint_status_master_id):
+  dataTable: external_joint_data
+  name: external_joint_status_master_id
+
+DataColumn(external_joint_data#external_object_data_id):
+  dataTable: external_joint_data
+  name: external_object_data_id
+
+DataColumn(external_joint_data#error_message):
+  dataTable: external_joint_data
+  name: error_message
+
+DataColumn(external_joint_data#date_regist):
+  dataTable: external_joint_data
+  name: date_regist
+
+DataColumn(external_joint_data#date_update):
+  dataTable: external_joint_data
+  name: date_update
+
+DataColumn(external_joint_data#lastupdate_user_master_id):
+  dataTable: external_joint_data
+  name: lastupdate_user_master_id
+
+DataColumn(external_joint_data#ss_table_data_id):
+  dataTable: external_joint_data
+  name: ss_table_data_id
+
+DataColumn(external_joint_status_master#id):
+  dataTable: external_joint_status_master
+  name: id
+
+DataColumn(external_joint_status_master#disable):
+  dataTable: external_joint_status_master
+  name: disable
+
+DataColumn(external_joint_status_master#name):
+  dataTable: external_joint_status_master
+  name: name
+
+DataColumn(external_object_master#id):
+  dataTable: external_object_master
+  name: id
+
+DataColumn(external_object_master#disable):
+  dataTable: external_object_master
+  name: disable
+
+DataColumn(external_object_master#external_service_master_id):
+  dataTable: external_object_master
+  name: external_service_master_id
+
+DataColumn(external_object_master#object_name):
+  dataTable: external_object_master
+  name: object_name
+
+DataColumn(external_object_master#memo):
+  dataTable: external_object_master
+  name: memo
+
+DataColumn(external_service_connection_master#id):
+  dataTable: external_service_connection_master
+  name: id
+
+DataColumn(external_service_connection_master#disable):
+  dataTable: external_service_connection_master
+  name: disable
+
+DataColumn(external_service_connection_master#external_service_master_id):
+  dataTable: external_service_connection_master
+  name: external_service_master_id
+
+DataColumn(external_service_connection_master#seminar_master_id):
+  dataTable: external_service_connection_master
+  name: seminar_master_id
+
+DataColumn(external_service_connection_master#valid_flag):
+  dataTable: external_service_connection_master
+  name: valid_flag
+
+DataColumn(external_service_connection_master#name):
+  dataTable: external_service_connection_master
+  name: name
+
+DataColumn(external_service_connection_master#login_id):
+  dataTable: external_service_connection_master
+  name: login_id
+
+DataColumn(external_service_connection_master#login_password):
+  dataTable: external_service_connection_master
+  name: login_password
+
+DataColumn(external_service_connection_master#url_1):
+  dataTable: external_service_connection_master
+  name: url_1
+
+DataColumn(external_service_connection_master#url_2):
+  dataTable: external_service_connection_master
+  name: url_2
+
+DataColumn(external_service_connection_master#url_3):
+  dataTable: external_service_connection_master
+  name: url_3
+
+DataColumn(external_service_connection_master#version):
+  dataTable: external_service_connection_master
+  name: version
+
+DataColumn(external_service_connection_master#memo):
+  dataTable: external_service_connection_master
+  name: memo
+
+DataColumn(external_service_master#id):
+  dataTable: external_service_master
+  name: id
+
+DataColumn(external_service_master#disable):
+  dataTable: external_service_master
+  name: disable
+
+DataColumn(external_service_master#valid_flag):
+  dataTable: external_service_master
+  name: valid_flag
+
+DataColumn(external_service_master#name):
+  dataTable: external_service_master
+  name: name
+
+DataColumn(external_service_master#login_id):
+  dataTable: external_service_master
+  name: login_id
+
+DataColumn(external_service_master#login_password):
+  dataTable: external_service_master
+  name: login_password
+
+DataColumn(external_service_master#url_1):
+  dataTable: external_service_master
+  name: url_1
+
+DataColumn(external_service_master#url_2):
+  dataTable: external_service_master
+  name: url_2
+
+DataColumn(external_service_master#url_3):
+  dataTable: external_service_master
+  name: url_3
+
+DataColumn(external_service_master#version):
+  dataTable: external_service_master
+  name: version
+
+DataColumn(external_service_master#memo):
+  dataTable: external_service_master
+  name: memo
+
+DataColumn(favorites_master#id):
+  dataTable: favorites_master
+  name: id
+
+DataColumn(favorites_master#disable):
+  dataTable: favorites_master
+  name: disable
+
+DataColumn(favorites_master#data_id):
+  dataTable: favorites_master
+  name: data_id
+
+DataColumn(favorites_master#ss_table_master_id):
+  dataTable: favorites_master
+  name: ss_table_master_id
+
+DataColumn(favorites_master#user_master_id):
+  dataTable: favorites_master
+  name: user_master_id
+
+DataColumn(favorites_master#date_regist):
+  dataTable: favorites_master
+  name: date_regist
+
+DataColumn(favorites_master#date_update):
+  dataTable: favorites_master
+  name: date_update
+
+DataColumn(favorites_master#lastupdate_user_master_id):
+  dataTable: favorites_master
+  name: lastupdate_user_master_id
+
+DataColumn(file#id):
+  dataTable: file
+  name: id
+
+DataColumn(file#disable):
+  dataTable: file
+  name: disable
+
+DataColumn(file#date_regist):
+  dataTable: file
+  name: date_regist
+
+DataColumn(file#date_update):
+  dataTable: file
+  name: date_update
+
+DataColumn(file#name):
+  dataTable: file
+  name: name
+
+DataColumn(file#label):
+  dataTable: file
+  name: label
+
+DataColumn(file#description):
+  dataTable: file
+  name: description
+
+DataColumn(file#size):
+  dataTable: file
+  name: size
+
+DataColumn(file#extension):
+  dataTable: file
+  name: extension
+
+DataColumn(file#body):
+  dataTable: file
+  name: body
+
+DataColumn(file#folder_id):
+  dataTable: file
+  name: folder_id
+
+DataColumn(file#file_type_master_id):
+  dataTable: file
+  name: file_type_master_id
+
+DataColumn(file#is_changed):
+  dataTable: file
+  name: is_changed
+
+DataColumn(file#revision):
+  dataTable: file
+  name: revision
+
+DataColumn(file#lastupdate_user_master_id):
+  dataTable: file
+  name: lastupdate_user_master_id
+
+DataColumn(file#real_name):
+  dataTable: file
+  name: real_name
+
+DataColumn(file#encoding):
+  dataTable: file
+  name: encoding
+
+DataColumn(form_type_master#id):
+  dataTable: form_type_master
+  name: id
+
+DataColumn(form_type_master#disable):
+  dataTable: form_type_master
+  name: disable
+
+DataColumn(form_type_master#name):
+  dataTable: form_type_master
+  name: name
+
+DataColumn(function_group#id):
+  dataTable: function_group
+  name: id
+
+DataColumn(function_group#disable):
+  dataTable: function_group
+  name: disable
+
+DataColumn(function_group#date_regist):
+  dataTable: function_group
+  name: date_regist
+
+DataColumn(function_group#date_update):
+  dataTable: function_group
+  name: date_update
+
+DataColumn(function_group#name):
+  dataTable: function_group
+  name: name
+
+DataColumn(function_group#lastupdate_user_master_id):
+  dataTable: function_group
+  name: lastupdate_user_master_id
+
+DataColumn(function_master#id):
+  dataTable: function_master
+  name: id
+
+DataColumn(function_master#disable):
+  dataTable: function_master
+  name: disable
+
+DataColumn(function_master#path):
+  dataTable: function_master
+  name: path
+
+DataColumn(function_master#function_comment):
+  dataTable: function_master
+  name: function_comment
+
+DataColumn(function_master#memo):
+  dataTable: function_master
+  name: memo
+
+DataColumn(function_master#effective_flag):
+  dataTable: function_master
+  name: effective_flag
+
+DataColumn(function_master#function_group_id):
+  dataTable: function_master
+  name: function_group_id
+
+DataColumn(function_master#operation_type_master_id):
+  dataTable: function_master
+  name: operation_type_master_id
+
+DataColumn(function_master#ignore_changelog_flag):
+  dataTable: function_master
+  name: ignore_changelog_flag
+
+DataColumn(function_master#short_name):
+  dataTable: function_master
+  name: short_name
+
+DataColumn(function_master#changedb):
+  dataTable: function_master
+  name: changedb
+
+DataColumn(function_role#id):
+  dataTable: function_role
+  name: id
+
+DataColumn(function_role#disable):
+  dataTable: function_role
+  name: disable
+
+DataColumn(function_role#function_master_id):
+  dataTable: function_role
+  name: function_master_id
+
+DataColumn(function_role#role_master_id):
+  dataTable: function_role
+  name: role_master_id
+
+DataColumn(function_role#date_regist):
+  dataTable: function_role
+  name: date_regist
+
+DataColumn(function_role#date_update):
+  dataTable: function_role
+  name: date_update
+
+DataColumn(function_role#lastupdate_user_master_id):
+  dataTable: function_role
+  name: lastupdate_user_master_id
+
+DataColumn(gmo_errcode_master#id):
+  dataTable: gmo_errcode_master
+  name: id
+
+DataColumn(gmo_errcode_master#disable):
+  dataTable: gmo_errcode_master
+  name: disable
+
+DataColumn(gmo_errcode_master#name):
+  dataTable: gmo_errcode_master
+  name: name
+
+DataColumn(gmo_errcode_master#description):
+  dataTable: gmo_errcode_master
+  name: description
+
+DataColumn(group_master#id):
+  dataTable: group_master
+  name: id
+
+DataColumn(group_master#disable):
+  dataTable: group_master
+  name: disable
+
+DataColumn(group_master#admin_only):
+  dataTable: group_master
+  name: admin_only
+
+DataColumn(group_master#name):
+  dataTable: group_master
+  name: name
+
+DataColumn(group_master#memo):
+  dataTable: group_master
+  name: memo
+
+DataColumn(group_master#date_regist):
+  dataTable: group_master
+  name: date_regist
+
+DataColumn(group_master#date_update):
+  dataTable: group_master
+  name: date_update
+
+DataColumn(group_master#lastupdate_user_master_id):
+  dataTable: group_master
+  name: lastupdate_user_master_id
+
+DataColumn(group_master#agency_mail_denial):
+  dataTable: group_master
+  name: agency_mail_denial
+
+DataColumn(group_master#agency_must_denial):
+  dataTable: group_master
+  name: agency_must_denial
+
+DataColumn(group_master#agency_full_check_denial):
+  dataTable: group_master
+  name: agency_full_check_denial
+
+DataColumn(header_footer#id):
+  dataTable: header_footer
+  name: id
+
+DataColumn(header_footer#disable):
+  dataTable: header_footer
+  name: disable
+
+DataColumn(header_footer#common_title):
+  dataTable: header_footer
+  name: common_title
+
+DataColumn(header_footer#js_css):
+  dataTable: header_footer
+  name: js_css
+
+DataColumn(header_footer#header_html):
+  dataTable: header_footer
+  name: header_html
+
+DataColumn(header_footer#footer_html):
+  dataTable: header_footer
+  name: footer_html
+
+DataColumn(header_footer#commited_flag):
+  dataTable: header_footer
+  name: commited_flag
+
+DataColumn(header_footer#date_regist):
+  dataTable: header_footer
+  name: date_regist
+
+DataColumn(header_footer#date_update):
+  dataTable: header_footer
+  name: date_update
+
+DataColumn(header_footer#lastupdate_user_master_id):
+  dataTable: header_footer
+  name: lastupdate_user_master_id
+
+DataColumn(header_footer#theme):
+  dataTable: header_footer
+  name: theme
+
+DataColumn(hour_master#id):
+  dataTable: hour_master
+  name: id
+
+DataColumn(hour_master#disable):
+  dataTable: hour_master
+  name: disable
+
+DataColumn(hour_master#name):
+  dataTable: hour_master
+  name: name
+
+DataColumn(id_rule#id):
+  dataTable: id_rule
+  name: id
+
+DataColumn(id_rule#disable):
+  dataTable: id_rule
+  name: disable
+
+DataColumn(id_rule#all_seminar_flag):
+  dataTable: id_rule
+  name: all_seminar_flag
+
+DataColumn(id_rule#id_rule_type_master_id):
+  dataTable: id_rule
+  name: id_rule_type_master_id
+
+DataColumn(id_rule#name):
+  dataTable: id_rule
+  name: name
+
+DataColumn(id_rule#format):
+  dataTable: id_rule
+  name: format
+
+DataColumn(id_rule#start_number):
+  dataTable: id_rule
+  name: start_number
+
+DataColumn(id_rule#ignore_free):
+  dataTable: id_rule
+  name: ignore_free
+
+DataColumn(id_rule#ignore_cancel):
+  dataTable: id_rule
+  name: ignore_cancel
+
+DataColumn(id_rule#memo):
+  dataTable: id_rule
+  name: memo
+
+DataColumn(id_rule#date_regist):
+  dataTable: id_rule
+  name: date_regist
+
+DataColumn(id_rule#date_update):
+  dataTable: id_rule
+  name: date_update
+
+DataColumn(id_rule#lastupdate_user_master_id):
+  dataTable: id_rule
+  name: lastupdate_user_master_id
+
+DataColumn(id_rule#ignore_deleted_users):
+  dataTable: id_rule
+  name: ignore_deleted_users
+
+DataColumn(id_rule#seminar_master_id):
+  dataTable: id_rule
+  name: seminar_master_id
+
+DataColumn(id_rule_type_master#id):
+  dataTable: id_rule_type_master
+  name: id
+
+DataColumn(id_rule_type_master#disable):
+  dataTable: id_rule_type_master
+  name: disable
+
+DataColumn(id_rule_type_master#name):
+  dataTable: id_rule_type_master
+  name: name
+
+DataColumn(inspection_type_master#id):
+  dataTable: inspection_type_master
+  name: id
+
+DataColumn(inspection_type_master#disable):
+  dataTable: inspection_type_master
+  name: disable
+
+DataColumn(inspection_type_master#name):
+  dataTable: inspection_type_master
+  name: name
+
+DataColumn(internal_service_master#id):
+  dataTable: internal_service_master
+  name: id
+
+DataColumn(internal_service_master#disable):
+  dataTable: internal_service_master
+  name: disable
+
+DataColumn(internal_service_master#name):
+  dataTable: internal_service_master
+  name: name
+
+DataColumn(internal_service_menu_category#id):
+  dataTable: internal_service_menu_category
+  name: id
+
+DataColumn(internal_service_menu_category#disable):
+  dataTable: internal_service_menu_category
+  name: disable
+
+DataColumn(internal_service_menu_category#name):
+  dataTable: internal_service_menu_category
+  name: name
+
+DataColumn(language_master#id):
+  dataTable: language_master
+  name: id
+
+DataColumn(language_master#disable):
+  dataTable: language_master
+  name: disable
+
+DataColumn(language_master#name):
+  dataTable: language_master
+  name: name
+
+DataColumn(language_master#label):
+  dataTable: language_master
+  name: label
+
+DataColumn(mail_category_master#id):
+  dataTable: mail_category_master
+  name: id
+
+DataColumn(mail_category_master#disable):
+  dataTable: mail_category_master
+  name: disable
+
+DataColumn(mail_category_master#name):
+  dataTable: mail_category_master
+  name: name
+
+DataColumn(mail_category_master#memo):
+  dataTable: mail_category_master
+  name: memo
+
+DataColumn(mail_history#id):
+  dataTable: mail_history
+  name: id
+
+DataColumn(mail_history#disable):
+  dataTable: mail_history
+  name: disable
+
+DataColumn(mail_history#mail_template_master_id):
+  dataTable: mail_history
+  name: mail_template_master_id
+
+DataColumn(mail_history#sender_address):
+  dataTable: mail_history
+  name: sender_address
+
+DataColumn(mail_history#destination_visitor_data_id):
+  dataTable: mail_history
+  name: destination_visitor_data_id
+
+DataColumn(mail_history#destination_address):
+  dataTable: mail_history
+  name: destination_address
+
+DataColumn(mail_history#title):
+  dataTable: mail_history
+  name: title
+
+DataColumn(mail_history#body):
+  dataTable: mail_history
+  name: body
+
+DataColumn(mail_history#date_regist):
+  dataTable: mail_history
+  name: date_regist
+
+DataColumn(mail_history#lastupdate_user_master_id):
+  dataTable: mail_history
+  name: lastupdate_user_master_id
+
+DataColumn(mail_history#mail_reserved_id):
+  dataTable: mail_history
+  name: mail_reserved_id
+
+DataColumn(mail_history#send_error):
+  dataTable: mail_history
+  name: send_error
+
+DataColumn(mail_history#error_code):
+  dataTable: mail_history
+  name: error_code
+
+DataColumn(mail_history#destination_cc_address):
+  dataTable: mail_history
+  name: destination_cc_address
+
+DataColumn(mail_history#destination_bcc_address):
+  dataTable: mail_history
+  name: destination_bcc_address
+
+DataColumn(mail_history#body_file_id):
+  dataTable: mail_history
+  name: body_file_id
+
+DataColumn(mail_history#normalized_destination_address):
+  dataTable: mail_history
+  name: normalized_destination_address
+
+DataColumn(mail_history#sender_name):
+  dataTable: mail_history
+  name: sender_name
+
+DataColumn(mail_history#reply_to):
+  dataTable: mail_history
+  name: reply_to
+
+DataColumn(mail_history#return_path):
+  dataTable: mail_history
+  name: return_path
+
+DataColumn(mail_history#charset_master_id):
+  dataTable: mail_history
+  name: charset_master_id
+
+DataColumn(mail_kind_master#id):
+  dataTable: mail_kind_master
+  name: id
+
+DataColumn(mail_kind_master#disable):
+  dataTable: mail_kind_master
+  name: disable
+
+DataColumn(mail_kind_master#name):
+  dataTable: mail_kind_master
+  name: name
+
+DataColumn(mail_kind_master#memo):
+  dataTable: mail_kind_master
+  name: memo
+
+DataColumn(mail_parameter_attachment#id):
+  dataTable: mail_parameter_attachment
+  name: id
+
+DataColumn(mail_parameter_attachment#disable):
+  dataTable: mail_parameter_attachment
+  name: disable
+
+DataColumn(mail_parameter_attachment#mail_category_master_id):
+  dataTable: mail_parameter_attachment
+  name: mail_category_master_id
+
+DataColumn(mail_parameter_attachment#mail_parameter_master_id):
+  dataTable: mail_parameter_attachment
+  name: mail_parameter_master_id
+
+DataColumn(mail_parameter_master#id):
+  dataTable: mail_parameter_master
+  name: id
+
+DataColumn(mail_parameter_master#disable):
+  dataTable: mail_parameter_master
+  name: disable
+
+DataColumn(mail_parameter_master#param_type):
+  dataTable: mail_parameter_master
+  name: param_type
+
+DataColumn(mail_parameter_master#name):
+  dataTable: mail_parameter_master
+  name: name
+
+DataColumn(mail_parameter_master#memo):
+  dataTable: mail_parameter_master
+  name: memo
+
+DataColumn(mail_reserved#id):
+  dataTable: mail_reserved
+  name: id
+
+DataColumn(mail_reserved#disable):
+  dataTable: mail_reserved
+  name: disable
+
+DataColumn(mail_reserved#mail_template_master_id):
+  dataTable: mail_reserved
+  name: mail_template_master_id
+
+DataColumn(mail_reserved#reservation_mail_type_id):
+  dataTable: mail_reserved
+  name: reservation_mail_type_id
+
+DataColumn(mail_reserved#preserve_search_condition_id):
+  dataTable: mail_reserved
+  name: preserve_search_condition_id
+
+DataColumn(mail_reserved#send_ids):
+  dataTable: mail_reserved
+  name: send_ids
+
+DataColumn(mail_reserved#finished):
+  dataTable: mail_reserved
+  name: finished
+
+DataColumn(mail_reserved#date_reserved):
+  dataTable: mail_reserved
+  name: date_reserved
+
+DataColumn(mail_reserved#date_regist):
+  dataTable: mail_reserved
+  name: date_regist
+
+DataColumn(mail_reserved#date_update):
+  dataTable: mail_reserved
+  name: date_update
+
+DataColumn(mail_reserved#lastupdate_user_master_id):
+  dataTable: mail_reserved
+  name: lastupdate_user_master_id
+
+DataColumn(mail_reserved#permission_type_master_id):
+  dataTable: mail_reserved
+  name: permission_type_master_id
+
+DataColumn(mail_reserved#resend_flag):
+  dataTable: mail_reserved
+  name: resend_flag
+
+DataColumn(mail_reserved#task_id):
+  dataTable: mail_reserved
+  name: task_id
+
+DataColumn(mail_reserved#remind_me):
+  dataTable: mail_reserved
+  name: remind_me
+
+DataColumn(mail_reserved#remind_task_id):
+  dataTable: mail_reserved
+  name: remind_task_id
+
+DataColumn(mail_reserved#send_sql):
+  dataTable: mail_reserved
+  name: send_sql
+
+DataColumn(mail_reserved#seminar_master_id):
+  dataTable: mail_reserved
+  name: seminar_master_id
+
+DataColumn(mail_reserved#start_date):
+  dataTable: mail_reserved
+  name: start_date
+
+DataColumn(mail_reserved#end_date):
+  dataTable: mail_reserved
+  name: end_date
+
+DataColumn(mail_reserved#notify_task_completed):
+  dataTable: mail_reserved
+  name: notify_task_completed
+
+DataColumn(mail_reserved#mail_template_history_id):
+  dataTable: mail_reserved
+  name: mail_template_history_id
+
+DataColumn(mail_reserved#clickcount_urls):
+  dataTable: mail_reserved
+  name: clickcount_urls
+
+DataColumn(mail_reserved#record_body):
+  dataTable: mail_reserved
+  name: record_body
+
+DataColumn(mail_reserved#step_mail):
+  dataTable: mail_reserved
+  name: step_mail
+
+DataColumn(mail_reserved#parent_id):
+  dataTable: mail_reserved
+  name: parent_id
+
+DataColumn(mail_reserved#use_openrate):
+  dataTable: mail_reserved
+  name: use_openrate
+
+DataColumn(mail_returned#id):
+  dataTable: mail_returned
+  name: id
+
+DataColumn(mail_returned#disable):
+  dataTable: mail_returned
+  name: disable
+
+DataColumn(mail_returned#mail_history_id):
+  dataTable: mail_returned
+  name: mail_history_id
+
+DataColumn(mail_returned#address):
+  dataTable: mail_returned
+  name: address
+
+DataColumn(mail_returned#title):
+  dataTable: mail_returned
+  name: title
+
+DataColumn(mail_returned#body):
+  dataTable: mail_returned
+  name: body
+
+DataColumn(mail_returned#resended_flag):
+  dataTable: mail_returned
+  name: resended_flag
+
+DataColumn(mail_returned#date_regist):
+  dataTable: mail_returned
+  name: date_regist
+
+DataColumn(mail_returned#lastupdate_user_master_id):
+  dataTable: mail_returned
+  name: lastupdate_user_master_id
+
+DataColumn(mail_returned#date_update):
+  dataTable: mail_returned
+  name: date_update
+
+DataColumn(mail_template_master#id):
+  dataTable: mail_template_master
+  name: id
+
+DataColumn(mail_template_master#mail_kind_master_id):
+  dataTable: mail_template_master
+  name: mail_kind_master_id
+
+DataColumn(mail_template_master#mail_category_master_id):
+  dataTable: mail_template_master
+  name: mail_category_master_id
+
+DataColumn(mail_template_master#disable):
+  dataTable: mail_template_master
+  name: disable
+
+DataColumn(mail_template_master#mail_type_master_id):
+  dataTable: mail_template_master
+  name: mail_type_master_id
+
+DataColumn(mail_template_master#title):
+  dataTable: mail_template_master
+  name: title
+
+DataColumn(mail_template_master#body):
+  dataTable: mail_template_master
+  name: body
+
+DataColumn(mail_template_master#file_master_id):
+  dataTable: mail_template_master
+  name: file_master_id
+
+DataColumn(mail_template_master#mail_from):
+  dataTable: mail_template_master
+  name: mail_from
+
+DataColumn(mail_template_master#cc):
+  dataTable: mail_template_master
+  name: cc
+
+DataColumn(mail_template_master#bcc):
+  dataTable: mail_template_master
+  name: bcc
+
+DataColumn(mail_template_master#reply_to):
+  dataTable: mail_template_master
+  name: reply_to
+
+DataColumn(mail_template_master#date_regist):
+  dataTable: mail_template_master
+  name: date_regist
+
+DataColumn(mail_template_master#date_update):
+  dataTable: mail_template_master
+  name: date_update
+
+DataColumn(mail_template_master#lastupdate_user_master_id):
+  dataTable: mail_template_master
+  name: lastupdate_user_master_id
+
+DataColumn(mail_template_master#seminar_master_id):
+  dataTable: mail_template_master
+  name: seminar_master_id
+
+DataColumn(mail_template_master#stop_auto_send):
+  dataTable: mail_template_master
+  name: stop_auto_send
+
+DataColumn(mail_template_master#sender_name):
+  dataTable: mail_template_master
+  name: sender_name
+
+DataColumn(mail_template_master#return_path):
+  dataTable: mail_template_master
+  name: return_path
+
+DataColumn(mail_template_master#visible):
+  dataTable: mail_template_master
+  name: visible
+
+DataColumn(mail_template_master#mail_to):
+  dataTable: mail_template_master
+  name: mail_to
+
+DataColumn(mail_template_master#charset_master_id):
+  dataTable: mail_template_master
+  name: charset_master_id
+
+DataColumn(mail_type_master#id):
+  dataTable: mail_type_master
+  name: id
+
+DataColumn(mail_type_master#disable):
+  dataTable: mail_type_master
+  name: disable
+
+DataColumn(mail_type_master#name):
+  dataTable: mail_type_master
+  name: name
+
+DataColumn(mail_type_master#memo):
+  dataTable: mail_type_master
+  name: memo
+
+DataColumn(membership_master#id):
+  dataTable: membership_master
+  name: id
+
+DataColumn(membership_master#disable):
+  dataTable: membership_master
+  name: disable
+
+DataColumn(membership_master#name):
+  dataTable: membership_master
+  name: name
+
+DataColumn(message_category#id):
+  dataTable: message_category
+  name: id
+
+DataColumn(message_category#disable):
+  dataTable: message_category
+  name: disable
+
+DataColumn(message_category#name):
+  dataTable: message_category
+  name: name
+
+DataColumn(message_category#visible):
+  dataTable: message_category
+  name: visible
+
+DataColumn(minutes_master#id):
+  dataTable: minutes_master
+  name: id
+
+DataColumn(minutes_master#disable):
+  dataTable: minutes_master
+  name: disable
+
+DataColumn(minutes_master#name):
+  dataTable: minutes_master
+  name: name
+
+DataColumn(news_master#id):
+  dataTable: news_master
+  name: id
+
+DataColumn(news_master#disable):
+  dataTable: news_master
+  name: disable
+
+DataColumn(news_master#is_open_flag):
+  dataTable: news_master
+  name: is_open_flag
+
+DataColumn(news_master#title):
+  dataTable: news_master
+  name: title
+
+DataColumn(news_master#body):
+  dataTable: news_master
+  name: body
+
+DataColumn(news_master#start_day_display):
+  dataTable: news_master
+  name: start_day_display
+
+DataColumn(news_master#start_day_public):
+  dataTable: news_master
+  name: start_day_public
+
+DataColumn(news_master#date_regist):
+  dataTable: news_master
+  name: date_regist
+
+DataColumn(news_master#date_update):
+  dataTable: news_master
+  name: date_update
+
+DataColumn(news_master#lastupdate_user_master_id):
+  dataTable: news_master
+  name: lastupdate_user_master_id
+
+DataColumn(operation_type_master#id):
+  dataTable: operation_type_master
+  name: id
+
+DataColumn(operation_type_master#disable):
+  dataTable: operation_type_master
+  name: disable
+
+DataColumn(operation_type_master#name):
+  dataTable: operation_type_master
+  name: name
+
+DataColumn(operation_type_master#memo):
+  dataTable: operation_type_master
+  name: memo
+
+DataColumn(order_row_master#id):
+  dataTable: order_row_master
+  name: id
+
+DataColumn(order_row_master#disable):
+  dataTable: order_row_master
+  name: disable
+
+DataColumn(order_row_master#name):
+  dataTable: order_row_master
+  name: name
+
+DataColumn(order_row_master#memo):
+  dataTable: order_row_master
+  name: memo
+
+DataColumn(package_price_type_master#id):
+  dataTable: package_price_type_master
+  name: id
+
+DataColumn(package_price_type_master#disable):
+  dataTable: package_price_type_master
+  name: disable
+
+DataColumn(package_price_type_master#name):
+  dataTable: package_price_type_master
+  name: name
+
+DataColumn(package_price_type_master#table_name):
+  dataTable: package_price_type_master
+  name: table_name
+
+DataColumn(package_price_type_master#memo):
+  dataTable: package_price_type_master
+  name: memo
+
+DataColumn(payment_confirm_flag_master#id):
+  dataTable: payment_confirm_flag_master
+  name: id
+
+DataColumn(payment_confirm_flag_master#disable):
+  dataTable: payment_confirm_flag_master
+  name: disable
+
+DataColumn(payment_confirm_flag_master#name):
+  dataTable: payment_confirm_flag_master
+  name: name
+
+DataColumn(payment_confirm_flag_master#sortorder):
+  dataTable: payment_confirm_flag_master
+  name: sortorder
+
+DataColumn(payment_flag_master#id):
+  dataTable: payment_flag_master
+  name: id
+
+DataColumn(payment_flag_master#disable):
+  dataTable: payment_flag_master
+  name: disable
+
+DataColumn(payment_flag_master#name):
+  dataTable: payment_flag_master
+  name: name
+
+DataColumn(payment_type_master#id):
+  dataTable: payment_type_master
+  name: id
+
+DataColumn(payment_type_master#disable):
+  dataTable: payment_type_master
+  name: disable
+
+DataColumn(payment_type_master#name):
+  dataTable: payment_type_master
+  name: name
+
+DataColumn(payment_type_master#memo):
+  dataTable: payment_type_master
+  name: memo
+
+DataColumn(payment_type_master#name_en):
+  dataTable: payment_type_master
+  name: name_en
+
+DataColumn(payment_type_master#sortorder):
+  dataTable: payment_type_master
+  name: sortorder
+
+DataColumn(permission#id):
+  dataTable: permission
+  name: id
+
+DataColumn(permission#disable):
+  dataTable: permission
+  name: disable
+
+DataColumn(permission#group_master_id):
+  dataTable: permission
+  name: group_master_id
+
+DataColumn(permission#role_master_id):
+  dataTable: permission
+  name: role_master_id
+
+DataColumn(permission#date_regist):
+  dataTable: permission
+  name: date_regist
+
+DataColumn(permission#date_update):
+  dataTable: permission
+  name: date_update
+
+DataColumn(permission#lastupdate_user_master_id):
+  dataTable: permission
+  name: lastupdate_user_master_id
+
+DataColumn(permission_type_master#id):
+  dataTable: permission_type_master
+  name: id
+
+DataColumn(permission_type_master#disable):
+  dataTable: permission_type_master
+  name: disable
+
+DataColumn(permission_type_master#name):
+  dataTable: permission_type_master
+  name: name
+
+DataColumn(prefecture_master#id):
+  dataTable: prefecture_master
+  name: id
+
+DataColumn(prefecture_master#disable):
+  dataTable: prefecture_master
+  name: disable
+
+DataColumn(prefecture_master#name):
+  dataTable: prefecture_master
+  name: name
+
+DataColumn(prefecture_master#form_ignore):
+  dataTable: prefecture_master
+  name: form_ignore
+
+DataColumn(preserve_search_column#id):
+  dataTable: preserve_search_column
+  name: id
+
+DataColumn(preserve_search_column#disable):
+  dataTable: preserve_search_column
+  name: disable
+
+DataColumn(preserve_search_column#user_master_id):
+  dataTable: preserve_search_column
+  name: user_master_id
+
+DataColumn(preserve_search_column#seminar_master_id):
+  dataTable: preserve_search_column
+  name: seminar_master_id
+
+DataColumn(preserve_search_column#function_master_id):
+  dataTable: preserve_search_column
+  name: function_master_id
+
+DataColumn(preserve_search_column#column_name):
+  dataTable: preserve_search_column
+  name: column_name
+
+DataColumn(preserve_search_column#sortorder):
+  dataTable: preserve_search_column
+  name: sortorder
+
+DataColumn(preserve_search_column#date_regist):
+  dataTable: preserve_search_column
+  name: date_regist
+
+DataColumn(preserve_search_column#date_update):
+  dataTable: preserve_search_column
+  name: date_update
+
+DataColumn(preserve_search_column#lastupdate_user_master_id):
+  dataTable: preserve_search_column
+  name: lastupdate_user_master_id
+
+DataColumn(preserve_search_column#group_master_id):
+  dataTable: preserve_search_column
+  name: group_master_id
+
+DataColumn(preserve_search_column#publication_type):
+  dataTable: preserve_search_column
+  name: publication_type
+
+DataColumn(preserve_search_column#seminar_common):
+  dataTable: preserve_search_column
+  name: seminar_common
+
+DataColumn(preserve_search_column#action):
+  dataTable: preserve_search_column
+  name: action
+
+DataColumn(preserve_search_condition#id):
+  dataTable: preserve_search_condition
+  name: id
+
+DataColumn(preserve_search_condition#disable):
+  dataTable: preserve_search_condition
+  name: disable
+
+DataColumn(preserve_search_condition#user_master_id):
+  dataTable: preserve_search_condition
+  name: user_master_id
+
+DataColumn(preserve_search_condition#function_master_id):
+  dataTable: preserve_search_condition
+  name: function_master_id
+
+DataColumn(preserve_search_condition#query_data):
+  dataTable: preserve_search_condition
+  name: query_data
+
+DataColumn(preserve_search_condition#name):
+  dataTable: preserve_search_condition
+  name: name
+
+DataColumn(preserve_search_condition#sortorder):
+  dataTable: preserve_search_condition
+  name: sortorder
+
+DataColumn(preserve_search_condition#memo):
+  dataTable: preserve_search_condition
+  name: memo
+
+DataColumn(preserve_search_condition#date_regist):
+  dataTable: preserve_search_condition
+  name: date_regist
+
+DataColumn(preserve_search_condition#date_update):
+  dataTable: preserve_search_condition
+  name: date_update
+
+DataColumn(preserve_search_condition#lastupdate_user_master_id):
+  dataTable: preserve_search_condition
+  name: lastupdate_user_master_id
+
+DataColumn(preserve_search_condition#seminar_master_id):
+  dataTable: preserve_search_condition
+  name: seminar_master_id
+
+DataColumn(preserve_search_condition#temporary):
+  dataTable: preserve_search_condition
+  name: temporary
+
+DataColumn(preserve_search_condition#search_target_master_id):
+  dataTable: preserve_search_condition
+  name: search_target_master_id
+
+DataColumn(price_type_master#id):
+  dataTable: price_type_master
+  name: id
+
+DataColumn(price_type_master#disable):
+  dataTable: price_type_master
+  name: disable
+
+DataColumn(price_type_master#name):
+  dataTable: price_type_master
+  name: name
+
+DataColumn(price_type_master#memo):
+  dataTable: price_type_master
+  name: memo
+
+DataColumn(public_document_target#id):
+  dataTable: public_document_target
+  name: id
+
+DataColumn(public_document_target#disable):
+  dataTable: public_document_target
+  name: disable
+
+DataColumn(public_document_target#file_master_id):
+  dataTable: public_document_target
+  name: file_master_id
+
+DataColumn(public_document_target#ss_target_type_master_id):
+  dataTable: public_document_target
+  name: ss_target_type_master_id
+
+DataColumn(public_document_target#ss_data_id):
+  dataTable: public_document_target
+  name: ss_data_id
+
+DataColumn(public_document_target#download_flag):
+  dataTable: public_document_target
+  name: download_flag
+
+DataColumn(public_document_target#date_regist):
+  dataTable: public_document_target
+  name: date_regist
+
+DataColumn(public_document_target#date_update):
+  dataTable: public_document_target
+  name: date_update
+
+DataColumn(public_document_target#lastupdate_user_master_id):
+  dataTable: public_document_target
+  name: lastupdate_user_master_id
+
+DataColumn(public_document_target#name):
+  dataTable: public_document_target
+  name: name
+
+DataColumn(public_document_target#summary):
+  dataTable: public_document_target
+  name: summary
+
+DataColumn(public_document_target#start_day):
+  dataTable: public_document_target
+  name: start_day
+
+DataColumn(public_document_target#end_day):
+  dataTable: public_document_target
+  name: end_day
+
+DataColumn(public_document_target#counter):
+  dataTable: public_document_target
+  name: counter
+
+DataColumn(public_document_target#sort_order):
+  dataTable: public_document_target
+  name: sort_order
+
+DataColumn(public_document_target#document_category_master_id):
+  dataTable: public_document_target
+  name: document_category_master_id
+
+DataColumn(public_document_target#uploaded_url):
+  dataTable: public_document_target
+  name: uploaded_url
+
+DataColumn(publication_type_master#id):
+  dataTable: publication_type_master
+  name: id
+
+DataColumn(publication_type_master#disable):
+  dataTable: publication_type_master
+  name: disable
+
+DataColumn(publication_type_master#name):
+  dataTable: publication_type_master
+  name: name
+
+DataColumn(question_data#id):
+  dataTable: question_data
+  name: id
+
+DataColumn(question_data#disable):
+  dataTable: question_data
+  name: disable
+
+DataColumn(question_data#user_master_id):
+  dataTable: question_data
+  name: user_master_id
+
+DataColumn(question_data#question_item_id):
+  dataTable: question_data
+  name: question_item_id
+
+DataColumn(question_data#enquete_history_id):
+  dataTable: question_data
+  name: enquete_history_id
+
+DataColumn(question_data#reply):
+  dataTable: question_data
+  name: reply
+
+DataColumn(question_data#date_regist):
+  dataTable: question_data
+  name: date_regist
+
+DataColumn(question_data#lastupdate_user_master_id):
+  dataTable: question_data
+  name: lastupdate_user_master_id
+
+DataColumn(question_data#ss_table_master_id):
+  dataTable: question_data
+  name: ss_table_master_id
+
+DataColumn(question_data#ss_table_data_id):
+  dataTable: question_data
+  name: ss_table_data_id
+
+DataColumn(question_item#id):
+  dataTable: question_item
+  name: id
+
+DataColumn(question_item#disable):
+  dataTable: question_item
+  name: disable
+
+DataColumn(question_item#question_master_id):
+  dataTable: question_item
+  name: question_master_id
+
+DataColumn(question_item#name):
+  dataTable: question_item
+  name: name
+
+DataColumn(question_item#date_regist):
+  dataTable: question_item
+  name: date_regist
+
+DataColumn(question_item#date_update):
+  dataTable: question_item
+  name: date_update
+
+DataColumn(question_item#lastupdate_user_master_id):
+  dataTable: question_item
+  name: lastupdate_user_master_id
+
+DataColumn(question_item#sort_order):
+  dataTable: question_item
+  name: sort_order
+
+DataColumn(question_master#id):
+  dataTable: question_master
+  name: id
+
+DataColumn(question_master#disable):
+  dataTable: question_master
+  name: disable
+
+DataColumn(question_master#name):
+  dataTable: question_master
+  name: name
+
+DataColumn(question_master#admin_only_flag):
+  dataTable: question_master
+  name: admin_only_flag
+
+DataColumn(question_master#date_regist):
+  dataTable: question_master
+  name: date_regist
+
+DataColumn(question_master#date_update):
+  dataTable: question_master
+  name: date_update
+
+DataColumn(question_master#lastupdate_user_master_id):
+  dataTable: question_master
+  name: lastupdate_user_master_id
+
+DataColumn(question_master#comment_on_form):
+  dataTable: question_master
+  name: comment_on_form
+
+DataColumn(question_master#comment_under_form):
+  dataTable: question_master
+  name: comment_under_form
+
+DataColumn(question_master#memo):
+  dataTable: question_master
+  name: memo
+
+DataColumn(question_master#form_type_master_id):
+  dataTable: question_master
+  name: form_type_master_id
+
+DataColumn(question_master#extend):
+  dataTable: question_master
+  name: extend
+
+DataColumn(question_master#sort_order):
+  dataTable: question_master
+  name: sort_order
+
+DataColumn(question_master#comment_left_form):
+  dataTable: question_master
+  name: comment_left_form
+
+DataColumn(question_master#comment_right_form):
+  dataTable: question_master
+  name: comment_right_form
+
+DataColumn(registration_type_master#id):
+  dataTable: registration_type_master
+  name: id
+
+DataColumn(registration_type_master#disable):
+  dataTable: registration_type_master
+  name: disable
+
+DataColumn(registration_type_master#name):
+  dataTable: registration_type_master
+  name: name
+
+DataColumn(reservation_mail_contents#id):
+  dataTable: reservation_mail_contents
+  name: id
+
+DataColumn(reservation_mail_contents#disable):
+  dataTable: reservation_mail_contents
+  name: disable
+
+DataColumn(reservation_mail_contents#mail_reserved_id):
+  dataTable: reservation_mail_contents
+  name: mail_reserved_id
+
+DataColumn(reservation_mail_contents#reservation_mail_type_data):
+  dataTable: reservation_mail_contents
+  name: reservation_mail_type_data
+
+DataColumn(reservation_mail_contents#date_regist):
+  dataTable: reservation_mail_contents
+  name: date_regist
+
+DataColumn(reservation_mail_contents#date_update):
+  dataTable: reservation_mail_contents
+  name: date_update
+
+DataColumn(reservation_mail_contents#lastupdate_user_master_id):
+  dataTable: reservation_mail_contents
+  name: lastupdate_user_master_id
+
+DataColumn(reservation_mail_type#id):
+  dataTable: reservation_mail_type
+  name: id
+
+DataColumn(reservation_mail_type#disable):
+  dataTable: reservation_mail_type
+  name: disable
+
+DataColumn(reservation_mail_type#name):
+  dataTable: reservation_mail_type
+  name: name
+
+DataColumn(reservation_mail_type#memo):
+  dataTable: reservation_mail_type
+  name: memo
+
+DataColumn(role_master#id):
+  dataTable: role_master
+  name: id
+
+DataColumn(role_master#disable):
+  dataTable: role_master
+  name: disable
+
+DataColumn(role_master#name):
+  dataTable: role_master
+  name: name
+
+DataColumn(role_master#role_comment):
+  dataTable: role_master
+  name: role_comment
+
+DataColumn(role_master#memo):
+  dataTable: role_master
+  name: memo
+
+DataColumn(role_master#date_regist):
+  dataTable: role_master
+  name: date_regist
+
+DataColumn(role_master#date_update):
+  dataTable: role_master
+  name: date_update
+
+DataColumn(role_master#lastupdate_user_master_id):
+  dataTable: role_master
+  name: lastupdate_user_master_id
+
+DataColumn(role_master#read_only):
+  dataTable: role_master
+  name: read_only
+
+DataColumn(role_template_master#id):
+  dataTable: role_template_master
+  name: id
+
+DataColumn(role_template_master#disable):
+  dataTable: role_template_master
+  name: disable
+
+DataColumn(role_template_master#date_regist):
+  dataTable: role_template_master
+  name: date_regist
+
+DataColumn(role_template_master#date_update):
+  dataTable: role_template_master
+  name: date_update
+
+DataColumn(role_template_master#name):
+  dataTable: role_template_master
+  name: name
+
+DataColumn(search_target_master#id):
+  dataTable: search_target_master
+  name: id
+
+DataColumn(search_target_master#disable):
+  dataTable: search_target_master
+  name: disable
+
+DataColumn(search_target_master#name):
+  dataTable: search_target_master
+  name: name
+
+DataColumn(secret_question_master#id):
+  dataTable: secret_question_master
+  name: id
+
+DataColumn(secret_question_master#disable):
+  dataTable: secret_question_master
+  name: disable
+
+DataColumn(secret_question_master#name):
+  dataTable: secret_question_master
+  name: name
+
+DataColumn(seminar_attribute_data#id):
+  dataTable: seminar_attribute_data
+  name: id
+
+DataColumn(seminar_attribute_data#disable):
+  dataTable: seminar_attribute_data
+  name: disable
+
+DataColumn(seminar_attribute_data#seminar_master_id):
+  dataTable: seminar_attribute_data
+  name: seminar_master_id
+
+DataColumn(seminar_attribute_data#seminar_attribute_item_id):
+  dataTable: seminar_attribute_data
+  name: seminar_attribute_item_id
+
+DataColumn(seminar_attribute_data#reply):
+  dataTable: seminar_attribute_data
+  name: reply
+
+DataColumn(seminar_attribute_data#date_regist):
+  dataTable: seminar_attribute_data
+  name: date_regist
+
+DataColumn(seminar_attribute_data#date_update):
+  dataTable: seminar_attribute_data
+  name: date_update
+
+DataColumn(seminar_attribute_data#lastupdate_user_master_id):
+  dataTable: seminar_attribute_data
+  name: lastupdate_user_master_id
+
+DataColumn(seminar_attribute_data#ss_table_master_id):
+  dataTable: seminar_attribute_data
+  name: ss_table_master_id
+
+DataColumn(seminar_attribute_data#ss_table_data_id):
+  dataTable: seminar_attribute_data
+  name: ss_table_data_id
+
+DataColumn(seminar_attribute_item#id):
+  dataTable: seminar_attribute_item
+  name: id
+
+DataColumn(seminar_attribute_item#disable):
+  dataTable: seminar_attribute_item
+  name: disable
+
+DataColumn(seminar_attribute_item#seminar_attribute_master_id):
+  dataTable: seminar_attribute_item
+  name: seminar_attribute_master_id
+
+DataColumn(seminar_attribute_item#name):
+  dataTable: seminar_attribute_item
+  name: name
+
+DataColumn(seminar_attribute_item#date_regist):
+  dataTable: seminar_attribute_item
+  name: date_regist
+
+DataColumn(seminar_attribute_item#date_update):
+  dataTable: seminar_attribute_item
+  name: date_update
+
+DataColumn(seminar_attribute_item#lastupdate_user_master_id):
+  dataTable: seminar_attribute_item
+  name: lastupdate_user_master_id
+
+DataColumn(seminar_attribute_item#sort_order):
+  dataTable: seminar_attribute_item
+  name: sort_order
+
+DataColumn(seminar_attribute_master#id):
+  dataTable: seminar_attribute_master
+  name: id
+
+DataColumn(seminar_attribute_master#disable):
+  dataTable: seminar_attribute_master
+  name: disable
+
+DataColumn(seminar_attribute_master#name):
+  dataTable: seminar_attribute_master
+  name: name
+
+DataColumn(seminar_attribute_master#admin_only_flag):
+  dataTable: seminar_attribute_master
+  name: admin_only_flag
+
+DataColumn(seminar_attribute_master#date_regist):
+  dataTable: seminar_attribute_master
+  name: date_regist
+
+DataColumn(seminar_attribute_master#date_update):
+  dataTable: seminar_attribute_master
+  name: date_update
+
+DataColumn(seminar_attribute_master#lastupdate_user_master_id):
+  dataTable: seminar_attribute_master
+  name: lastupdate_user_master_id
+
+DataColumn(seminar_attribute_master#comment_on_form):
+  dataTable: seminar_attribute_master
+  name: comment_on_form
+
+DataColumn(seminar_attribute_master#comment_under_form):
+  dataTable: seminar_attribute_master
+  name: comment_under_form
+
+DataColumn(seminar_attribute_master#memo):
+  dataTable: seminar_attribute_master
+  name: memo
+
+DataColumn(seminar_attribute_master#form_type_master_id):
+  dataTable: seminar_attribute_master
+  name: form_type_master_id
+
+DataColumn(seminar_attribute_master#extend):
+  dataTable: seminar_attribute_master
+  name: extend
+
+DataColumn(seminar_attribute_master#sort_order):
+  dataTable: seminar_attribute_master
+  name: sort_order
+
+DataColumn(seminar_attribute_master#comment_left_form):
+  dataTable: seminar_attribute_master
+  name: comment_left_form
+
+DataColumn(seminar_attribute_master#comment_right_form):
+  dataTable: seminar_attribute_master
+  name: comment_right_form
+
+DataColumn(seminar_category_master#id):
+  dataTable: seminar_category_master
+  name: id
+
+DataColumn(seminar_category_master#disable):
+  dataTable: seminar_category_master
+  name: disable
+
+DataColumn(seminar_category_master#name):
+  dataTable: seminar_category_master
+  name: name
+
+DataColumn(seminar_category_master#memo):
+  dataTable: seminar_category_master
+  name: memo
+
+DataColumn(seminar_category_master#date_regist):
+  dataTable: seminar_category_master
+  name: date_regist
+
+DataColumn(seminar_category_master#date_update):
+  dataTable: seminar_category_master
+  name: date_update
+
+DataColumn(seminar_category_master#lastupdate_user_master_id):
+  dataTable: seminar_category_master
+  name: lastupdate_user_master_id
+
+DataColumn(seminar_category_master#file_master_id1):
+  dataTable: seminar_category_master
+  name: file_master_id1
+
+DataColumn(seminar_category_master#file_master_id2):
+  dataTable: seminar_category_master
+  name: file_master_id2
+
+DataColumn(seminar_category_master#file_master_id3):
+  dataTable: seminar_category_master
+  name: file_master_id3
+
+DataColumn(seminar_master#id):
+  dataTable: seminar_master
+  name: id
+
+DataColumn(seminar_master#ss_target_type_master_id):
+  dataTable: seminar_master
+  name: ss_target_type_master_id
+
+DataColumn(seminar_master#disable):
+  dataTable: seminar_master
+  name: disable
+
+DataColumn(seminar_master#language_master_id):
+  dataTable: seminar_master
+  name: language_master_id
+
+DataColumn(seminar_master#seminar_category_master_id):
+  dataTable: seminar_master
+  name: seminar_category_master_id
+
+DataColumn(seminar_master#seminar_status_master_id):
+  dataTable: seminar_master
+  name: seminar_status_master_id
+
+DataColumn(seminar_master#price_type_master_id):
+  dataTable: seminar_master
+  name: price_type_master_id
+
+DataColumn(seminar_master#title):
+  dataTable: seminar_master
+  name: title
+
+DataColumn(seminar_master#sub_title):
+  dataTable: seminar_master
+  name: sub_title
+
+DataColumn(seminar_master#summary):
+  dataTable: seminar_master
+  name: summary
+
+DataColumn(seminar_master#detail):
+  dataTable: seminar_master
+  name: detail
+
+DataColumn(seminar_master#notes):
+  dataTable: seminar_master
+  name: notes
+
+DataColumn(seminar_master#target_user):
+  dataTable: seminar_master
+  name: target_user
+
+DataColumn(seminar_master#sponsor):
+  dataTable: seminar_master
+  name: sponsor
+
+DataColumn(seminar_master#co_sponsor):
+  dataTable: seminar_master
+  name: co_sponsor
+
+DataColumn(seminar_master#support):
+  dataTable: seminar_master
+  name: support
+
+DataColumn(seminar_master#news_body):
+  dataTable: seminar_master
+  name: news_body
+
+DataColumn(seminar_master#memo):
+  dataTable: seminar_master
+  name: memo
+
+DataColumn(seminar_master#start_day):
+  dataTable: seminar_master
+  name: start_day
+
+DataColumn(seminar_master#end_day):
+  dataTable: seminar_master
+  name: end_day
+
+DataColumn(seminar_master#start_day_display):
+  dataTable: seminar_master
+  name: start_day_display
+
+DataColumn(seminar_master#end_day_display):
+  dataTable: seminar_master
+  name: end_day_display
+
+DataColumn(seminar_master#application_start_day):
+  dataTable: seminar_master
+  name: application_start_day
+
+DataColumn(seminar_master#application_end_day):
+  dataTable: seminar_master
+  name: application_end_day
+
+DataColumn(seminar_master#application_start_day_display):
+  dataTable: seminar_master
+  name: application_start_day_display
+
+DataColumn(seminar_master#application_end_day_display):
+  dataTable: seminar_master
+  name: application_end_day_display
+
+DataColumn(seminar_master#limit_user_num):
+  dataTable: seminar_master
+  name: limit_user_num
+
+DataColumn(seminar_master#limit_user_num_display):
+  dataTable: seminar_master
+  name: limit_user_num_display
+
+DataColumn(seminar_master#hall_name):
+  dataTable: seminar_master
+  name: hall_name
+
+DataColumn(seminar_master#hall_zipcode):
+  dataTable: seminar_master
+  name: hall_zipcode
+
+DataColumn(seminar_master#prefecture_master_id):
+  dataTable: seminar_master
+  name: prefecture_master_id
+
+DataColumn(seminar_master#hall_address):
+  dataTable: seminar_master
+  name: hall_address
+
+DataColumn(seminar_master#hall_tel):
+  dataTable: seminar_master
+  name: hall_tel
+
+DataColumn(seminar_master#hall_note):
+  dataTable: seminar_master
+  name: hall_note
+
+DataColumn(seminar_master#hall_map_url):
+  dataTable: seminar_master
+  name: hall_map_url
+
+DataColumn(seminar_master#reference_name):
+  dataTable: seminar_master
+  name: reference_name
+
+DataColumn(seminar_master#reference_person_in_charge):
+  dataTable: seminar_master
+  name: reference_person_in_charge
+
+DataColumn(seminar_master#reference_email):
+  dataTable: seminar_master
+  name: reference_email
+
+DataColumn(seminar_master#reference_tel):
+  dataTable: seminar_master
+  name: reference_tel
+
+DataColumn(seminar_master#reference_fax):
+  dataTable: seminar_master
+  name: reference_fax
+
+DataColumn(seminar_master#reference_note):
+  dataTable: seminar_master
+  name: reference_note
+
+DataColumn(seminar_master#status_changed_date):
+  dataTable: seminar_master
+  name: status_changed_date
+
+DataColumn(seminar_master#date_regist):
+  dataTable: seminar_master
+  name: date_regist
+
+DataColumn(seminar_master#date_update):
+  dataTable: seminar_master
+  name: date_update
+
+DataColumn(seminar_master#lastupdate_user_master_id):
+  dataTable: seminar_master
+  name: lastupdate_user_master_id
+
+DataColumn(seminar_master#use_session_flag):
+  dataTable: seminar_master
+  name: use_session_flag
+
+DataColumn(seminar_master#detail_file_master_id):
+  dataTable: seminar_master
+  name: detail_file_master_id
+
+DataColumn(seminar_master#hole_file_master_id):
+  dataTable: seminar_master
+  name: hole_file_master_id
+
+DataColumn(seminar_master#header_file_master_id):
+  dataTable: seminar_master
+  name: header_file_master_id
+
+DataColumn(seminar_master#reference_address):
+  dataTable: seminar_master
+  name: reference_address
+
+DataColumn(seminar_master#portal_publication_type_master_id):
+  dataTable: seminar_master
+  name: portal_publication_type_master_id
+
+DataColumn(seminar_master#seminar_publication_type_master_id):
+  dataTable: seminar_master
+  name: seminar_publication_type_master_id
+
+DataColumn(seminar_master#flow_publication_type_master_id):
+  dataTable: seminar_master
+  name: flow_publication_type_master_id
+
+DataColumn(seminar_master#preserve_search_condition_id):
+  dataTable: seminar_master
+  name: preserve_search_condition_id
+
+DataColumn(seminar_master#cost):
+  dataTable: seminar_master
+  name: cost
+
+DataColumn(seminar_master#target_cost_per_person):
+  dataTable: seminar_master
+  name: target_cost_per_person
+
+DataColumn(seminar_master#custom_portal_publication_type_master_id):
+  dataTable: seminar_master
+  name: custom_portal_publication_type_master_id
+
+DataColumn(seminar_master#custom_seminar_publication_type_master_id):
+  dataTable: seminar_master
+  name: custom_seminar_publication_type_master_id
+
+DataColumn(seminar_master#custom_flow_publication_type_master_id):
+  dataTable: seminar_master
+  name: custom_flow_publication_type_master_id
+
+DataColumn(seminar_price_detail#id):
+  dataTable: seminar_price_detail
+  name: id
+
+DataColumn(seminar_price_detail#disable):
+  dataTable: seminar_price_detail
+  name: disable
+
+DataColumn(seminar_price_detail#seminar_master_id):
+  dataTable: seminar_price_detail
+  name: seminar_master_id
+
+DataColumn(seminar_price_detail#price_type_data):
+  dataTable: seminar_price_detail
+  name: price_type_data
+
+DataColumn(seminar_price_detail#price):
+  dataTable: seminar_price_detail
+  name: price
+
+DataColumn(seminar_price_detail#date_regist):
+  dataTable: seminar_price_detail
+  name: date_regist
+
+DataColumn(seminar_price_detail#date_update):
+  dataTable: seminar_price_detail
+  name: date_update
+
+DataColumn(seminar_price_detail#lastupdate_user_master_id):
+  dataTable: seminar_price_detail
+  name: lastupdate_user_master_id
+
+DataColumn(seminar_price_detail#ss_target_type_master_id):
+  dataTable: seminar_price_detail
+  name: ss_target_type_master_id
+
+DataColumn(seminar_price_detail#price_display):
+  dataTable: seminar_price_detail
+  name: price_display
+
+DataColumn(seminar_price_detail_log#id):
+  dataTable: seminar_price_detail_log
+  name: id
+
+DataColumn(seminar_price_detail_log#disable):
+  dataTable: seminar_price_detail_log
+  name: disable
+
+DataColumn(seminar_price_detail_log#seminar_master_id):
+  dataTable: seminar_price_detail_log
+  name: seminar_master_id
+
+DataColumn(seminar_price_detail_log#price_type_data):
+  dataTable: seminar_price_detail_log
+  name: price_type_data
+
+DataColumn(seminar_price_detail_log#ss_target_type_master_id):
+  dataTable: seminar_price_detail_log
+  name: ss_target_type_master_id
+
+DataColumn(seminar_price_detail_log#price):
+  dataTable: seminar_price_detail_log
+  name: price
+
+DataColumn(seminar_price_detail_log#date_regist):
+  dataTable: seminar_price_detail_log
+  name: date_regist
+
+DataColumn(seminar_price_detail_log#date_update):
+  dataTable: seminar_price_detail_log
+  name: date_update
+
+DataColumn(seminar_price_detail_log#lastupdate_user_master_id):
+  dataTable: seminar_price_detail_log
+  name: lastupdate_user_master_id
+
+DataColumn(seminar_setting_category_master#id):
+  dataTable: seminar_setting_category_master
+  name: id
+
+DataColumn(seminar_setting_category_master#disable):
+  dataTable: seminar_setting_category_master
+  name: disable
+
+DataColumn(seminar_setting_category_master#name):
+  dataTable: seminar_setting_category_master
+  name: name
+
+DataColumn(seminar_setting_master#id):
+  dataTable: seminar_setting_master
+  name: id
+
+DataColumn(seminar_setting_master#disable):
+  dataTable: seminar_setting_master
+  name: disable
+
+DataColumn(seminar_setting_master#name):
+  dataTable: seminar_setting_master
+  name: name
+
+DataColumn(seminar_setting_master#memo):
+  dataTable: seminar_setting_master
+  name: memo
+
+DataColumn(seminar_setting_master#seminar_setting_category_master_id):
+  dataTable: seminar_setting_master
+  name: seminar_setting_category_master_id
+
+DataColumn(seminar_status_master#id):
+  dataTable: seminar_status_master
+  name: id
+
+DataColumn(seminar_status_master#disable):
+  dataTable: seminar_status_master
+  name: disable
+
+DataColumn(seminar_status_master#name):
+  dataTable: seminar_status_master
+  name: name
+
+DataColumn(seminar_template#id):
+  dataTable: seminar_template
+  name: id
+
+DataColumn(seminar_template#seminar_master_id):
+  dataTable: seminar_template
+  name: seminar_master_id
+
+DataColumn(seminar_template#file_master_id):
+  dataTable: seminar_template
+  name: file_master_id
+
+DataColumn(seminar_template#disable):
+  dataTable: seminar_template
+  name: disable
+
+DataColumn(seminar_template#date_regist):
+  dataTable: seminar_template
+  name: date_regist
+
+DataColumn(seminar_template#date_update):
+  dataTable: seminar_template
+  name: date_update
+
+DataColumn(seminar_template#lastupdate_user_master_id):
+  dataTable: seminar_template
+  name: lastupdate_user_master_id
+
+DataColumn(seminar_template#filelist):
+  dataTable: seminar_template
+  name: filelist
+
+DataColumn(session_attribute_data#id):
+  dataTable: session_attribute_data
+  name: id
+
+DataColumn(session_attribute_data#disable):
+  dataTable: session_attribute_data
+  name: disable
+
+DataColumn(session_attribute_data#session_master_id):
+  dataTable: session_attribute_data
+  name: session_master_id
+
+DataColumn(session_attribute_data#session_attribute_item_id):
+  dataTable: session_attribute_data
+  name: session_attribute_item_id
+
+DataColumn(session_attribute_data#reply):
+  dataTable: session_attribute_data
+  name: reply
+
+DataColumn(session_attribute_data#date_regist):
+  dataTable: session_attribute_data
+  name: date_regist
+
+DataColumn(session_attribute_data#date_update):
+  dataTable: session_attribute_data
+  name: date_update
+
+DataColumn(session_attribute_data#lastupdate_user_master_id):
+  dataTable: session_attribute_data
+  name: lastupdate_user_master_id
+
+DataColumn(session_attribute_data#ss_table_master_id):
+  dataTable: session_attribute_data
+  name: ss_table_master_id
+
+DataColumn(session_attribute_data#ss_table_data_id):
+  dataTable: session_attribute_data
+  name: ss_table_data_id
+
+DataColumn(session_attribute_item#id):
+  dataTable: session_attribute_item
+  name: id
+
+DataColumn(session_attribute_item#disable):
+  dataTable: session_attribute_item
+  name: disable
+
+DataColumn(session_attribute_item#session_attribute_master_id):
+  dataTable: session_attribute_item
+  name: session_attribute_master_id
+
+DataColumn(session_attribute_item#name):
+  dataTable: session_attribute_item
+  name: name
+
+DataColumn(session_attribute_item#date_regist):
+  dataTable: session_attribute_item
+  name: date_regist
+
+DataColumn(session_attribute_item#date_update):
+  dataTable: session_attribute_item
+  name: date_update
+
+DataColumn(session_attribute_item#lastupdate_user_master_id):
+  dataTable: session_attribute_item
+  name: lastupdate_user_master_id
+
+DataColumn(session_attribute_item#sort_order):
+  dataTable: session_attribute_item
+  name: sort_order
+
+DataColumn(session_attribute_master#id):
+  dataTable: session_attribute_master
+  name: id
+
+DataColumn(session_attribute_master#disable):
+  dataTable: session_attribute_master
+  name: disable
+
+DataColumn(session_attribute_master#name):
+  dataTable: session_attribute_master
+  name: name
+
+DataColumn(session_attribute_master#admin_only_flag):
+  dataTable: session_attribute_master
+  name: admin_only_flag
+
+DataColumn(session_attribute_master#date_regist):
+  dataTable: session_attribute_master
+  name: date_regist
+
+DataColumn(session_attribute_master#date_update):
+  dataTable: session_attribute_master
+  name: date_update
+
+DataColumn(session_attribute_master#lastupdate_user_master_id):
+  dataTable: session_attribute_master
+  name: lastupdate_user_master_id
+
+DataColumn(session_attribute_master#comment_on_form):
+  dataTable: session_attribute_master
+  name: comment_on_form
+
+DataColumn(session_attribute_master#comment_under_form):
+  dataTable: session_attribute_master
+  name: comment_under_form
+
+DataColumn(session_attribute_master#memo):
+  dataTable: session_attribute_master
+  name: memo
+
+DataColumn(session_attribute_master#form_type_master_id):
+  dataTable: session_attribute_master
+  name: form_type_master_id
+
+DataColumn(session_attribute_master#extend):
+  dataTable: session_attribute_master
+  name: extend
+
+DataColumn(session_attribute_master#sort_order):
+  dataTable: session_attribute_master
+  name: sort_order
+
+DataColumn(session_attribute_master#comment_left_form):
+  dataTable: session_attribute_master
+  name: comment_left_form
+
+DataColumn(session_attribute_master#comment_right_form):
+  dataTable: session_attribute_master
+  name: comment_right_form
+
+DataColumn(session_category_master#id):
+  dataTable: session_category_master
+  name: id
+
+DataColumn(session_category_master#disable):
+  dataTable: session_category_master
+  name: disable
+
+DataColumn(session_category_master#name):
+  dataTable: session_category_master
+  name: name
+
+DataColumn(session_category_master#memo):
+  dataTable: session_category_master
+  name: memo
+
+DataColumn(session_category_master#date_regist):
+  dataTable: session_category_master
+  name: date_regist
+
+DataColumn(session_category_master#date_update):
+  dataTable: session_category_master
+  name: date_update
+
+DataColumn(session_category_master#lastupdate_user_master_id):
+  dataTable: session_category_master
+  name: lastupdate_user_master_id
+
+DataColumn(session_category_master#file_master_id1):
+  dataTable: session_category_master
+  name: file_master_id1
+
+DataColumn(session_category_master#file_master_id2):
+  dataTable: session_category_master
+  name: file_master_id2
+
+DataColumn(session_category_master#file_master_id3):
+  dataTable: session_category_master
+  name: file_master_id3
+
+DataColumn(session_master#id):
+  dataTable: session_master
+  name: id
+
+DataColumn(session_master#disable):
+  dataTable: session_master
+  name: disable
+
+DataColumn(session_master#ss_target_type_master_id):
+  dataTable: session_master
+  name: ss_target_type_master_id
+
+DataColumn(session_master#seminar_master_id):
+  dataTable: session_master
+  name: seminar_master_id
+
+DataColumn(session_master#code):
+  dataTable: session_master
+  name: code
+
+DataColumn(session_master#title):
+  dataTable: session_master
+  name: title
+
+DataColumn(session_master#sub_title):
+  dataTable: session_master
+  name: sub_title
+
+DataColumn(session_master#summary):
+  dataTable: session_master
+  name: summary
+
+DataColumn(session_master#detail):
+  dataTable: session_master
+  name: detail
+
+DataColumn(session_master#target_user):
+  dataTable: session_master
+  name: target_user
+
+DataColumn(session_master#notes):
+  dataTable: session_master
+  name: notes
+
+DataColumn(session_master#timetable_notes):
+  dataTable: session_master
+  name: timetable_notes
+
+DataColumn(session_master#news_body):
+  dataTable: session_master
+  name: news_body
+
+DataColumn(session_master#memo):
+  dataTable: session_master
+  name: memo
+
+DataColumn(session_master#start_day):
+  dataTable: session_master
+  name: start_day
+
+DataColumn(session_master#end_day):
+  dataTable: session_master
+  name: end_day
+
+DataColumn(session_master#start_day_display):
+  dataTable: session_master
+  name: start_day_display
+
+DataColumn(session_master#end_day_display):
+  dataTable: session_master
+  name: end_day_display
+
+DataColumn(session_master#application_start_day):
+  dataTable: session_master
+  name: application_start_day
+
+DataColumn(session_master#application_end_day):
+  dataTable: session_master
+  name: application_end_day
+
+DataColumn(session_master#application_start_day_display):
+  dataTable: session_master
+  name: application_start_day_display
+
+DataColumn(session_master#application_end_day_display):
+  dataTable: session_master
+  name: application_end_day_display
+
+DataColumn(session_master#limit_user_num):
+  dataTable: session_master
+  name: limit_user_num
+
+DataColumn(session_master#limit_user_num_display):
+  dataTable: session_master
+  name: limit_user_num_display
+
+DataColumn(session_master#hall_name):
+  dataTable: session_master
+  name: hall_name
+
+DataColumn(session_master#hall_zipcode):
+  dataTable: session_master
+  name: hall_zipcode
+
+DataColumn(session_master#hall_address):
+  dataTable: session_master
+  name: hall_address
+
+DataColumn(session_master#hall_tel):
+  dataTable: session_master
+  name: hall_tel
+
+DataColumn(session_master#hall_map_url):
+  dataTable: session_master
+  name: hall_map_url
+
+DataColumn(session_master#hall_note):
+  dataTable: session_master
+  name: hall_note
+
+DataColumn(session_master#reference_name):
+  dataTable: session_master
+  name: reference_name
+
+DataColumn(session_master#reference_person_in_charge):
+  dataTable: session_master
+  name: reference_person_in_charge
+
+DataColumn(session_master#reference_email):
+  dataTable: session_master
+  name: reference_email
+
+DataColumn(session_master#reference_tel):
+  dataTable: session_master
+  name: reference_tel
+
+DataColumn(session_master#reference_fax):
+  dataTable: session_master
+  name: reference_fax
+
+DataColumn(session_master#reference_note):
+  dataTable: session_master
+  name: reference_note
+
+DataColumn(session_master#date_regist):
+  dataTable: session_master
+  name: date_regist
+
+DataColumn(session_master#date_update):
+  dataTable: session_master
+  name: date_update
+
+DataColumn(session_master#lastupdate_user_master_id):
+  dataTable: session_master
+  name: lastupdate_user_master_id
+
+DataColumn(session_master#session_category_master_id):
+  dataTable: session_master
+  name: session_category_master_id
+
+DataColumn(session_master#hole_file_master_id):
+  dataTable: session_master
+  name: hole_file_master_id
+
+DataColumn(session_master#payment_flag_master_id):
+  dataTable: session_master
+  name: payment_flag_master_id
+
+DataColumn(session_master#reference_address):
+  dataTable: session_master
+  name: reference_address
+
+DataColumn(session_package_type#id):
+  dataTable: session_package_type
+  name: id
+
+DataColumn(session_package_type#disable):
+  dataTable: session_package_type
+  name: disable
+
+DataColumn(session_package_type#name):
+  dataTable: session_package_type
+  name: name
+
+DataColumn(sfdc_sync_flag_master#id):
+  dataTable: sfdc_sync_flag_master
+  name: id
+
+DataColumn(sfdc_sync_flag_master#disable):
+  dataTable: sfdc_sync_flag_master
+  name: disable
+
+DataColumn(sfdc_sync_flag_master#name):
+  dataTable: sfdc_sync_flag_master
+  name: name
+
+DataColumn(sfdc_sync_flag_master#sortorder):
+  dataTable: sfdc_sync_flag_master
+  name: sortorder
+
+DataColumn(speaker_assign_attachment#id):
+  dataTable: speaker_assign_attachment
+  name: id
+
+DataColumn(speaker_assign_attachment#disable):
+  dataTable: speaker_assign_attachment
+  name: disable
+
+DataColumn(speaker_assign_attachment#ss_target_type_master_id):
+  dataTable: speaker_assign_attachment
+  name: ss_target_type_master_id
+
+DataColumn(speaker_assign_attachment#assign_data_id):
+  dataTable: speaker_assign_attachment
+  name: assign_data_id
+
+DataColumn(speaker_assign_attachment#date_regist):
+  dataTable: speaker_assign_attachment
+  name: date_regist
+
+DataColumn(speaker_assign_attachment#date_update):
+  dataTable: speaker_assign_attachment
+  name: date_update
+
+DataColumn(speaker_assign_attachment#lastupdate_user_master_id):
+  dataTable: speaker_assign_attachment
+  name: lastupdate_user_master_id
+
+DataColumn(speaker_assign_attachment#speaker_data_id):
+  dataTable: speaker_assign_attachment
+  name: speaker_data_id
+
+DataColumn(speaker_assign_attachment#speaker_role_master_id):
+  dataTable: speaker_assign_attachment
+  name: speaker_role_master_id
+
+DataColumn(speaker_assign_attachment#sort_order):
+  dataTable: speaker_assign_attachment
+  name: sort_order
+
+DataColumn(speaker_data#id):
+  dataTable: speaker_data
+  name: id
+
+DataColumn(speaker_data#disable):
+  dataTable: speaker_data
+  name: disable
+
+DataColumn(speaker_data#name1):
+  dataTable: speaker_data
+  name: name1
+
+DataColumn(speaker_data#name2):
+  dataTable: speaker_data
+  name: name2
+
+DataColumn(speaker_data#name3):
+  dataTable: speaker_data
+  name: name3
+
+DataColumn(speaker_data#name1_ka):
+  dataTable: speaker_data
+  name: name1_ka
+
+DataColumn(speaker_data#name2_ka):
+  dataTable: speaker_data
+  name: name2_ka
+
+DataColumn(speaker_data#file_master_id):
+  dataTable: speaker_data
+  name: file_master_id
+
+DataColumn(speaker_data#date_regist):
+  dataTable: speaker_data
+  name: date_regist
+
+DataColumn(speaker_data#date_update):
+  dataTable: speaker_data
+  name: date_update
+
+DataColumn(speaker_data#lastupdate_user_master_id):
+  dataTable: speaker_data
+  name: lastupdate_user_master_id
+
+DataColumn(speaker_data#company_name):
+  dataTable: speaker_data
+  name: company_name
+
+DataColumn(speaker_data#company_name_ka):
+  dataTable: speaker_data
+  name: company_name_ka
+
+DataColumn(speaker_data#division):
+  dataTable: speaker_data
+  name: division
+
+DataColumn(speaker_data#position):
+  dataTable: speaker_data
+  name: position
+
+DataColumn(speaker_data#zip1):
+  dataTable: speaker_data
+  name: zip1
+
+DataColumn(speaker_data#zip2):
+  dataTable: speaker_data
+  name: zip2
+
+DataColumn(speaker_data#zip3):
+  dataTable: speaker_data
+  name: zip3
+
+DataColumn(speaker_data#country_master_id):
+  dataTable: speaker_data
+  name: country_master_id
+
+DataColumn(speaker_data#prefecture_master_id):
+  dataTable: speaker_data
+  name: prefecture_master_id
+
+DataColumn(speaker_data#address1):
+  dataTable: speaker_data
+  name: address1
+
+DataColumn(speaker_data#address2):
+  dataTable: speaker_data
+  name: address2
+
+DataColumn(speaker_data#address3):
+  dataTable: speaker_data
+  name: address3
+
+DataColumn(speaker_data#address4):
+  dataTable: speaker_data
+  name: address4
+
+DataColumn(speaker_data#address5):
+  dataTable: speaker_data
+  name: address5
+
+DataColumn(speaker_data#tel):
+  dataTable: speaker_data
+  name: tel
+
+DataColumn(speaker_data#fax):
+  dataTable: speaker_data
+  name: fax
+
+DataColumn(speaker_data#email):
+  dataTable: speaker_data
+  name: email
+
+DataColumn(speaker_data#sub_email):
+  dataTable: speaker_data
+  name: sub_email
+
+DataColumn(speaker_data#emergency):
+  dataTable: speaker_data
+  name: emergency
+
+DataColumn(speaker_data#personal_history):
+  dataTable: speaker_data
+  name: personal_history
+
+DataColumn(speaker_data#speaker_profile_data):
+  dataTable: speaker_data
+  name: speaker_profile_data
+
+DataColumn(speaker_data#use_speaker_site):
+  dataTable: speaker_data
+  name: use_speaker_site
+
+DataColumn(speaker_data#normalized_email):
+  dataTable: speaker_data
+  name: normalized_email
+
+DataColumn(speaker_data#normalized_sub_email):
+  dataTable: speaker_data
+  name: normalized_sub_email
+
+DataColumn(speaker_profile#id):
+  dataTable: speaker_profile
+  name: id
+
+DataColumn(speaker_profile#speaker_data_id):
+  dataTable: speaker_profile
+  name: speaker_data_id
+
+DataColumn(speaker_profile#name):
+  dataTable: speaker_profile
+  name: name
+
+DataColumn(speaker_profile#prefecture_master_id):
+  dataTable: speaker_profile
+  name: prefecture_master_id
+
+DataColumn(speaker_profile#disable):
+  dataTable: speaker_profile
+  name: disable
+
+DataColumn(speaker_profile#attached):
+  dataTable: speaker_profile
+  name: attached
+
+DataColumn(speaker_profile#division):
+  dataTable: speaker_profile
+  name: division
+
+DataColumn(speaker_profile#position):
+  dataTable: speaker_profile
+  name: position
+
+DataColumn(speaker_profile#zip1):
+  dataTable: speaker_profile
+  name: zip1
+
+DataColumn(speaker_profile#zip2):
+  dataTable: speaker_profile
+  name: zip2
+
+DataColumn(speaker_profile#zip3):
+  dataTable: speaker_profile
+  name: zip3
+
+DataColumn(speaker_profile#address1):
+  dataTable: speaker_profile
+  name: address1
+
+DataColumn(speaker_profile#address2):
+  dataTable: speaker_profile
+  name: address2
+
+DataColumn(speaker_profile#address3):
+  dataTable: speaker_profile
+  name: address3
+
+DataColumn(speaker_profile#address4):
+  dataTable: speaker_profile
+  name: address4
+
+DataColumn(speaker_profile#address5):
+  dataTable: speaker_profile
+  name: address5
+
+DataColumn(speaker_profile#tel):
+  dataTable: speaker_profile
+  name: tel
+
+DataColumn(speaker_profile#fax):
+  dataTable: speaker_profile
+  name: fax
+
+DataColumn(speaker_profile#email):
+  dataTable: speaker_profile
+  name: email
+
+DataColumn(speaker_profile#sub_email):
+  dataTable: speaker_profile
+  name: sub_email
+
+DataColumn(speaker_profile#personal_history):
+  dataTable: speaker_profile
+  name: personal_history
+
+DataColumn(speaker_profile#speaker_profile_data):
+  dataTable: speaker_profile
+  name: speaker_profile_data
+
+DataColumn(speaker_profile#date_regist):
+  dataTable: speaker_profile
+  name: date_regist
+
+DataColumn(speaker_profile#date_update):
+  dataTable: speaker_profile
+  name: date_update
+
+DataColumn(speaker_profile#lastupdate_user_master_id):
+  dataTable: speaker_profile
+  name: lastupdate_user_master_id
+
+DataColumn(ss_attendance#id):
+  dataTable: ss_attendance
+  name: id
+
+DataColumn(ss_attendance#disable):
+  dataTable: ss_attendance
+  name: disable
+
+DataColumn(ss_attendance#attendance_id):
+  dataTable: ss_attendance
+  name: attendance_id
+
+DataColumn(ss_attendance#ss_target_type_master_id):
+  dataTable: ss_attendance
+  name: ss_target_type_master_id
+
+DataColumn(ss_attendance#ss_target_data_id):
+  dataTable: ss_attendance
+  name: ss_target_data_id
+
+DataColumn(ss_attendance#date_regist):
+  dataTable: ss_attendance
+  name: date_regist
+
+DataColumn(ss_attendance#date_update):
+  dataTable: ss_attendance
+  name: date_update
+
+DataColumn(ss_attendance#lastupdate_user_master_id):
+  dataTable: ss_attendance
+  name: lastupdate_user_master_id
+
+DataColumn(ss_attendance_dependence_type_master#id):
+  dataTable: ss_attendance_dependence_type_master
+  name: id
+
+DataColumn(ss_attendance_dependence_type_master#disable):
+  dataTable: ss_attendance_dependence_type_master
+  name: disable
+
+DataColumn(ss_attendance_dependence_type_master#name):
+  dataTable: ss_attendance_dependence_type_master
+  name: name
+
+DataColumn(ss_table_master#id):
+  dataTable: ss_table_master
+  name: id
+
+DataColumn(ss_table_master#disable):
+  dataTable: ss_table_master
+  name: disable
+
+DataColumn(ss_table_master#name):
+  dataTable: ss_table_master
+  name: name
+
+DataColumn(ss_table_master#title):
+  dataTable: ss_table_master
+  name: title
+
+DataColumn(ss_table_master#class_name):
+  dataTable: ss_table_master
+  name: class_name
+
+DataColumn(ss_table_master#memo):
+  dataTable: ss_table_master
+  name: memo
+
+DataColumn(ss_table_master#is_external_service):
+  dataTable: ss_table_master
+  name: is_external_service
+
+DataColumn(ss_target_type_master#id):
+  dataTable: ss_target_type_master
+  name: id
+
+DataColumn(ss_target_type_master#disable):
+  dataTable: ss_target_type_master
+  name: disable
+
+DataColumn(ss_target_type_master#name):
+  dataTable: ss_target_type_master
+  name: name
+
+DataColumn(system_setting_data#id):
+  dataTable: system_setting_data
+  name: id
+
+DataColumn(system_setting_data#disable):
+  dataTable: system_setting_data
+  name: disable
+
+DataColumn(system_setting_data#system_setting_master_id):
+  dataTable: system_setting_data
+  name: system_setting_master_id
+
+DataColumn(system_setting_data#value):
+  dataTable: system_setting_data
+  name: value
+
+DataColumn(system_setting_data#date_regist):
+  dataTable: system_setting_data
+  name: date_regist
+
+DataColumn(system_setting_data#date_update):
+  dataTable: system_setting_data
+  name: date_update
+
+DataColumn(system_setting_data#lastupdate_user_master_id):
+  dataTable: system_setting_data
+  name: lastupdate_user_master_id
+
+DataColumn(system_setting_data#seminar_master_id):
+  dataTable: system_setting_data
+  name: seminar_master_id
+
+DataColumn(system_setting_master#id):
+  dataTable: system_setting_master
+  name: id
+
+DataColumn(system_setting_master#disable):
+  dataTable: system_setting_master
+  name: disable
+
+DataColumn(system_setting_master#name):
+  dataTable: system_setting_master
+  name: name
+
+DataColumn(system_setting_master#admin_only_flag):
+  dataTable: system_setting_master
+  name: admin_only_flag
+
+DataColumn(system_setting_master#sortorder):
+  dataTable: system_setting_master
+  name: sortorder
+
+DataColumn(system_setting_master#memo):
+  dataTable: system_setting_master
+  name: memo
+
+DataColumn(system_setting_master#system_setting_type_master_id):
+  dataTable: system_setting_master
+  name: system_setting_type_master_id
+
+DataColumn(system_setting_permission#id):
+  dataTable: system_setting_permission
+  name: id
+
+DataColumn(system_setting_permission#disable):
+  dataTable: system_setting_permission
+  name: disable
+
+DataColumn(system_setting_permission#function_master_id):
+  dataTable: system_setting_permission
+  name: function_master_id
+
+DataColumn(system_setting_permission#date_regist):
+  dataTable: system_setting_permission
+  name: date_regist
+
+DataColumn(system_setting_permission#date_update):
+  dataTable: system_setting_permission
+  name: date_update
+
+DataColumn(system_setting_type_master#id):
+  dataTable: system_setting_type_master
+  name: id
+
+DataColumn(system_setting_type_master#disable):
+  dataTable: system_setting_type_master
+  name: disable
+
+DataColumn(system_setting_type_master#name):
+  dataTable: system_setting_type_master
+  name: name
+
+DataColumn(system_template#id):
+  dataTable: system_template
+  name: id
+
+DataColumn(system_template#file_master_id):
+  dataTable: system_template
+  name: file_master_id
+
+DataColumn(system_template#disable):
+  dataTable: system_template
+  name: disable
+
+DataColumn(system_template#date_regist):
+  dataTable: system_template
+  name: date_regist
+
+DataColumn(system_template#date_update):
+  dataTable: system_template
+  name: date_update
+
+DataColumn(system_template#lastupdate_user_master_id):
+  dataTable: system_template
+  name: lastupdate_user_master_id
+
+DataColumn(system_template#filelist):
+  dataTable: system_template
+  name: filelist
+
+DataColumn(topics_master#id):
+  dataTable: topics_master
+  name: id
+
+DataColumn(topics_master#disable):
+  dataTable: topics_master
+  name: disable
+
+DataColumn(topics_master#is_open_flag):
+  dataTable: topics_master
+  name: is_open_flag
+
+DataColumn(topics_master#title):
+  dataTable: topics_master
+  name: title
+
+DataColumn(topics_master#body):
+  dataTable: topics_master
+  name: body
+
+DataColumn(topics_master#start_day_display):
+  dataTable: topics_master
+  name: start_day_display
+
+DataColumn(topics_master#start_day_public):
+  dataTable: topics_master
+  name: start_day_public
+
+DataColumn(topics_master#date_regist):
+  dataTable: topics_master
+  name: date_regist
+
+DataColumn(topics_master#date_update):
+  dataTable: topics_master
+  name: date_update
+
+DataColumn(topics_master#lastupdate_user_master_id):
+  dataTable: topics_master
+  name: lastupdate_user_master_id
+
+DataColumn(trigger_type_master#id):
+  dataTable: trigger_type_master
+  name: id
+
+DataColumn(trigger_type_master#disable):
+  dataTable: trigger_type_master
+  name: disable
+
+DataColumn(trigger_type_master#name):
+  dataTable: trigger_type_master
+  name: name
+
+DataColumn(user_master#id):
+  dataTable: user_master
+  name: id
+
+DataColumn(user_master#group_master_id):
+  dataTable: user_master
+  name: group_master_id
+
+DataColumn(user_master#user_type_master_id):
+  dataTable: user_master
+  name: user_type_master_id
+
+DataColumn(user_master#user_data_id):
+  dataTable: user_master
+  name: user_data_id
+
+DataColumn(user_master#disable):
+  dataTable: user_master
+  name: disable
+
+DataColumn(user_master#login_id):
+  dataTable: user_master
+  name: login_id
+
+DataColumn(user_master#login_password):
+  dataTable: user_master
+  name: login_password
+
+DataColumn(user_master#date_regist):
+  dataTable: user_master
+  name: date_regist
+
+DataColumn(user_master#date_update):
+  dataTable: user_master
+  name: date_update
+
+DataColumn(user_master#lastupdate_user_master_id):
+  dataTable: user_master
+  name: lastupdate_user_master_id
+
+DataColumn(user_master#last_login_time):
+  dataTable: user_master
+  name: last_login_time
+
+DataColumn(user_master#last_login_remote_addr):
+  dataTable: user_master
+  name: last_login_remote_addr
+
+DataColumn(user_master#login_failure_count):
+  dataTable: user_master
+  name: login_failure_count
+
+DataColumn(user_master#login_failure_remote_addr):
+  dataTable: user_master
+  name: login_failure_remote_addr
+
+DataColumn(user_master#last_lock_time):
+  dataTable: user_master
+  name: last_lock_time
+
+DataColumn(user_master#account_locked_count):
+  dataTable: user_master
+  name: account_locked_count
+
+DataColumn(user_master#salt):
+  dataTable: user_master
+  name: salt
+
+DataColumn(user_master#secret_question_master_id):
+  dataTable: user_master
+  name: secret_question_master_id
+
+DataColumn(user_master#answer_of_secret_question):
+  dataTable: user_master
+  name: answer_of_secret_question
+
+DataColumn(user_master#membership):
+  dataTable: user_master
+  name: membership
+
+DataColumn(user_master#login_column):
+  dataTable: user_master
+  name: login_column
+
+DataColumn(user_type_master#id):
+  dataTable: user_type_master
+  name: id
+
+DataColumn(user_type_master#disable):
+  dataTable: user_type_master
+  name: disable
+
+DataColumn(user_type_master#name):
+  dataTable: user_type_master
+  name: name
+
+DataColumn(user_type_master#table_name):
+  dataTable: user_type_master
+  name: table_name
+
+DataColumn(user_type_master#memo):
+  dataTable: user_type_master
+  name: memo
+
+DataColumn(visitor_attribute#id):
+  dataTable: visitor_attribute
+  name: id
+
+DataColumn(visitor_attribute#disable):
+  dataTable: visitor_attribute
+  name: disable
+
+DataColumn(visitor_attribute#name):
+  dataTable: visitor_attribute
+  name: name
+
+DataColumn(visitor_attribute#admin_only_flag):
+  dataTable: visitor_attribute
+  name: admin_only_flag
+
+DataColumn(visitor_attribute#date_regist):
+  dataTable: visitor_attribute
+  name: date_regist
+
+DataColumn(visitor_attribute#date_update):
+  dataTable: visitor_attribute
+  name: date_update
+
+DataColumn(visitor_attribute#lastupdate_user_master_id):
+  dataTable: visitor_attribute
+  name: lastupdate_user_master_id
+
+DataColumn(visitor_attribute#comment_on_form):
+  dataTable: visitor_attribute
+  name: comment_on_form
+
+DataColumn(visitor_attribute#comment_under_form):
+  dataTable: visitor_attribute
+  name: comment_under_form
+
+DataColumn(visitor_attribute#memo):
+  dataTable: visitor_attribute
+  name: memo
+
+DataColumn(visitor_attribute#form_type_master_id):
+  dataTable: visitor_attribute
+  name: form_type_master_id
+
+DataColumn(visitor_attribute#extend):
+  dataTable: visitor_attribute
+  name: extend
+
+DataColumn(visitor_attribute#sort_order):
+  dataTable: visitor_attribute
+  name: sort_order
+
+DataColumn(visitor_attribute#comment_left_form):
+  dataTable: visitor_attribute
+  name: comment_left_form
+
+DataColumn(visitor_attribute#comment_right_form):
+  dataTable: visitor_attribute
+  name: comment_right_form
+
+DataColumn(visitor_attribute_item#id):
+  dataTable: visitor_attribute_item
+  name: id
+
+DataColumn(visitor_attribute_item#disable):
+  dataTable: visitor_attribute_item
+  name: disable
+
+DataColumn(visitor_attribute_item#visitor_attribute_id):
+  dataTable: visitor_attribute_item
+  name: visitor_attribute_id
+
+DataColumn(visitor_attribute_item#name):
+  dataTable: visitor_attribute_item
+  name: name
+
+DataColumn(visitor_attribute_item#date_regist):
+  dataTable: visitor_attribute_item
+  name: date_regist
+
+DataColumn(visitor_attribute_item#date_update):
+  dataTable: visitor_attribute_item
+  name: date_update
+
+DataColumn(visitor_attribute_item#lastupdate_user_master_id):
+  dataTable: visitor_attribute_item
+  name: lastupdate_user_master_id
+
+DataColumn(visitor_attribute_item#sort_order):
+  dataTable: visitor_attribute_item
+  name: sort_order
+
+DataColumn(visitor_code_type_master#id):
+  dataTable: visitor_code_type_master
+  name: id
+
+DataColumn(visitor_code_type_master#disable):
+  dataTable: visitor_code_type_master
+  name: disable
+
+DataColumn(visitor_code_type_master#name):
+  dataTable: visitor_code_type_master
+  name: name
+
+DataColumn(visitor_data#id):
+  dataTable: visitor_data
+  name: id
+
+DataColumn(visitor_data#prefecture_master_id):
+  dataTable: visitor_data
+  name: prefecture_master_id
+
+DataColumn(visitor_data#disable):
+  dataTable: visitor_data
+  name: disable
+
+DataColumn(visitor_data#name1):
+  dataTable: visitor_data
+  name: name1
+
+DataColumn(visitor_data#name2):
+  dataTable: visitor_data
+  name: name2
+
+DataColumn(visitor_data#name3):
+  dataTable: visitor_data
+  name: name3
+
+DataColumn(visitor_data#name1_ka):
+  dataTable: visitor_data
+  name: name1_ka
+
+DataColumn(visitor_data#name2_ka):
+  dataTable: visitor_data
+  name: name2_ka
+
+DataColumn(visitor_data#company_name):
+  dataTable: visitor_data
+  name: company_name
+
+DataColumn(visitor_data#company_name_ka):
+  dataTable: visitor_data
+  name: company_name_ka
+
+DataColumn(visitor_data#division):
+  dataTable: visitor_data
+  name: division
+
+DataColumn(visitor_data#position):
+  dataTable: visitor_data
+  name: position
+
+DataColumn(visitor_data#zip1):
+  dataTable: visitor_data
+  name: zip1
+
+DataColumn(visitor_data#zip2):
+  dataTable: visitor_data
+  name: zip2
+
+DataColumn(visitor_data#zip3):
+  dataTable: visitor_data
+  name: zip3
+
+DataColumn(visitor_data#address1):
+  dataTable: visitor_data
+  name: address1
+
+DataColumn(visitor_data#address2):
+  dataTable: visitor_data
+  name: address2
+
+DataColumn(visitor_data#address3):
+  dataTable: visitor_data
+  name: address3
+
+DataColumn(visitor_data#address4):
+  dataTable: visitor_data
+  name: address4
+
+DataColumn(visitor_data#address5):
+  dataTable: visitor_data
+  name: address5
+
+DataColumn(visitor_data#tel):
+  dataTable: visitor_data
+  name: tel
+
+DataColumn(visitor_data#sub_tel):
+  dataTable: visitor_data
+  name: sub_tel
+
+DataColumn(visitor_data#fax):
+  dataTable: visitor_data
+  name: fax
+
+DataColumn(visitor_data#email):
+  dataTable: visitor_data
+  name: email
+
+DataColumn(visitor_data#sub_email):
+  dataTable: visitor_data
+  name: sub_email
+
+DataColumn(visitor_data#inspection_type_master_id):
+  dataTable: visitor_data
+  name: inspection_type_master_id
+
+DataColumn(visitor_data#permission_type_master_id):
+  dataTable: visitor_data
+  name: permission_type_master_id
+
+DataColumn(visitor_data#memo):
+  dataTable: visitor_data
+  name: memo
+
+DataColumn(visitor_data#date_regist):
+  dataTable: visitor_data
+  name: date_regist
+
+DataColumn(visitor_data#date_update):
+  dataTable: visitor_data
+  name: date_update
+
+DataColumn(visitor_data#lastupdate_user_master_id):
+  dataTable: visitor_data
+  name: lastupdate_user_master_id
+
+DataColumn(visitor_data#country_master_id):
+  dataTable: visitor_data
+  name: country_master_id
+
+DataColumn(visitor_data#language_master_id):
+  dataTable: visitor_data
+  name: language_master_id
+
+DataColumn(visitor_data#visible):
+  dataTable: visitor_data
+  name: visible
+
+DataColumn(visitor_data#email_valid):
+  dataTable: visitor_data
+  name: email_valid
+
+DataColumn(visitor_data#email_send_error_count):
+  dataTable: visitor_data
+  name: email_send_error_count
+
+DataColumn(visitor_data#email_valid_date_update):
+  dataTable: visitor_data
+  name: email_valid_date_update
+
+DataColumn(visitor_data#sub_email_valid):
+  dataTable: visitor_data
+  name: sub_email_valid
+
+DataColumn(visitor_data#sub_email_send_error_count):
+  dataTable: visitor_data
+  name: sub_email_send_error_count
+
+DataColumn(visitor_data#sub_email_valid_date_update):
+  dataTable: visitor_data
+  name: sub_email_valid_date_update
+
+DataColumn(visitor_data#registration_type_master_id):
+  dataTable: visitor_data
+  name: registration_type_master_id
+
+DataColumn(visitor_data#registration_expired_date):
+  dataTable: visitor_data
+  name: registration_expired_date
+
+DataColumn(visitor_data#normalized_email):
+  dataTable: visitor_data
+  name: normalized_email
+
+DataColumn(visitor_data#normalized_sub_email):
+  dataTable: visitor_data
+  name: normalized_sub_email
+
+DataColumn(visitor_data_setting#id):
+  dataTable: visitor_data_setting
+  name: id
+
+DataColumn(visitor_data_setting#disable):
+  dataTable: visitor_data_setting
+  name: disable
+
+DataColumn(visitor_data_setting#setting_data):
+  dataTable: visitor_data_setting
+  name: setting_data
+
+DataColumn(visitor_data_setting#date_regist):
+  dataTable: visitor_data_setting
+  name: date_regist
+
+DataColumn(visitor_data_setting#date_update):
+  dataTable: visitor_data_setting
+  name: date_update
+
+DataColumn(visitor_data_setting#lastupdate_user_master_id):
+  dataTable: visitor_data_setting
+  name: lastupdate_user_master_id
+
+DataColumn(visitor_data_setting#language_master_id):
+  dataTable: visitor_data_setting
+  name: language_master_id
+
+DataColumn(visitor_data_setting#visitor_data_setting_type_id):
+  dataTable: visitor_data_setting
+  name: visitor_data_setting_type_id
+
+DataColumn(visitor_data_setting#seminar_master_id):
+  dataTable: visitor_data_setting
+  name: seminar_master_id
+
+DataColumn(visitor_data_setting#application_flow_master_id):
+  dataTable: visitor_data_setting
+  name: application_flow_master_id
+
+DataColumn(visitor_data_setting_type#id):
+  dataTable: visitor_data_setting_type
+  name: id
+
+DataColumn(visitor_data_setting_type#disable):
+  dataTable: visitor_data_setting_type
+  name: disable
+
+DataColumn(visitor_data_setting_type#name):
+  dataTable: visitor_data_setting_type
+  name: name
+
+DataColumn(visitor_file_type_master#id):
+  dataTable: visitor_file_type_master
+  name: id
+
+DataColumn(visitor_file_type_master#disable):
+  dataTable: visitor_file_type_master
+  name: disable
+
+DataColumn(visitor_file_type_master#name):
+  dataTable: visitor_file_type_master
+  name: name
+
+DataColumn(visitor_template_master#id):
+  dataTable: visitor_template_master
+  name: id
+
+DataColumn(visitor_template_master#disable):
+  dataTable: visitor_template_master
+  name: disable
+
+DataColumn(visitor_template_master#visitor_template_type_master_id):
+  dataTable: visitor_template_master
+  name: visitor_template_type_master_id
+
+DataColumn(visitor_template_master#name):
+  dataTable: visitor_template_master
+  name: name
+
+DataColumn(visitor_template_parameter#id):
+  dataTable: visitor_template_parameter
+  name: id
+
+DataColumn(visitor_template_parameter#disable):
+  dataTable: visitor_template_parameter
+  name: disable
+
+DataColumn(visitor_template_parameter#visitor_template_master_id):
+  dataTable: visitor_template_parameter
+  name: visitor_template_master_id
+
+DataColumn(visitor_template_parameter#valiable):
+  dataTable: visitor_template_parameter
+  name: valiable
+
+DataColumn(visitor_template_parameter#name):
+  dataTable: visitor_template_parameter
+  name: name
+
+DataColumn(visitor_template_type_master#id):
+  dataTable: visitor_template_type_master
+  name: id
+
+DataColumn(visitor_template_type_master#disable):
+  dataTable: visitor_template_type_master
+  name: disable
+
+DataColumn(visitor_template_type_master#name):
+  dataTable: visitor_template_type_master
+  name: name
+

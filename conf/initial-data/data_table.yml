@@ -1,0 +1,765 @@
+DataTable(access_ranking_master):
+  dataTableId: 1
+  name: access_ranking_master
+  title: アクセスランキング
+
+DataTable(admin_assign_attachment):
+  dataTableId: 2
+  name: admin_assign_attachment
+  title: 担当者割り当て
+
+DataTable(admin_data):
+  dataTableId: 3
+  name: admin_data
+  title: 管理者データ
+
+DataTable(admin_level_master):
+  dataTableId: 4
+  name: admin_level_master
+  title: 管理者レベル
+
+DataTable(admin_visitor_assignment):
+  dataTableId: 5
+  name: admin_visitor_assignment
+  title: 営業担当者の申込者への割り当て管理。
+
+DataTable(question_item):
+  dataTableId: 6
+  name: question_item
+  title: 解答
+
+DataTable(application_amount):
+  dataTableId: 7
+  name: application_amount
+  title: 申し込み数
+
+DataTable(application_attachment):
+  dataTableId: 8
+  name: application_attachment
+  title: 申し込み内容
+
+DataTable(application_bill):
+  dataTableId: 9
+  name: application_bill
+  title: 申し込み請求書管理。
+
+DataTable(application_completion):
+  dataTableId: 10
+  name: application_completion
+  title: 申し込み完了時の設定
+
+DataTable(application_discount_amount):
+  dataTableId: 11
+  name: application_discount_amount
+  title: 割引きコード使用回数管理。
+
+DataTable(application_discount_history):
+  dataTableId: 12
+  name: application_discount_history
+  title: 割引き使用履歴管理。
+
+DataTable(application_flow_master):
+  dataTableId: 13
+  name: application_flow_master
+  title: 申し込みフロー
+
+DataTable(application_flow_category):
+  dataTableId: 14
+  name: application_flow_category
+  title: 申し込みフローカテゴリ
+
+DataTable(application_status):
+  dataTableId: 15
+  name: application_status
+  title: 申し込み状態
+
+DataTable(application_step_master):
+  dataTableId: 16
+  name: application_step_master
+  title: 申し込みステップ
+
+DataTable(application_step_order):
+  dataTableId: 17
+  name: application_step_order
+  title: 申し込みステップ順
+
+DataTable(application_step_template):
+  dataTableId: 18
+  name: application_step_template
+  title: 申し込みステップテンプレート
+
+DataTable(application_transaction_master):
+  dataTableId: 19
+  name: application_transaction_master
+  title: 申し込み登録
+
+DataTable(attention_master):
+  dataTableId: 20
+  name: attention_master
+  title: お勧め
+
+DataTable(billing):
+  dataTableId: 21
+  name: billing
+  title: 請求先マスタ。
+
+DataTable(card_company_master):
+  dataTableId: 22
+  name: card_company_master
+  title: VISA。MASTER。JCB。AMEX。
+
+DataTable(changelog):
+  dataTableId: 23
+  name: changelog
+  title: 更新履歴管理
+
+DataTable(changelog_confirming):
+  dataTableId: 24
+  name: changelog_confirming
+  title: ユーザーの変更履歴通知
+
+DataTable(changelog_place_master):
+  dataTableId: 25
+  name: changelog_place_master
+  title: 更新履歴箇所
+
+DataTable(check_error_attachment):
+  dataTableId: 26
+  name: check_error_attachment
+  title: エラーチェック種別とチェック項目の関連
+
+DataTable(count_access):
+  dataTableId: 27
+  name: count_access
+  title: アクセス管理
+
+DataTable(discount_master):
+  dataTableId: 28
+  name: discount_master
+  title: 割引き
+
+DataTable(discount_type_master):
+  dataTableId: 29
+  name: discount_type_master
+  title: 割引き種別
+
+DataTable(enquete_amount_master):
+  dataTableId: 30
+  name: enquete_amount_master
+  title: アンケート回答数
+
+DataTable(enquete_connection):
+  dataTableId: 31
+  name: enquete_connection
+  title: アンケートと質問との結びつけ
+
+DataTable(enquete_history):
+  dataTableId: 32
+  name: enquete_history
+  title: アンケート履歴
+
+DataTable(enquete_place_master):
+  dataTableId: 33
+  name: enquete_place_master
+  title: アンケート使用箇所
+
+DataTable(enquete_template_master):
+  dataTableId: 34
+  name: enquete_template_master
+  title: アンケートテンプレート
+
+DataTable(error_type_master):
+  dataTableId: 35
+  name: error_type_master
+  title: エラー
+
+DataTable(external_joint_data):
+  dataTableId: 36
+  name: external_joint_data
+  title: 共有データ
+
+DataTable(external_joint_status_master):
+  dataTableId: 37
+  name: external_joint_status_master
+  title: 接続のステータス
+
+DataTable(external_object_master):
+  dataTableId: 38
+  name: external_object_master
+  title: 外部オブジェクト
+
+DataTable(external_service_master):
+  dataTableId: 39
+  name: external_service_master
+  title: 外部サービス
+
+DataTable(favorites_master):
+  dataTableId: 40
+  name: favorites_master
+  title: お気に入り
+
+DataTable(file):
+  dataTableId: 41
+  name: file
+  title: ファイル
+
+DataTable(form_type_master):
+  dataTableId: 42
+  name: form_type_master
+  title: フォーム種別
+
+DataTable(function_master):
+  dataTableId: 43
+  name: function_master
+  title: 機能
+
+DataTable(function_group):
+  dataTableId: 44
+  name: function_group
+  title: 機能グループ
+
+DataTable(function_role):
+  dataTableId: 45
+  name: function_role
+  title: 機能グループ
+
+DataTable(group_master):
+  dataTableId: 46
+  name: group_master
+  title: グループ
+
+DataTable(inspection_type_master):
+  dataTableId: 47
+  name: inspection_type_master
+  title: 閲覧種別
+
+DataTable(language_master):
+  dataTableId: 48
+  name: language_master
+  title: 言語
+
+DataTable(mail_parameter_attachment):
+  dataTableId: 49
+  name: mail_parameter_attachment
+  title: パラメーター
+
+DataTable(mail_reserved):
+  dataTableId: 50
+  name: mail_reserved
+  title: 送信予約
+
+DataTable(mail_returned):
+  dataTableId: 51
+  name: mail_returned
+  title: 送信失敗
+
+DataTable(mail_template_master):
+  dataTableId: 52
+  name: mail_template_master
+  title: メールテンプレート
+
+DataTable(mail_type_master):
+  dataTableId: 53
+  name: mail_type_master
+  title: メール種別
+
+DataTable(news_master):
+  dataTableId: 54
+  name: news_master
+  title: ニュース
+
+DataTable(order_row_master):
+  dataTableId: 55
+  name: order_row_master
+  title: 並べ方
+
+DataTable(payment_type_master):
+  dataTableId: 56
+  name: payment_type_master
+  title: 支払方法マスタ
+
+DataTable(permission):
+  dataTableId: 57
+  name: permission
+  title: 権限
+
+DataTable(prefecture_master):
+  dataTableId: 58
+  name: prefecture_master
+  title: 県
+
+DataTable(preserve_search_column):
+  dataTableId: 59
+  name: preserve_search_column
+  title: 一覧に表示するお気に入り列
+
+DataTable(preserve_search_condition):
+  dataTableId: 60
+  name: preserve_search_condition
+  title: 検索条件
+
+DataTable(price_type_master):
+  dataTableId: 61
+  name: price_type_master
+  title: 課金種別
+
+DataTable(public_document_target):
+  dataTableId: 62
+  name: public_document_target
+  title: 講演資料とセミナー、セッションの結びつけ
+
+DataTable(question_master):
+  dataTableId: 63
+  name: question_master
+  title: アンケートマスター
+
+DataTable(question_data):
+  dataTableId: 64
+  name: question_data
+  title: 回答
+
+DataTable(reservation_mail_contents):
+  dataTableId: 65
+  name: reservation_mail_contents
+  title: 送信対象データ
+
+DataTable(reservation_mail_type):
+  dataTableId: 66
+  name: reservation_mail_type
+  title: 予約メール種別
+
+DataTable(role_master):
+  dataTableId: 67
+  name: role_master
+  title: 役割
+
+DataTable(seminar_master):
+  dataTableId: 68
+  name: seminar_master
+  title: セミナー
+
+DataTable(seminar_attribute_master):
+  dataTableId: 69
+  name: seminar_attribute_master
+  title: セミナー属性
+
+DataTable(seminar_attribute_data):
+  dataTableId: 70
+  name: seminar_attribute_data
+  title: セミナー属性データ
+
+DataTable(seminar_attribute_item):
+  dataTableId: 71
+  name: seminar_attribute_item
+  title: セミナー属性項目
+
+DataTable(seminar_category_master):
+  dataTableId: 72
+  name: seminar_category_master
+  title: セミナーカテゴリー
+
+DataTable(seminar_price_detail):
+  dataTableId: 73
+  name: seminar_price_detail
+  title: 金額詳細
+
+DataTable(seminar_setting_master):
+  dataTableId: 74
+  name: seminar_setting_master
+  title: セミナー設定
+
+DataTable(seminar_setteing_data):
+  dataTableId: 75
+  name: seminar_setteing_data
+  title: セミナー設定データ
+
+DataTable(seminar_status_master):
+  dataTableId: 76
+  name: seminar_status_master
+  title: セミナー状態
+
+DataTable(seminar_template):
+  dataTableId: 77
+  name: seminar_template
+  title: セミナーで利用するテンプレート
+
+DataTable(session_master):
+  dataTableId: 78
+  name: session_master
+  title: セッション
+
+DataTable(session_attribute_master):
+  dataTableId: 79
+  name: session_attribute_master
+  title: セッション属性
+
+DataTable(session_attribute_data):
+  dataTableId: 80
+  name: session_attribute_data
+  title: セッション属性データ
+
+DataTable(session_attribute_item):
+  dataTableId: 81
+  name: session_attribute_item
+  title: セッション属性項目
+
+DataTable(speaker_assign_attachment):
+  dataTableId: 82
+  name: speaker_assign_attachment
+  title: 講師割り当て
+
+DataTable(speaker_data):
+  dataTableId: 83
+  name: speaker_data
+  title: 講演者データ
+
+DataTable(speaker_profile):
+  dataTableId: 84
+  name: speaker_profile
+  title: 講師プロフィール
+
+DataTable(ss_table_master):
+  dataTableId: 85
+  name: ss_table_master
+  title: 共有テーブル
+
+DataTable(ss_target_type_master):
+  dataTableId: 86
+  name: ss_target_type_master
+  title: セミナー・セッション
+
+DataTable(system_setting_master):
+  dataTableId: 87
+  name: system_setting_master
+  title: システム設定
+
+DataTable(system_setting_data):
+  dataTableId: 88
+  name: system_setting_data
+  title: システム設定データ
+
+DataTable(system_template):
+  dataTableId: 89
+  name: system_template
+  title: システムで利用するテンプレート
+
+DataTable(topics_master):
+  dataTableId: 90
+  name: topics_master
+  title: トピック
+
+DataTable(user_master):
+  dataTableId: 91
+  name: user_master
+  title: ユーザー
+
+DataTable(user_type_master):
+  dataTableId: 92
+  name: user_type_master
+  title: ユーザー種別
+
+DataTable(visitor_attribute):
+  dataTableId: 93
+  name: visitor_attribute
+  title: 申込者属性
+
+DataTable(visitor_attribute_data):
+  dataTableId: 94
+  name: visitor_attribute_data
+  title: 申込者属性データ
+
+DataTable(visitor_attribute_item):
+  dataTableId: 95
+  name: visitor_attribute_item
+  title: 申込者属性項目
+
+DataTable(visitor_data):
+  dataTableId: 96
+  name: visitor_data
+  title: 申込者データ
+
+DataTable(visitor_data_setting):
+  dataTableId: 97
+  name: visitor_data_setting
+  title: 来場者データの設定
+
+DataTable(attendance):
+  dataTableId: 98
+  name: attendance
+  title: 当日受付
+
+DataTable(barcode_type_master):
+  dataTableId: 99
+  name: barcode_type_master
+  title: バーコード種別
+
+DataTable(gmo_errcode_master):
+  dataTableId: 100
+  name: gmo_errcode_master
+  title: GMOエラーコード
+
+DataTable(hour_master):
+  dataTableId: 101
+  name: hour_master
+  title: 時
+
+DataTable(mail_category_master):
+  dataTableId: 102
+  name: mail_category_master
+  title: メールカテゴリ
+
+DataTable(mail_history):
+  dataTableId: 103
+  name: mail_history
+  title: 送信メール履歴
+
+DataTable(mail_kind_master):
+  dataTableId: 104
+  name: mail_kind_master
+  title: メール種別
+
+DataTable(mail_parameter_master):
+  dataTableId: 105
+  name: mail_parameter_master
+  title: メール変数
+
+DataTable(minutes_master):
+  dataTableId: 106
+  name: minutes_master
+  title: 分
+
+DataTable(permission_type_master):
+  dataTableId: 107
+  name: permission_type_master
+  title: DM許可
+
+DataTable(seminar_price_detail_log):
+  dataTableId: 108
+  name: seminar_price_detail_log
+  title: セミナー価格履歴
+
+DataTable(session_category_master):
+  dataTableId: 109
+  name: session_category_master
+  title: セッションカテゴリ
+
+DataTable(ss_attendance):
+  dataTableId: 110
+  name: ss_attendance
+  title: 当日来場
+
+DataTable(system_setting_permission):
+  dataTableId: 111
+  name: system_setting_permission
+  title: システム設定権限
+
+DataTable(visitor_template_master):
+  dataTableId: 112
+  name: visitor_template_master
+  title: 来場者側テンプレート
+
+DataTable(visitor_template_parameter):
+  dataTableId: 113
+  name: visitor_template_parameter
+  title: 来場者側テンプレート変数
+
+DataTable(visitor_template_type_master):
+  dataTableId: 114
+  name: visitor_template_type_master
+  title: 来場者側テンプレートタイプ
+
+DataTable(activity_history):
+  dataTableId: 115
+  name: activity_history
+  title: 活動履歴
+
+DataTable(activity_attribute_master):
+  dataTableId: 116
+  name: activity_attribute_master
+  title: 活動履歴属性
+
+DataTable(activity_attribute_data):
+  dataTableId: 117
+  name: activity_attribute_data
+  title: 活動履歴属性データ
+
+DataTable(activity_attribute_item):
+  dataTableId: 118
+  name: activity_attribute_item
+  title: 活動履歴属性項目
+
+DataTable(attribute_type_master):
+  dataTableId: 119
+  name: attribute_type_master
+  title: 
+
+DataTable(message_category):
+  dataTableId: 120
+  name: message_category
+  title: 
+
+DataTable(secret_question_master):
+  dataTableId: 121
+  name: secret_question_master
+  title: 秘密の質問
+
+DataTable(role_template_master):
+  dataTableId: 122
+  name: role_template_master
+  title: ロールテンプレート
+
+DataTable(id_rule_type_master):
+  dataTableId: 123
+  name: id_rule_type_master
+  title: 連番設定タイプ
+
+DataTable(country_master):
+  dataTableId: 124
+  name: country_master
+  title: 国名
+
+DataTable(visitor_data_setting_type):
+  dataTableId: 125
+  name: visitor_data_setting_type
+  title: 申込者基本項目
+
+DataTable(payment_flag_master):
+  dataTableId: 126
+  name: payment_flag_master
+  title: 課金フラグ
+
+DataTable(id_rule):
+  dataTableId: 127
+  name: id_rule
+  title: Idルール
+
+DataTable(package_price_type_master):
+  dataTableId: 128
+  name: package_price_type_master
+  title: パッケージ課金タイプ
+
+DataTable(session_package_type):
+  dataTableId: 129
+  name: session_package_type
+  title: セッションパッケージタイプ
+
+DataTable(operation_type_master):
+  dataTableId: 130
+  name: operation_type_master
+  title: オペレーションタイプ
+
+DataTable(header_footer):
+  dataTableId: 131
+  name: header_footer
+  title: ヘッダフッター
+
+DataTable(application_data_master):
+  dataTableId: 132
+  name: application_data_master
+  title: 申込情報
+
+DataTable(application_data_type_master):
+  dataTableId: 133
+  name: application_data_type_master
+  title: 申込情報タイプ
+
+DataTable(publication_type_master):
+  dataTableId: 134
+  name: publication_type_master
+  title: 公開範囲
+
+DataTable(search_target_master):
+  dataTableId: 135
+  name: search_target_master
+  title: 検索範囲
+
+DataTable(external_service_connection_master):
+  dataTableId: 136
+  name: external_service_connection_master
+  title: 外部サービス連携
+
+DataTable(system_setting_type_master):
+  dataTableId: 137
+  name: system_setting_type_master
+  title: システム設定
+
+DataTable(internal_service_master):
+  dataTableId: 138
+  name: internal_service_master
+  title: 内部サービス連携
+
+DataTable(registration_type_master):
+  dataTableId: 139
+  name: registration_type_master
+  title: 登録タイプ
+
+DataTable(date_type_master):
+  dataTableId: 140
+  name: date_type_master
+  title: 日付タイプ
+
+DataTable(enquete_status_master):
+  dataTableId: 141
+  name: enquete_status_master
+  title: アンケートステータス
+
+DataTable(document_publication_type_master):
+  dataTableId: 142
+  name: document_publication_type_master
+  title: ドキュメント公開範囲
+
+DataTable(visitor_code_type_master):
+  dataTableId: 143
+  name: visitor_code_type_master
+  title: 申込者CODEタイプ
+
+DataTable(visitor_file_type_master):
+  dataTableId: 144
+  name: visitor_file_type_master
+  title: 名刺画像の表裏
+
+DataTable(membership_master):
+  dataTableId: 145
+  name: membership_master
+  title: 使用する/使用しない
+
+DataTable(ss_attendance_dependence_type_master):
+  dataTableId: 146
+  name: ss_attendance_dependence_type_master
+  title: 来場タイプ
+
+DataTable(seminar_setting_category_master):
+  dataTableId: 147
+  name: seminar_setting_category_master
+  title: 来場認証カテゴリー
+
+DataTable(email_valid_master):
+  dataTableId: 148
+  name: email_valid_master
+  title: Eメールステータス
+
+DataTable(trigger_type_master):
+  dataTableId: 149
+  name: trigger_type_master
+  title: トリガータイプ
+
+DataTable(internal_service_menu_category):
+  dataTableId: 150
+  name: internal_service_menu_category
+  title: 内部サービスメニューカテゴリー
+
+DataTable(payment_confirm_flag_master):
+  dataTableId: 151
+  name: payment_confirm_flag_master
+  title: 入金フラグ
+
+DataTable(credit_status_master):
+  dataTableId: 152
+  name: credit_status_master
+  title: クレジット決済ステータス
+
+DataTable(sfdc_sync_flag_master):
+  dataTableId: 154
+  name: sfdc_sync_flag_master
+  title: SFDC同期フラグ
+
