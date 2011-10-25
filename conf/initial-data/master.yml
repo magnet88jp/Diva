@@ -24,9 +24,8 @@ TaskMode(4):
   name: メッセージ生成
 
 ActionMode(1):
-  modeId: 1
   name: 全キャンペーン管理モード
 
 ActionMode(2):
-  modeId: 2
   name: 個別キャンペーン管理モード
+

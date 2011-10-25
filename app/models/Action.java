@@ -19,6 +19,8 @@ public class Action extends Model {
   @MaxSize(4000)
   public String process;
   @ManyToMany
+  public List<DataTable> dataTables;
+  @ManyToMany
   public List<MajorMessage> majorMessages;
   @MaxSize(4000)
   public String restriction;
@@ -37,6 +39,7 @@ public class Action extends Model {
     this.function = function;
     function.action = this;
     this.process = process;
+    this.dataTables= new ArrayList<DataTable>();
     this.majorMessages = new ArrayList<MajorMessage>();
     this.restriction = restriction;
     this.supplement = supplement;
@@ -47,4 +50,10 @@ public class Action extends Model {
   public String toString() {
     return title;
   }
+
+//  public List<DataColumn> getDataColumns() {
+//    List<DataColumn> aaa = new ArrayList<DataColumn>();
+//    return aaa;
+//  }
+
 }
