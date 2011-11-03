@@ -38,6 +38,7 @@ public class MakeRstJob extends Job {
         String title = data.title;
         String summary = data.summary;
         String process = data.process;
+
         String restriction = data.restriction;
         String supplement = data.supplement;
         // map

@@ -33,7 +33,7 @@ ${title}
   
       .. csv-table:: 
         :header: 項目名, 入力形式, 説明
-        :file: ../data/column-${label}.csv
+        :file: ../data/datacolumn-${label}.csv
 
   
   メッセージ

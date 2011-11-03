@@ -23,6 +23,9 @@ TaskMode(3):
 TaskMode(4):
   name: メッセージ生成
 
+TaskMode(5):
+  name: テーブルカラム生成
+
 ActionMode(1):
   name: 全キャンペーン管理モード
 
