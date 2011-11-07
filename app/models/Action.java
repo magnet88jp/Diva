@@ -7,27 +7,27 @@ import play.data.validation.*;
 
 @Entity
 public class Action extends Model {
-  @ManyToMany
-  public List<ActionMode> actionModes;
+  @OneToOne
+  public Function function;
   public String title;
   @MaxSize(4000)
   public String summary;
-  @ManyToMany
-  public List<Setting> settings;
-  @OneToOne
-  public Function function;
-  @MaxSize(4000)
-  public String process;
-  @ManyToMany
-  public List<DataTable> dataTables;
-  @ManyToMany
-  public List<MajorMessage> majorMessages;
   @MaxSize(4000)
   public String restriction;
+  @MaxSize(4000)
+  public String process;
   @MaxSize(4000)
   public String supplement;
   @MaxSize(4000)
   public String privateComment;
+  @ManyToMany
+  public List<ActionMode> actionModes;
+  @ManyToMany
+  public List<Setting> settings;
+  @ManyToMany
+  public List<DataTable> dataTables;
+  @ManyToMany
+  public List<MajorMessage> majorMessages;
   @ManyToMany
   public List<Faq> faqs;
 

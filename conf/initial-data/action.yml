@@ -19,6 +19,7 @@ Action(2):
   settings: 1
   process: "登録されているキャンペーンの一覧が表示されます。\nここで、将来的にはテストケースの実行コードを記述したい。\n例えば登録だったら、登録画面まで画面遷移をして、項目が表示されるのをverifyする。\n登録ボタンをクリックして、変更内容が登録されることをverifyする"
   restriction: 補足事項はいっぱいある\nこれこれあれあれ
+  supplement: "なし"
   privateComment: "社内レビュー：\n 開発：OK\n QA:OK\n PM:\n"
   majorMessages: [3200, 13001]
 
