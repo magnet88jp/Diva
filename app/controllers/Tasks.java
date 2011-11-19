@@ -59,7 +59,7 @@ public class Tasks extends CRUD {
       new MakeFunctionCsvJob().now();
     } else if (task.taskMode.id == 4 ) {
       Logger.info("MakeMajorMessageCsvJob");
-      new MakeFunctionCsvJob().now();
+      new MakeMajorMessageCsvJob().now();
     } else if (task.taskMode.id == 5 ) {
       Logger.info("MakeDataColumnCsvJob");
       new MakeDataColumnCsvJob().now();

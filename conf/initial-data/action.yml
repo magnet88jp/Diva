@@ -1,25 +1,1988 @@
-Action(1):
-  actionModes: [1]
-  title: トピックス編集
-  summary: "キャンペーンの管理者が、新規にキャンペーンを登録したり、登録済みのキャンペーンを変更する際の入り口となるページです。このページからキャンペーンを選択し、管理作業を開始します。"
-  function: 99
-  settings: [1, 13]
-  process: "登録されているキャンペーンの一覧が表示されます。\nここで、将来的にはテストケースの実行コードを記述したい。\n例えば登録だったら、登録画面まで画面遷移をして、項目が表示されるのをverifyする。\n登録ボタンをクリックして、変更内容が登録されることをverifyする"
-  dataTables: [visitor_data, admin_data]
-  restriction: "なし"
-  supplement: "ここでは、デフォルトで表示される表示項目について説明しています。すべての表示項目については「設定項目一覧表: キャンペーン（P. 319）」を参照してください。 [リード獲得単価]は[リード数]/[実施コスト]です。[リード獲得単価]が[目標単価]を下回ったときには赤文字で表示されます。"
-  privateComment: "社内レビュー：\n 開発：OK\n QA:OK\n PM:\n"
-  majorMessages: 3200
+Action(session#list):
+  function: 59
+  title: "一覧"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "subcampaign-actions-session-list"
+  actionModes: [2]
+  settings: 
+  dataTables: [session_master]
+  majorMessage: 
+  faqs: 
 
-Action(2):
-  actionModes: [1, 2]
-  title: キャンペーン削除
-  summary: "改行は\n登録されるか\nあああ"
+Action(multisession#add):
+  function: 60
+  title: "セッション新規"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "subcampaign-actions-multisession-add"
+  actionModes: [2]
+  settings: 
+  dataTables: [session_master]
+  majorMessage: 
+  faqs: 
+
+Action(multisession#disable):
+  function: 61
+  title: "セッション削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "subcampaign-actions-multisession-disable"
+  actionModes: [2]
+  settings: 
+  dataTables: [session_master]
+  majorMessage: 
+  faqs: 
+
+Action(sessionattribute#list):
+  function: 63
+  title: "セッション項目追加一覧"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "subcampaign-actions-sessionattribute-list"
+  actionModes: [2]
+  settings: 
+  dataTables: [session_attribute_master]
+  majorMessage: 
+  faqs: 
+
+Action(sessionattribute#add):
+  function: 64
+  title: "セッション新規項目追加"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "subcampaign-actions-sessionattribute-add"
+  actionModes: [2]
+  settings: 
+  dataTables: [session_attribute_master]
+  majorMessage: 
+  faqs: 
+
+Action(sessionattribute#disable):
+  function: 65
+  title: "セッション項目追加削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "subcampaign-actions-sessionattribute-disable"
+  actionModes: [2]
+  settings: 
+  dataTables: [session_attribute_master]
+  majorMessage: 
+  faqs: 
+
+Action(multisession#view):
+  function: 267
+  title: "セッション表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "subcampaign-actions-multisession-view"
+  actionModes: [2]
+  settings: 
+  dataTables: [session_master]
+  majorMessage: 
+  faqs: 
+
+Action(sessionattribute#view):
+  function: 268
+  title: "セッション項目追加表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "subcampaign-actions-sessionattribute-view"
+  actionModes: [2]
+  settings: 
+  dataTables: [session_attribute_master]
+  majorMessage: 
+  faqs: 
+
+Action(sessioncategory#list):
+  function: 386
+  title: "カテゴリ"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "subcampaign-actions-sessioncategory-list"
+  actionModes: [2]
+  settings: 
+  dataTables: [session_category_master]
+  majorMessage: 
+  faqs: 
+
+Action(sessioncategory#add):
+  function: 387
+  title: "カテゴリ追加"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "subcampaign-actions-sessioncategory-add"
+  actionModes: [2]
+  settings: 
+  dataTables: [session_category_master]
+  majorMessage: 
+  faqs: 
+
+Action(sessioncategory#view):
+  function: 388
+  title: "カテゴリ表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "subcampaign-actions-sessioncategory-view"
+  actionModes: [2]
+  settings: 
+  dataTables: [session_category_master]
+  majorMessage: 
+  faqs: 
+
+Action(sessioncategory#disable):
+  function: 389
+  title: "カテゴリ削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "subcampaign-actions-sessioncategory-disable"
+  actionModes: [2]
+  settings: 
+  dataTables: [session_category_master]
+  majorMessage: 
+  faqs: 
+
+Action(systemtemplate#list):
+  function: 78
+  title: "プレビュー"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-systemtemplate-list"
+  actionModes: [1]
+  settings: 
+  dataTables: [system_template]
+  majorMessage: 
+  faqs: 
+
+Action(news#list):
+  function: 91
+  title: "ニュース"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-news-list"
+  actionModes: [1]
+  settings: 
+  dataTables: [news_master]
+  majorMessage: 
+  faqs: 
+
+Action(news#add):
+  function: 92
+  title: "ニュース追加"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-news-add"
+  actionModes: [1]
+  settings: 
+  dataTables: [news_master]
+  majorMessage: 
+  faqs: 
+
+Action(news#disable):
+  function: 93
+  title: "ニュース削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-news-disable"
+  actionModes: [1]
+  settings: 
+  dataTables: [news_master]
+  majorMessage: 
+  faqs: 
+
+Action(topics#list):
+  function: 98
+  title: "トピックス"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-topics-list"
+  actionModes: [1]
+  settings: 
+  dataTables: [topics_master]
+  majorMessage: 
+  faqs: 
+
+Action(topics#add):
+  function: 99
+  title: "トピックス追加"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-topics-add"
+  actionModes: [1]
+  settings: 
+  dataTables: [topics_master]
+  majorMessage: 
+  faqs: 
+
+Action(topics#disable):
   function: 100
-  settings: 1
-  process: "登録されているキャンペーンの一覧が表示されます。\nここで、将来的にはテストケースの実行コードを記述したい。\n例えば登録だったら、登録画面まで画面遷移をして、項目が表示されるのをverifyする。\n登録ボタンをクリックして、変更内容が登録されることをverifyする"
-  restriction: 補足事項はいっぱいある\nこれこれあれあれ
-  supplement: "なし"
-  privateComment: "社内レビュー：\n 開発：OK\n QA:OK\n PM:\n"
-  majorMessages: [3200, 13001]
+  title: "トピックス削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-topics-disable"
+  actionModes: [1]
+  settings: 
+  dataTables: [topics_master]
+  majorMessage: 
+  faqs: 
+
+Action(publicdocumenttarget#disable):
+  function: 148
+  title: "資料削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-publicdocumenttarget-disable"
+  actionModes: [1]
+  settings: 
+  dataTables: [public_document_target]
+  majorMessage: 
+  faqs: 
+
+Action(news#view):
+  function: 273
+  title: "ニュース表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-news-view"
+  actionModes: [1]
+  settings: 
+  dataTables: [news_master]
+  majorMessage: 
+  faqs: 
+
+Action(topics#view):
+  function: 274
+  title: "トピック表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-topics-view"
+  actionModes: [1]
+  settings: 
+  dataTables: [topics_master]
+  majorMessage: 
+  faqs: 
+
+Action(multisystemtemplate#add):
+  function: 401
+  title: "テンプレート登録"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-multisystemtemplate-add"
+  actionModes: [1]
+  settings: 
+  dataTables: [system_template]
+  majorMessage: 
+  faqs: 
+
+Action(publicdocumenttarget#list):
+  function: 491
+  title: "公開資料"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-publicdocumenttarget-list"
+  actionModes: [1]
+  settings: 
+  dataTables: [public_document_target]
+  majorMessage: 
+  faqs: 
+
+Action(documentcategory#list):
+  function: 492
+  title: "資料カテゴリ"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-documentcategory-list"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(documentcategory#add):
+  function: 493
+  title: "資料カテゴリ"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-documentcategory-add"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(documentcategory#view):
+  function: 494
+  title: "資料カテゴリ"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-documentcategory-view"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(documentcategory#disable):
+  function: 495
+  title: "資料カテゴリ"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-documentcategory-disable"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(attention#seminar#list):
+  function: 496
+  title: "お勧めセミナー"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-attention-seminar-list"
+  actionModes: [1]
+  settings: 
+  dataTables: [attention_master]
+  majorMessage: 
+  faqs: 
+
+Action(attention#seminar#add):
+  function: 497
+  title: "お勧めセミナー追加"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-attention-seminar-add"
+  actionModes: [1]
+  settings: 
+  dataTables: [attention_master]
+  majorMessage: 
+  faqs: 
+
+Action(attention#seminar#view):
+  function: 498
+  title: "お勧めセミナー表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-attention-seminar-view"
+  actionModes: [1]
+  settings: 
+  dataTables: [attention_master]
+  majorMessage: 
+  faqs: 
+
+Action(attention#seminar#disable):
+  function: 499
+  title: "お勧めセミナー削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-attention-seminar-disable"
+  actionModes: [1]
+  settings: 
+  dataTables: [attention_master]
+  majorMessage: 
+  faqs: 
+
+Action(headerfooter#add):
+  function: 520
+  title: "ヘッダーフッター編集"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-headerfooter-add"
+  actionModes: [1]
+  settings: 
+  dataTables: [header_footer]
+  majorMessage: 
+  faqs: 
+
+Action(multisystemsetting#list):
+  function: 200
+  title: "システム設定一覧"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "setting-actions-multisystemsetting-list"
+  actionModes: [1]
+  settings: 
+  dataTables: [system_setting_master]
+  majorMessage: 
+  faqs: 
+
+Action(admindata#list):
+  function: 202
+  title: "ユーザ一覧"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "setting-actions-admindata-list"
+  actionModes: [1]
+  settings: 
+  dataTables: [admin_data]
+  majorMessage: 
+  faqs: 
+
+Action(admindata#add):
+  function: 203
+  title: "ユーザ追加"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "setting-actions-admindata-add"
+  actionModes: [1]
+  settings: 
+  dataTables: [admin_data]
+  majorMessage: 
+  faqs: 
+
+Action(admindata#disable):
+  function: 204
+  title: "ユーザ削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "setting-actions-admindata-disable"
+  actionModes: [1]
+  settings: 
+  dataTables: [admin_data]
+  majorMessage: 
+  faqs: 
+
+Action(group#list):
+  function: 206
+  title: "グループ一覧"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "setting-actions-group-list"
+  actionModes: [1]
+  settings: 
+  dataTables: [group_master]
+  majorMessage: 
+  faqs: 
+
+Action(group#add):
+  function: 207
+  title: "グループ追加"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "setting-actions-group-add"
+  actionModes: [1]
+  settings: 
+  dataTables: [group_master]
+  majorMessage: 
+  faqs: 
+
+Action(group#disable):
+  function: 208
+  title: "グループ削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "setting-actions-group-disable"
+  actionModes: [1]
+  settings: 
+  dataTables: [group_master]
+  majorMessage: 
+  faqs: 
+
+Action(role#list):
+  function: 214
+  title: "ロール一覧"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "setting-actions-role-list"
+  actionModes: [1]
+  settings: 
+  dataTables: [role_master]
+  majorMessage: 
+  faqs: 
+
+Action(role#add):
+  function: 215
+  title: "ロール追加"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "setting-actions-role-add"
+  actionModes: [1]
+  settings: 
+  dataTables: [role_master]
+  majorMessage: 
+  faqs: 
+
+Action(role#disable):
+  function: 216
+  title: "ロール削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "setting-actions-role-disable"
+  actionModes: [1]
+  settings: 
+  dataTables: [role_master]
+  majorMessage: 
+  faqs: 
+
+Action(admindata#view):
+  function: 290
+  title: "ユーザ表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "setting-actions-admindata-view"
+  actionModes: [1]
+  settings: 
+  dataTables: [admin_data]
+  majorMessage: 
+  faqs: 
+
+Action(group#view):
+  function: 291
+  title: "グループ表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "setting-actions-group-view"
+  actionModes: [1]
+  settings: 
+  dataTables: [group_master]
+  majorMessage: 
+  faqs: 
+
+Action(role#view):
+  function: 293
+  title: "ロール表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "setting-actions-role-view"
+  actionModes: [1]
+  settings: 
+  dataTables: [role_master]
+  majorMessage: 
+  faqs: 
+
+Action(multisystemsetting#add):
+  function: 312
+  title: "システム設定追加"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "setting-actions-multisystemsetting-add"
+  actionModes: [1]
+  settings: 
+  dataTables: [system_setting_master]
+  majorMessage: 
+  faqs: 
+
+Action(changelogconfirming#setting):
+  function: 513
+  title: "ログ設定"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "total-actions-changelogconfirming-setting"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [changelog_confirming]
+  majorMessage: 
+  faqs: 
+
+Action(clickcounturl#regist_url):
+  function: 559
+  title: "クリックカウントURL追加"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "total-actions-clickcounturl-regist_url"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(changepassword#add):
+  function: 581
+  title: "パスワード変更"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "setting-actions-changepassword-add"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(message#list):
+  function: 640
+  title: "メッセージ"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "setting-actions-message-list"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(message#add):
+  function: 641
+  title: "メッセージ編集"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "setting-actions-message-add"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(serviceinterface#wsdl):
+  function: 646
+  title: "API定義のダウンロード"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "setting-actions-serviceinterface-wsdl"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(i18n#view):
+  function: 710
+  title: "言語設定"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "setting-actions-i18n-view"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(i18n#edit):
+  function: 711
+  title: "言語設定編集"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "setting-actions-i18n-edit"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(visitordata#list):
+  function: 108
+  title: "一覧"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-visitordata-list"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [visitor_data]
+  majorMessage: 
+  faqs: 
+
+Action(visitorattribute#add):
+  function: 114
+  title: "新規項目追加"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-visitorattribute-add"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [visitor_attribute]
+  majorMessage: 
+  faqs: 
+
+Action(visitorattribute#disable):
+  function: 115
+  title: "項目追加削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-visitorattribute-disable"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [visitor_attribute]
+  majorMessage: 
+  faqs: 
+
+Action(mailsender#first_gate):
+  function: 117
+  title: "メール送信"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-mailsender-first_gate"
+  actionModes: [1,2]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(applicationtransaction#list):
+  function: 124
+  title: "申込一覧"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-applicationtransaction-list"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [application_transaction_master]
+  majorMessage: 
+  faqs: 
+
+Action(applicationtransaction#add):
+  function: 125
+  title: "新規"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-applicationtransaction-add"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [application_transaction_master]
+  majorMessage: 
+  faqs: 
+
+Action(applicationtransaction#disable):
+  function: 126
+  title: "本削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-applicationtransaction-disable"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [application_transaction_master]
+  majorMessage: 
+  faqs: 
+
+Action(visitordata#setting):
+  function: 131
+  title: "基本項目設定"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-visitordata-setting"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [visitor_data_setting]
+  majorMessage: 
+  faqs: 
+
+Action(multivisitor#add):
+  function: 132
+  title: "新規"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-multivisitor-add"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [visitor_data]
+  majorMessage: 
+  faqs: 
+
+Action(multivisitor#disable):
+  function: 133
+  title: "削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-multivisitor-disable"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [visitor_data]
+  majorMessage: 
+  faqs: 
+
+Action(visitorattribute#view):
+  function: 277
+  title: "項目追加表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-visitorattribute-view"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [visitor_attribute]
+  majorMessage: 
+  faqs: 
+
+Action(applicationtransaction#view):
+  function: 279
+  title: "表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-applicationtransaction-view"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [application_transaction_master]
+  majorMessage: 
+  faqs: 
+
+Action(multivisitor#view):
+  function: 280
+  title: "表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-multivisitor-view"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [visitor_data]
+  majorMessage: 
+  faqs: 
+
+Action(attendance#menu):
+  function: 392
+  title: "来場登録"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-attendance-menu"
+  actionModes: [2]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(attendance#matching#add):
+  function: 393
+  title: "会場受付"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-attendance-matching-add"
+  actionModes: [2]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(attendance#noregistration#add):
+  function: 394
+  title: "未登録者用会場受付"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-attendance-noregistration-add"
+  actionModes: [2]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(attendance#ssattendance#add):
+  function: 395
+  title: "セッション受付"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-attendance-ssattendance-add"
+  actionModes: [2]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(idrule#list):
+  function: 465
+  title: "請求CODE、申込者CODEの連番設定"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-idrule-list"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [id_rule]
+  majorMessage: 
+  faqs: 
+
+Action(idrule#view):
+  function: 466
+  title: "請求CODE、申込者CODEの連番設定詳細"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-idrule-view"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [id_rule]
+  majorMessage: 
+  faqs: 
+
+Action(idrule#add):
+  function: 467
+  title: "請求CODE、申込者CODEの連番設定追加/修正"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-idrule-add"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [id_rule]
+  majorMessage: 
+  faqs: 
+
+Action(idrule#disable):
+  function: 468
+  title: "請求CODE、申込者CODEの連番設定削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-idrule-disable"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [id_rule]
+  majorMessage: 
+  faqs: 
+
+Action(complexview#list#107):
+  function: 540
+  title: "複合検索"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-complexview-list-107"
+  actionModes: [1,2]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(activityattribute#list):
+  function: 560
+  title: "項目追加"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-activityattribute-list"
+  actionModes: [1]
+  settings: 
+  dataTables: [activity_attribute_master]
+  majorMessage: 
+  faqs: 
+
+Action(activityattribute#add):
+  function: 561
+  title: "新規項目追加"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-activityattribute-add"
+  actionModes: [1]
+  settings: 
+  dataTables: [activity_attribute_master]
+  majorMessage: 
+  faqs: 
+
+Action(activityattribute#view):
+  function: 562
+  title: "項目追加表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-activityattribute-view"
+  actionModes: [1]
+  settings: 
+  dataTables: [activity_attribute_master]
+  majorMessage: 
+  faqs: 
+
+Action(activityattribute#disable):
+  function: 563
+  title: "項目追加削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-activityattribute-disable"
+  actionModes: [1]
+  settings: 
+  dataTables: [activity_attribute_master]
+  majorMessage: 
+  faqs: 
+
+Action(activityhistory#list):
+  function: 569
+  title: "活動履歴"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-activityhistory-list"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [activity_history]
+  majorMessage: 
+  faqs: 
+
+Action(activityhistory#add):
+  function: 570
+  title: "活動履歴追加"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-activityhistory-add"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [activity_history]
+  majorMessage: 
+  faqs: 
+
+Action(activityhistory#view):
+  function: 571
+  title: "活動履歴詳細"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-activityhistory-view"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [activity_history]
+  majorMessage: 
+  faqs: 
+
+Action(activityhistory#disable):
+  function: 572
+  title: "活動履歴削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-activityhistory-disable"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [activity_history]
+  majorMessage: 
+  faqs: 
+
+Action(attendance#matchingmapping#add):
+  function: 677
+  title: "会場受付(会場IDマッピングあり)"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-attendance-matchingmapping-add"
+  actionModes: [2]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(attendance#ssattendancemapping#add):
+  function: 678
+  title: "セッション受付(会場IDマッピングあり)"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-attendance-ssattendancemapping-add"
+  actionModes: [2]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(attendance#ssattendancenoregistration#add):
+  function: 679
+  title: "未登録者用セッション受付"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "lead-actions-attendance-ssattendancenoregistration-add"
+  actionModes: [2]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(speakerdata#list):
+  function: 135
+  title: "一覧"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "speaker-actions-speakerdata-list"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [speaker_data]
+  majorMessage: 
+  faqs: 
+
+Action(speakerdata#add):
+  function: 136
+  title: "新規"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "speaker-actions-speakerdata-add"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [speaker_data]
+  majorMessage: 
+  faqs: 
+
+Action(speakerdata#disable):
+  function: 137
+  title: "削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "speaker-actions-speakerdata-disable"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [speaker_data]
+  majorMessage: 
+  faqs: 
+
+Action(publicdocumenttarget#add):
+  function: 147
+  title: "資料アップロード"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-publicdocumenttarget-add"
+  actionModes: [1]
+  settings: 
+  dataTables: [public_document_target]
+  majorMessage: 
+  faqs: 
+
+Action(speakerdata#view):
+  function: 281
+  title: "表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "speaker-actions-speakerdata-view"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [speaker_data]
+  majorMessage: 
+  faqs: 
+
+Action(publicdocumenttarget#view):
+  function: 284
+  title: "資料表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "web-actions-publicdocumenttarget-view"
+  actionModes: [1]
+  settings: 
+  dataTables: [public_document_target]
+  majorMessage: 
+  faqs: 
+
+Action(speakerattribute#list):
+  function: 421
+  title: "項目追加"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "speaker-actions-speakerattribute-list"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(speakerattribute#add):
+  function: 422
+  title: "新規項目追加"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "speaker-actions-speakerattribute-add"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(speakerattribute#view):
+  function: 423
+  title: "項目追加表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "speaker-actions-speakerattribute-view"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(speakerattribute#disable):
+  function: 424
+  title: "項目追加削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "speaker-actions-speakerattribute-disable"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(speakerrole#list):
+  function: 501
+  title: "講演者役割"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "speaker-actions-speakerrole-list"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(speakerrole#add):
+  function: 502
+  title: "新規"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "speaker-actions-speakerrole-add"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(speakerrole#view):
+  function: 503
+  title: "表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "speaker-actions-speakerrole-view"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(speakerrole#disable):
+  function: 504
+  title: "削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "speaker-actions-speakerrole-disable"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(mailtemplate#list):
+  function: 154
+  title: "テンプレート一覧"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "mail-actions-mailtemplate-list"
+  actionModes: [1]
+  settings: 
+  dataTables: [system_template]
+  majorMessage: 
+  faqs: 
+
+Action(mailtemplate#add):
+  function: 155
+  title: "新規テンプレート新規"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "mail-actions-mailtemplate-add"
+  actionModes: [1]
+  settings: 
+  dataTables: [system_template]
+  majorMessage: 
+  faqs: 
+
+Action(mailtemplate#copy):
+  function: 156
+  title: "テンプレートコピー"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "mail-actions-mailtemplate-view"
+  actionModes: [1]
+  settings: 
+  dataTables: [system_template]
+  majorMessage: 
+  faqs: 
+
+Action(mailtemplate#disable):
+  function: 157
+  title: "テンプレート削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "mail-actions-mailtemplate-disable"
+  actionModes: [1]
+  settings: 
+  dataTables: [system_template]
+  majorMessage: 
+  faqs: 
+
+Action(mailsender#first_gate):
+  function: 158
+  title: "送信ウィザード"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "mail-actions-mailsender-first_gate"
+  actionModes: [1,2]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(mailhistory#list):
+  function: 160
+  title: "メール送信履歴一覧"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "mail-actions-mailhistory-list"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [mail_history]
+  majorMessage: 
+  faqs: 
+
+Action(mailreserved#list):
+  function: 162
+  title: "メール送信予約履歴"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "mail-actions-mailreserved-list"
+  actionModes: [1,2]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(mailsetting):
+  function: 339
+  title: "メール設定"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "mail-actions-mailsetting"
+  actionModes: [1,2]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(clickcounturl#list):
+  function: 577
+  title: "クリックカウントＵＲＬ一覧"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "mail-actions-clickcounturl-list"
+  actionModes: [1,2]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(clickcounturl#add):
+  function: 601
+  title: "クリックカウントURL追加"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "mail-actions-clickcounturl-add"
+  actionModes: [1,2]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(clickcounturl#view):
+  function: 602
+  title: "クリックカウントURL詳細"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "mail-actions-clickcounturl-view"
+  actionModes: [1,2]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(clickcounturl#disable):
+  function: 603
+  title: "クリックカウントURL削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "mail-actions-clickcounturl-disable"
+  actionModes: [1,2]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(enquetetemplate#list):
+  function: 181
+  title: "アンケートテンプレート"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "enquete-actions-enquetetemplate-list"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [enquete_template_master]
+  majorMessage: 
+  faqs: 
+
+Action(enquetetemplate#add):
+  function: 182
+  title: "アンケートテンプレート新規"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "enquete-actions-enquetetemplate-add"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [enquete_template_master]
+  majorMessage: 
+  faqs: 
+
+Action(enquetetemplate#disable):
+  function: 184
+  title: "アンケートテンプレート削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "enquete-actions-enquetetemplate-disable"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [enquete_template_master]
+  majorMessage: 
+  faqs: 
+
+Action(question#add):
+  function: 193
+  title: "設問の作成"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "enquete-actions-question-add"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [question_master]
+  majorMessage: 
+  faqs: 
+
+Action(question#disable):
+  function: 194
+  title: "設問の削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "enquete-actions-question-disable"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [question_master]
+  majorMessage: 
+  faqs: 
+
+Action(question#view):
+  function: 289
+  title: "設問の表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "enquete-actions-question-view"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [question_master]
+  majorMessage: 
+  faqs: 
+
+Action(enquetetemplate#view):
+  function: 327
+  title: "アンケートテンプレート表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "enquete-actions-enquetetemplate-view"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [enquete_template_master]
+  majorMessage: 
+  faqs: 
+
+Action(enquetehistory#list):
+  function: 340
+  title: "アンケート履歴"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "enquete-actions-enquetehistory-list"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [enquete_history]
+  majorMessage: 
+  faqs: 
+
+Action(enquetehistory#view):
+  function: 347
+  title: "アンケート履歴表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "enquete-actions-enquetehistory-view"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [enquete_history]
+  majorMessage: 
+  faqs: 
+
+Action(enquetehistory#disable):
+  function: 348
+  title: "アンケート履歴削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "enquete-actions-enquetehistory-disable"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [enquete_history]
+  majorMessage: 
+  faqs: 
+
+Action(total#list):
+  function: 337
+  title: "グラフ一覧"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "total-actions-total-list"
+  actionModes: [1,2]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(changelog#list):
+  function: 4
+  title: "更新履歴一覧"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "total-actions-changelog-list"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [changelog]
+  majorMessage: 
+  faqs: 
+
+Action(changelog#view):
+  function: 514
+  title: "更新履歴詳細"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "total-actions-changelog-view"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [changelog]
+  majorMessage: 
+  faqs: 
+
+Action(seminar#list):
+  function: 11
+  title: "一覧"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "campaign-actions-seminar-list"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [seminar_master]
+  majorMessage: 
+  faqs: 
+
+Action(seminar#add):
+  function: 12
+  title: "新規"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "campaign-actions-seminar-add"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [seminar_master]
+  majorMessage: 
+  faqs: 
+
+Action(seminarattribute#list):
+  function: 15
+  title: "項目追加"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "campaign-actions-seminarattribute-list"
+  actionModes: [1]
+  settings: 
+  dataTables: [seminar_attribute_master]
+  majorMessage: 
+  faqs: 
+
+Action(seminarattribute#add):
+  function: 16
+  title: "新規項目追加"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "campaign-actions-seminarattribute-add"
+  actionModes: [1]
+  settings: 
+  dataTables: [seminar_attribute_master]
+  majorMessage: 
+  faqs: 
+
+Action(seminarattribute#disable):
+  function: 17
+  title: "項目追加削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "campaign-actions-seminarattribute-disable"
+  actionModes: [1]
+  settings: 
+  dataTables: [seminar_attribute_master]
+  majorMessage: 
+  faqs: 
+
+Action(multiseminar#add):
+  function: 56
+  title: "セミナー新規"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "campaign-actions-multiseminar-add"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [seminar_master]
+  majorMessage: 
+  faqs: 
+
+Action(multiseminar#disable):
+  function: 57
+  title: "セミナー削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "campaign-actions-multiseminar-disable"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [seminar_master]
+  majorMessage: 
+  faqs: 
+
+Action(multiseminar#view):
+  function: 257
+  title: "表示"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "campaign-actions-multiseminar-view"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [seminar_master]
+  majorMessage: 
+  faqs: 
+
+Action(seminarcategory#list):
+  function: 301
+  title: "カテゴリ"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "campaign-actions-seminarcategory-list"
+  actionModes: [1]
+  settings: 
+  dataTables: [seminar_category_master]
+  majorMessage: 
+  faqs: 
+
+Action(seminarcategory#add):
+  function: 302
+  title: "カテゴリ追加"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "campaign-actions-seminarcategory-add"
+  actionModes: [1]
+  settings: 
+  dataTables: [seminar_category_master]
+  majorMessage: 
+  faqs: 
+
+Action(seminarcategory#disable):
+  function: 304
+  title: "カテゴリ削除"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "campaign-actions-seminarcategory-disable"
+  actionModes: [1]
+  settings: 
+  dataTables: [seminar_category_master]
+  majorMessage: 
+  faqs: 
+
+Action(adminassignattachment#add):
+  function: 314
+  title: "担当者割り当て"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "campaign-actions-adminassignattachment-add"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [admin_assign_attachment]
+  majorMessage: 
+  faqs: 
+
+Action(enquetehistory#add):
+  function: 372
+  title: "アンケートの割り当て"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "enquete-actions-enquetehistory-add"
+  actionModes: [1,2]
+  settings: 
+  dataTables: [enquete_history]
+  majorMessage: 
+  faqs: 
+
+Action(seminarcopy#view):
+  function: 605
+  title: "セミナーコピー選択"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "campaign-actions-seminarcopy-view"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
+
+Action(seminarcopy#copy):
+  function: 606
+  title: "セミナーコピー実行"
+  summary: ""
+  process: ""
+  restriction: ""
+  supplement: ""
+  privateComment: "campaign-actions-seminarcopy-copy"
+  actionModes: [1]
+  settings: 
+  dataTables: 
+  majorMessage: 
+  faqs: 
 

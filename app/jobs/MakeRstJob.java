@@ -22,21 +22,33 @@ public class MakeRstJob extends Job {
         String label = data.function.actionPath.replaceFirst("^/","").replace("/", "-");
         String[] types = label.split("-");
         String type = types[types.length -1];
-        Logger.info("Maintenance job ...%s", label);
-        Logger.info("Maintenance job ...%s", type);
+        Logger.info("Maintenance job label ...%s", label);
+        Logger.info("Maintenance job type ...%s", type);
 
         String summaryStr;
         String processStr;
-        if( type == "add" ) {
+        if( type.equals("add") ) {
+          Logger.info("summartyStr add type ...%s", type);
           summaryStr = "新しい${name}を登録します。または、登録済みの${name}の設定を編集します。";
           processStr = "${name}の登録画面が表示されます。\n[登録]部分\n  以下の情報を入力し、[登録]をクリックします。";
-        } else if ( type == "view" ) {
+        } else if ( type.equals("view") ) {
+          Logger.info("summartyStr view type ...%s", type);
           summaryStr = "${name}の登録情報を表示します。";
-          processStr = "${name}の登録情報の一覧が表示されます。登録情報の詳細は以下の情報です。";
-        } else if ( type == "disable" ) {
-          summaryStr = "${name}の登録情報を削除ます。";
-          processStr = "${name}の登録情報の一覧が表示されます。登録情報の詳細は以下の情報です。";
+          processStr = "${name}の登録情報の一覧が表示されます。以下は登録情報の詳細です。";
+        } else if ( type.equals("disable") ) {
+          Logger.info("summartyStr view disable ...%s", type);
+          summaryStr = "${name}の登録情報を削除します。";
+          processStr = "削除する${name}の確認画面が表示されます。以下は確認画面に表示される登録情報です。";
+        } else if ( type.equals("list") ) {
+          Logger.info("summartyStr view disable ...%s", type);
+          summaryStr = "${name}を管理します。";
+          processStr = "登録されている${name}の一覧が表示されます。";
+          processStr += "\n[検索]部分\n  [検索開始]: クリックし、検索条件を指定して表示される${name}を限定できます。";
+          processStr += "\n  [CSVダウンロード]: クリックし、設定項目の一覧をCSVファイルとしてダウンロードできます。";
+          processStr += "\n[一覧]部分\n  [新規登録]: クリックし、新規の${name}を登録します。";
+          processStr += "\n  [表示項目設定]: クリックし、画面一覧に表示されている各行の表示項目を変更できます。";
         } else {
+          Logger.info("summartyStr view else ...%s", type);
           summaryStr = "新しい${name}を登録します。または、登録済みの${name}の設定を編集します。";
           processStr = "${name}の登録画面が表示されます。\n[登録]部分\n  以下の情報を入力し、[登録]をクリックします。";
         }
@@ -49,14 +61,14 @@ public class MakeRstJob extends Job {
         Template processTemplate = TemplateLoader.loadString(processStr);
         String processText = processTemplate.render(templateMap);
 
-        String restrictionText = "ななし";
+        String restrictionText = "";
 
-	String supplementText = "ななし";
+	String supplementText = "";
 
-        String mode = "";
+        String mode = "利用可能モード: ";
 
         for (ActionMode actionMode : data.actionModes) {
-          mode = mode + actionMode.name;
+          mode = mode + "[" + actionMode.name + "]";
         }
 //        if(data.availableMode == 0) {
 //          mode = "利用可能モード：[全キャンペーン管理モード]/[個別キャンペーン管理モード]";

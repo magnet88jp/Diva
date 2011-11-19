@@ -19,9 +19,10 @@ public class MakeMajorMessageCsvJob extends Job {
       Map<String, Object> map = new HashMap<String, Object>(16);
       map.put("datas", datas);
       String label = "all";
-      String lines = template.render(map);
+      String str2 = template.render(map);
+      Logger.info("str2=%s", str2);
       FileWriter fw = new FileWriter("doc/source/data/majormessage-"+label+".csv");
-      fw.write(lines);
+      fw.write(str2);
       fw.close();
 
       // actions
@@ -31,9 +32,10 @@ public class MakeMajorMessageCsvJob extends Job {
         datas = action.majorMessages;
         map = new HashMap<String, Object>(16);
         map.put("datas",datas);
-        lines = template.render(map);
+        str2 = template.render(map);
+        Logger.info("DEBUG:str2=%s", str2);
         fw = new FileWriter("doc/source/data/majormessage-"+label+".csv");
-        fw.write(lines);
+        fw.write(str2);
         fw.close();
       }
 
