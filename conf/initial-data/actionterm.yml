@@ -1,0 +1,696 @@
+ActionTerm(activityattribute):
+  code: activityattribute
+  name: "活動履歴追加項目"
+
+ActionTerm(activityattributeitem):
+  code: activityattributeitem
+  name: "活動履歴追加項目選択肢"
+
+ActionTerm(activityhistory):
+  code: activityhistory
+  name: "活動履歴"
+
+ActionTerm(adminassignattachment):
+  code: adminassignattachment
+  name: "担当者割り当て"
+
+ActionTerm(admindata):
+  code: admindata
+  name: "管理者"
+
+ActionTerm(agencynavigation):
+  code: agencynavigation
+  name: "代理ログインナビゲーション"
+
+ActionTerm(applicationcompletion):
+  code: applicationcompletion
+  name: "メールテンプレート"
+
+ActionTerm(applicationflow):
+  code: applicationflow
+  name: "フロー"
+
+ActionTerm(applicationstep):
+  code: applicationstep
+  name: "ステップ"
+
+ActionTerm(applicationsteporder):
+  code: applicationsteporder
+  name: "フローオーダー"
+
+ActionTerm(applicationsteptemplate):
+  code: applicationsteptemplate
+  name: "ステップテンプレート"
+
+ActionTerm(applicationtransaction):
+  code: applicationtransaction
+  name: "申込"
+
+ActionTerm(attendance):
+  code: attendance
+  name: "来場"
+
+ActionTerm(attendance#changeid):
+  code: attendance#changeid
+  name: "会場IDの置換"
+
+ActionTerm(attendance#matching):
+  code: attendance#matching
+  name: "会場来場"
+
+ActionTerm(attendance#matchingmapping):
+  code: attendance#matchingmapping
+  name: "会場来場（会場IDマッピングあり）"
+
+ActionTerm(attendance#noregistration):
+  code: attendance#noregistration
+  name: "未登録者用会場受付"
+
+ActionTerm(attendance#ssattendance):
+  code: attendance#ssattendance
+  name: "セッション来場"
+
+ActionTerm(attendance#ssattendancedependence):
+  code: attendance#ssattendancedependence
+  name: "セッション来場の依存関係の設定"
+
+ActionTerm(attendance#ssattendancemapping):
+  code: attendance#ssattendancemapping
+  name: "セッション来場（会場IDマッピングあり）"
+
+ActionTerm(attendance#ssattendancenoregistration):
+  code: attendance#ssattendancenoregistration
+  name: "未登録者用セッション来場"
+
+ActionTerm(attention#seminar):
+  code: attention#seminar
+  name: "お勧めセミナー"
+
+ActionTerm(billing):
+  code: billing
+  name: "請求先"
+
+ActionTerm(cache):
+  code: cache
+  name: "キャッシュ"
+
+ActionTerm(changelog):
+  code: changelog
+  name: "更新履歴"
+
+ActionTerm(changelogconfirming):
+  code: changelogconfirming
+  name: "ログ設定"
+
+ActionTerm(changepassword):
+  code: changepassword
+  name: "パスワード変更"
+
+ActionTerm(clickcounturl):
+  code: clickcounturl
+  name: "クリックカウントUR"
+
+ActionTerm(clickcountuserlogdata):
+  code: clickcountuserlogdata
+  name: "ユーザクリックログ"
+
+ActionTerm(complexsearch):
+  code: complexsearch
+  name: "申込者検索"
+
+ActionTerm(complexview):
+  code: complexview
+  name: "複合検索"
+
+ActionTerm(countaccess):
+  code: countaccess
+  name: "セッションアクセスカウント"
+
+ActionTerm(csvdownload):
+  code: csvdownload
+  name: "CSVダウンロード"
+
+ActionTerm(csvdownloadfile):
+  code: csvdownloadfile
+  name: "CSVダウンロードファイル"
+
+ActionTerm(csvdownloadsetting):
+  code: csvdownloadsetting
+  name: "CSVダウンロード設定"
+
+ActionTerm(csvdownloadsetting#applicationtransaction):
+  code: csvdownloadsetting#applicationtransaction
+  name: "CSVダウンロード設定（申込）"
+
+ActionTerm(csvdownloadsetting#enquetetemplate):
+  code: csvdownloadsetting#enquetetemplate
+  name: "CSVダウンロード設定（アンケート）"
+
+ActionTerm(csvdownloadsetting#visitordata):
+  code: csvdownloadsetting#visitordata
+  name: "CSVダウンロード設定（リード）"
+
+ActionTerm(discount):
+  code: discount
+  name: "割引コード"
+
+ActionTerm(documentcategory):
+  code: documentcategory
+  name: "資料カテゴリ"
+
+ActionTerm(enquetebase):
+  code: enquetebase
+  name: "アンケートプレビュー"
+
+ActionTerm(enqueteconnection):
+  code: enqueteconnection
+  name: "設問の選択"
+
+ActionTerm(enquetehistory):
+  code: enquetehistory
+  name: "アンケート履歴"
+
+ActionTerm(enqueteplace):
+  code: enqueteplace
+  name: "アンケート使用箇所"
+
+ActionTerm(enquetetemplate):
+  code: enquetetemplate
+  name: "アンケートテンプレート"
+
+ActionTerm(externaljointdata):
+  code: externaljointdata
+  name: "外部データ"
+
+ActionTerm(externaljointmapping):
+  code: externaljointmapping
+  name: "外部データ連携"
+
+ActionTerm(externalobject):
+  code: externalobject
+  name: "外部オブジェクト"
+
+ActionTerm(externalservice):
+  code: externalservice
+  name: "外部接続設定"
+
+ActionTerm(file):
+  code: file
+  name: "ファイル"
+
+ActionTerm(function):
+  code: function
+  name: "機能"
+
+ActionTerm(functiongroup):
+  code: functiongroup
+  name: "ロール割当"
+
+ActionTerm(graphbuild):
+  code: graphbuild
+  name: "グラフ出力"
+
+ActionTerm(group):
+  code: group
+  name: "グループ"
+
+ActionTerm(headerfooter):
+  code: headerfooter
+  name: "ヘッダーフッター"
+
+ActionTerm(home):
+  code: home
+  name: "ホーム"
+
+ActionTerm(i18n):
+  code: i18n
+  name: "言語"
+
+ActionTerm(i18nseminar):
+  code: i18nseminar
+  name: "セミナー毎の言語"
+
+ActionTerm(icon):
+  code: icon
+  name: "アイコン"
+
+ActionTerm(idrule):
+  code: idrule
+  name: "請求CODE、申込者CODEの連番設定"
+
+ActionTerm(loginhistory):
+  code: loginhistory
+  name: "ログイン履歴"
+
+ActionTerm(mailhistory):
+  code: mailhistory
+  name: "メール送信履歴"
+
+ActionTerm(mailreserved):
+  code: mailreserved
+  name: "メール送信予約"
+
+ActionTerm(mailsender):
+  code: mailsender
+  name: "送信ウィザード"
+
+ActionTerm(mailsetting):
+  code: mailsetting
+  name: "メール設定"
+
+ActionTerm(mailtemplate):
+  code: mailtemplate
+  name: "メールテンプレート"
+
+ActionTerm(mailtemplate):
+  code: mailtemplate
+  name: "テンプレートコピー"
+
+ActionTerm(merger):
+  code: merger
+  name: "リードのマージ"
+
+ActionTerm(message):
+  code: message
+  name: "メッセージ"
+
+ActionTerm(multiactivityhistory):
+  code: multiactivityhistory
+  name: "活動履歴"
+
+ActionTerm(multiadmin):
+  code: multiadmin
+  name: "管理者"
+
+ActionTerm(multimailtemplate):
+  code: multimailtemplate
+  name: "メールテンプレート"
+
+ActionTerm(multipdoctarget):
+  code: multipdoctarget
+  name: "資料"
+
+ActionTerm(multipricepartsdaily):
+  code: multipricepartsdaily
+  name: "日数指定の要素"
+
+ActionTerm(multipricepartssessionpack):
+  code: multipricepartssessionpack
+  name: "個数指定の要素"
+
+ActionTerm(multipricepartssum):
+  code: multipricepartssum
+  name: "合計金額指定の要素"
+
+ActionTerm(multiseminar):
+  code: multiseminar
+  name: "キャンペーン"
+
+ActionTerm(multiseminarsystemsetting):
+  code: multiseminarsystemsetting
+  name: "システム設定"
+
+ActionTerm(multiseminartemplate):
+  code: multiseminartemplate
+  name: "キャンペーンテンプレート"
+
+ActionTerm(multisession):
+  code: multisession
+  name: "サブキャンペーン"
+
+ActionTerm(multispeaker):
+  code: multispeaker
+  name: "講演者"
+
+ActionTerm(multisystemsetting):
+  code: multisystemsetting
+  name: "システム設定"
+
+ActionTerm(multisystemtemplate):
+  code: multisystemtemplate
+  name: "システムテンプレート"
+
+ActionTerm(multivisitor):
+  code: multivisitor
+  name: "リード"
+
+ActionTerm(news):
+  code: news
+  name: "ニュース"
+
+ActionTerm(packageflow):
+  code: packageflow
+  name: "フローにパッケージ課金を選択"
+
+ActionTerm(permission):
+  code: permission
+  name: "権限"
+
+ActionTerm(preservecolumn):
+  code: preservecolumn
+  name: "一覧表示項目"
+
+ActionTerm(preservesearchcondition):
+  code: preservesearchcondition
+  name: "検索条件"
+
+ActionTerm(pricepackage):
+  code: pricepackage
+  name: "課金パッケージ"
+
+ActionTerm(priceparts):
+  code: priceparts
+  name: "課金要素"
+
+ActionTerm(public):
+  code: public
+  name: "パブリック"
+
+ActionTerm(public#admin):
+  code: public#admin
+  name: "ログインキー設定（管理者）"
+
+ActionTerm(public#application):
+  code: public#application
+  name: "キャンペーン申し込み（会員登録）"
+
+ActionTerm(public#application#billing):
+  code: public#application#billing
+  name: "キャンペーン申し込み（請求先）"
+
+ActionTerm(public#application#complete):
+  code: public#application#complete
+  name: "キャンペーン申し込み（完了）"
+
+ActionTerm(public#application#confirm):
+  code: public#application#confirm
+  name: "キャンペーン申し込み（確認）"
+
+ActionTerm(public#application#custom):
+  code: public#application#custom
+  name: "キャンペーン申し込み（カスタム）"
+
+ActionTerm(public#application#enquete):
+  code: public#application#enquete
+  name: "キャンペーン申し込み（アンケート）"
+
+ActionTerm(public#application#login):
+  code: public#application#login
+  name: "キャンペーン申し込み（認証ログイン）"
+
+ActionTerm(public#application#other):
+  code: public#application#other
+  name: "キャンペーン申し込み（その他）"
+
+ActionTerm(public#application#payment):
+  code: public#application#payment
+  name: "キャンペーン申し込み（支払方法）"
+
+ActionTerm(public#application#select#cart):
+  code: public#application#select#cart
+  name: "キャンペーン申し込み（カート）"
+
+ActionTerm(public#application#select#timetable):
+  code: public#application#select#timetable
+  name: "キャンペーン申し込み（セッション選択）"
+
+ActionTerm(public#application#user):
+  code: public#application#user
+  name: "キャンペーン申し込み（リード情報）"
+
+ActionTerm(public#application#userenquete):
+  code: public#application#userenquete
+  name: "キャンペーン申し込み（リード情報＋アンケート）"
+
+ActionTerm(public#file):
+  code: public#file
+  name: "$FORM{LABEL_PUBLIC_FILE_DOWNLOAD}"
+
+ActionTerm(public#login):
+  code: public#login
+  name: "代理申込"
+
+ActionTerm(public#menu#document):
+  code: public#menu#document
+  name: "公開資料ダウンロード"
+
+ActionTerm(public#menu#news):
+  code: public#menu#news
+  name: "申込側ニュース"
+
+ActionTerm(public#mypage#authdata):
+  code: public#mypage#authdata
+  name: "マイページ（ID／パスワード変更）"
+
+ActionTerm(public#mypage#bill):
+  code: public#mypage#bill
+  name: "マイページ（請求書）"
+
+ActionTerm(public#mypage#cancel):
+  code: public#mypage#cancel
+  name: "マイページ（キャンセル内容の確認）"
+
+ActionTerm(public#mypage#download):
+  code: public#mypage#download
+  name: "マイページ（資料ダウンロード）"
+
+ActionTerm(public#mypage#personal):
+  code: public#mypage#personal
+  name: "マイページ（リード情報の確認・変更）"
+
+ActionTerm(public#mypage#ticket):
+  code: public#mypage#ticket
+  name: "マイページ（受講票）"
+
+ActionTerm(public#reminder):
+  code: public#reminder
+  name: "パスワードリマイダー"
+
+ActionTerm(public#seminar):
+  code: public#seminar
+  name: "ポータル（キャンペーン）"
+
+ActionTerm(public#session):
+  code: public#session
+  name: "ポータル（サブキャンペーン）"
+
+ActionTerm(public#sessioncheck):
+  code: public#sessioncheck
+  name: "申込側セッションチェック"
+
+ActionTerm(public#t):
+  code: public#t
+  name: "バーコード出力"
+
+ActionTerm(public#task#reminder):
+  code: public#task#reminder
+  name: "リマインドメール送信"
+
+ActionTerm(public#task#reservedmail):
+  code: public#task#reservedmail
+  name: "メール予約配信"
+
+ActionTerm(public#task#restartmail):
+  code: public#task#restartmail
+  name: "メールウィザードの再実行"
+
+ActionTerm(public#task#stepmailsend):
+  code: public#task#stepmailsend
+  name: "ステップメール送信"
+
+ActionTerm(publicdocumenttarget):
+  code: publicdocumenttarget
+  name: "資料"
+
+ActionTerm(question):
+  code: question
+  name: "設問"
+
+ActionTerm(questiondata):
+  code: questiondata
+  name: "アンケート回答"
+
+ActionTerm(questionitem):
+  code: questionitem
+  name: "アンケート設問選択肢"
+
+ActionTerm(reference):
+  code: reference
+  name: "テンプレート変数簡易一覧ダウンロード"
+
+ActionTerm(role):
+  code: role
+  name: "ロール"
+
+ActionTerm(seminar):
+  code: seminar
+  name: "キャンペーン"
+
+ActionTerm(seminarattribute):
+  code: seminarattribute
+  name: "キャンペーン追加項目"
+
+ActionTerm(seminarattributedata):
+  code: seminarattributedata
+  name: "キャンペーン追加項目"
+
+ActionTerm(seminarattributeitem):
+  code: seminarattributeitem
+  name: "キャンペーン追加項目選択肢"
+
+ActionTerm(seminarcategory):
+  code: seminarcategory
+  name: "キャンペーンカテゴリ"
+
+ActionTerm(seminarcopy):
+  code: seminarcopy
+  name: "キャンペーンコピー"
+
+ActionTerm(seminarsettingdata):
+  code: seminarsettingdata
+  name: "キャンペーン設定"
+
+ActionTerm(seminartemplate):
+  code: seminartemplate
+  name: "キャンペーンテンプレートファイル"
+
+ActionTerm(serviceinterface):
+  code: serviceinterface
+  name: "API定義"
+
+ActionTerm(session):
+  code: session
+  name: "サブキャンペーン"
+
+ActionTerm(sessionattribute):
+  code: sessionattribute
+  name: "サブキャンペーン追加項目"
+
+ActionTerm(sessionattributeitem):
+  code: sessionattributeitem
+  name: "サブキャンペーン追加項目選択肢"
+
+ActionTerm(sessioncategory):
+  code: sessioncategory
+  name: "サブキャンペーンカテゴリ"
+
+ActionTerm(sessions):
+  code: sessions
+  name: "サブキャンペーングループ"
+
+ActionTerm(simplemailsender):
+  code: simplemailsender
+  name: "簡易メール送信"
+
+ActionTerm(speakerassignattachment):
+  code: speakerassignattachment
+  name: "講演者割り当て"
+
+ActionTerm(speakerattribute):
+  code: speakerattribute
+  name: "講演者追加項目"
+
+ActionTerm(speakerattributeitem):
+  code: speakerattributeitem
+  name: "講演者追加項目選択肢"
+
+ActionTerm(speakerdata):
+  code: speakerdata
+  name: "講演者"
+
+ActionTerm(speakerprofile):
+  code: speakerprofile
+  name: "講演者プロフィール"
+
+ActionTerm(speakerrole):
+  code: speakerrole
+  name: "講演者役割"
+
+ActionTerm(stepmail):
+  code: stepmail
+  name: "ステップメール"
+
+ActionTerm(stringfiltermapping):
+  code: stringfiltermapping
+  name: "文字列変換規則"
+
+ActionTerm(systemsettingdata):
+  code: systemsettingdata
+  name: "システム設定"
+
+ActionTerm(systemtemplate):
+  code: systemtemplate
+  name: "システムテンプレートファイル"
+
+ActionTerm(testmailsender):
+  code: testmailsender
+  name: "テスト送信"
+
+ActionTerm(topics):
+  code: topics
+  name: "トピックス"
+
+ActionTerm(total):
+  code: total
+  name: "集計"
+
+ActionTerm(tracking#session):
+  code: tracking#session
+  name: "トラッキングログ"
+
+ActionTerm(tracking#tag):
+  code: tracking#tag
+  name: "トラッキングタグ情報"
+
+ActionTerm(trackingurl):
+  code: trackingurl
+  name: "トラッキングURL"
+
+ActionTerm(user):
+  code: user
+  name: "ユーザ"
+
+ActionTerm(useraccountlock):
+  code: useraccountlock
+  name: "アカウントロック"
+
+ActionTerm(visitorattribute):
+  code: visitorattribute
+  name: "リード追加項目"
+
+ActionTerm(visitorattributeitem):
+  code: visitorattributeitem
+  name: "リード追加項目選択肢"
+
+ActionTerm(visitordata):
+  code: visitordata
+  name: "リード"
+
+ActionTerm(visitordata):
+  code: visitordata
+  name: "一覧"
+
+ActionTerm(visitordata#cancel):
+  code: visitordata#cancel
+  name: "リードキャンセル"
+
+ActionTerm(visitordata#file):
+  code: visitordata#file
+  name: "リード名刺画像"
+
+ActionTerm(visitordata#registattendance):
+  code: visitordata#registattendance
+  name: "来場セッションの選択"
+
+ActionTerm(visitordatasetting):
+  code: visitordatasetting
+  name: "リード基本項目設定"
+
+ActionTerm(visitordatasettingsort):
+  code: visitordatasettingsort
+  name: "リード基本項目並び替え"
+
+ActionTerm(visitortemplateparameter):
+  code: visitortemplateparameter
+  name: "テンプレート変数一覧"
+

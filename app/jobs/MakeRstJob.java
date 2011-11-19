@@ -25,6 +25,15 @@ public class MakeRstJob extends Job {
         Logger.info("Maintenance job label ...%s", label);
         Logger.info("Maintenance job type ...%s", type);
 
+        String term = "";
+        for ( int i = 0; i < types.length -1; i++) {
+          if(i == 0) {
+            term += types[i];
+          } else {
+            term += "#" + types[i];
+          }
+        }
+
         String summaryStr;
         String processStr;
         if( type.equals("add") ) {
@@ -52,8 +61,15 @@ public class MakeRstJob extends Job {
           summaryStr = "新しい${name}を登録します。または、登録済みの${name}の設定を編集します。";
           processStr = "${name}の登録画面が表示されます。\n[登録]部分\n  以下の情報を入力し、[登録]をクリックします。";
         }
+        List<ActionTerm> actionTerms = ActionTerm.find("byCode", term).fetch();
+
         Map<String, Object> templateMap= new HashMap<String, Object>(16);
-        templateMap.put("name", data.title);
+        //templateMap.put("name", data.title);
+        if(actionTerms.size() == 0) {
+          templateMap.put("name", "不明");
+        } else {
+          templateMap.put("name", actionTerms.get(0).name);
+        }
 
         Template summaryTemplate = TemplateLoader.loadString(summaryStr);
         String summaryText = summaryTemplate.render(templateMap);
