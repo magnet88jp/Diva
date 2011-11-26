@@ -26,11 +26,14 @@ public class MakeRstJob extends Job {
         Logger.info("Maintenance job type ...%s", type);
 
         String term = "";
+        String code = "";
         for ( int i = 0; i < types.length -1; i++) {
           if(i == 0) {
             term += types[i];
+            code += types[i];
           } else {
-            term += "#" + types[i];
+            term += "-" + types[i];
+            code += "#" + types[i];
           }
         }
 
@@ -38,30 +41,30 @@ public class MakeRstJob extends Job {
         String processStr;
         if( type.equals("add") ) {
           Logger.info("summartyStr add type ...%s", type);
-          summaryStr = "新しい${name}を登録します。または、登録済みの${name}の設定を編集します。";
-          processStr = "${name}の登録画面が表示されます。\n[登録]部分\n  以下の情報を入力し、[登録]をクリックします。";
+          summaryStr = "新しい :term:`${name}<${term}>` を登録します。または、登録済みの${name}の設定を編集します。";
+          processStr = "${name}の登録画面が表示されます。\n\n[登録]部分\n^^^^^^^^^^\n\n以下の情報を入力し、[登録]をクリックします。";
         } else if ( type.equals("view") ) {
           Logger.info("summartyStr view type ...%s", type);
-          summaryStr = "${name}の登録情報を表示します。";
+          summaryStr = ":term:`${name}<${term}>` の登録情報を表示します。";
           processStr = "${name}の登録情報の一覧が表示されます。以下は登録情報の詳細です。";
         } else if ( type.equals("disable") ) {
           Logger.info("summartyStr view disable ...%s", type);
-          summaryStr = "${name}の登録情報を削除します。";
+          summaryStr = ":term:`${name}<${term}` の登録情報を削除します。";
           processStr = "削除する${name}の確認画面が表示されます。以下は確認画面に表示される登録情報です。";
         } else if ( type.equals("list") ) {
           Logger.info("summartyStr view disable ...%s", type);
-          summaryStr = "${name}を管理します。";
+          summaryStr = ":term:`${name}<${term}>`を管理します。";
           processStr = "登録されている${name}の一覧が表示されます。";
-          processStr += "\n[検索]部分\n  [検索開始]: クリックし、検索条件を指定して表示される${name}を限定できます。";
-          processStr += "\n  [CSVダウンロード]: クリックし、設定項目の一覧をCSVファイルとしてダウンロードできます。";
-          processStr += "\n[一覧]部分\n  [新規登録]: クリックし、新規の${name}を登録します。";
-          processStr += "\n  [表示項目設定]: クリックし、画面一覧に表示されている各行の表示項目を変更できます。";
+          processStr += "\n\n[検索]部分\n^^^^^^^^^^\n\n[検索開始]:\n  クリックし、検索条件を指定して表示される${name}を限定できます。";
+          processStr += "\n\n[CSVダウンロード]:\n  クリックし、設定項目の一覧をCSVファイルとしてダウンロードできます。";
+          processStr += "\n\n[一覧]部分\n^^^^^^^^^^\n\n[新規登録]:\n  クリックし、新規の${name}を登録します。";
+          processStr += "\n\n[表示項目設定]:\n  クリックし、画面一覧に表示されている各行の表示項目を変更できます。";
         } else {
           Logger.info("summartyStr view else ...%s", type);
           summaryStr = "新しい${name}を登録します。または、登録済みの${name}の設定を編集します。";
           processStr = "${name}の登録画面が表示されます。\n[登録]部分\n  以下の情報を入力し、[登録]をクリックします。";
         }
-        List<ActionTerm> actionTerms = ActionTerm.find("byCode", term).fetch();
+        List<ActionTerm> actionTerms = ActionTerm.find("byCode", code).fetch();
 
         Map<String, Object> templateMap= new HashMap<String, Object>(16);
         //templateMap.put("name", data.title);
@@ -70,6 +73,7 @@ public class MakeRstJob extends Job {
         } else {
           templateMap.put("name", actionTerms.get(0).name);
         }
+        templateMap.put("term", term);
 
         Template summaryTemplate = TemplateLoader.loadString(summaryStr);
         String summaryText = summaryTemplate.render(templateMap);
