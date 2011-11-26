@@ -53,7 +53,7 @@ public class MakeRstJob extends Job {
           processStr = "削除する${name}の確認画面が表示されます。以下は確認画面に表示される登録情報です。";
         } else if ( type.equals("list") ) {
           Logger.info("summartyStr view disable ...%s", type);
-          summaryStr = ":term:`${name}<${term}>`を管理します。";
+          summaryStr = ":term:`${name}<${term}>` を管理します。";
           processStr = "登録されている${name}の一覧が表示されます。";
           processStr += "\n\n[検索]部分\n^^^^^^^^^^\n\n[検索開始]:\n  クリックし、検索条件を指定して表示される${name}を限定できます。";
           processStr += "\n\n[CSVダウンロード]:\n  クリックし、設定項目の一覧をCSVファイルとしてダウンロードできます。";
