@@ -13,9 +13,9 @@ public class Action extends Model {
   @MaxSize(4000)
   public String summary;
   @MaxSize(4000)
-  public String restriction;
-  @MaxSize(4000)
   public String process;
+  @MaxSize(4000)
+  public String restriction;
   @MaxSize(4000)
   public String supplement;
   @MaxSize(4000)

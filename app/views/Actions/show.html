@@ -1,0 +1,97 @@
+#{extends 'CRUD/layout.html' /}
+#{set title:messages.get('crud.show.title', type.modelName) /}
+
+<style>
+label[for='object_summary'],
+label[for='object_process'] {
+  font-size: 8pt;
+  left: 260px;
+  position: absolute;
+  top: 14px;
+  width: 500px;
+}
+</style>
+<script>
+(function($){
+  $(function(){
+    var reBr = RegExp("(\r\n|\r|\n)", "g");
+    var labelSummary = $("label[for='object_summary']").text();
+    var labelProcess = $("label[for='object_process']").text();
+    var strSummary = $("#actiontypeobj_summary").val().replace(reBr,"<br />");
+    var strProcess = $("#actiontypeobj_process").val().replace(reBr,"<br />");
+    $("label[for='object_summary']").before("<label>"+labelSummary+"</label>");
+    $("label[for='object_summary']").html(strSummary);
+    $("label[for='object_summary']").inFieldLabels();
+    $("label[for='object_process']").before("<label>"+labelProcess+"</label>");
+    $("label[for='object_process']").html(strProcess);
+    $("label[for='object_process']").inFieldLabels();
+
+//    var dataTableName = $("#object_dataTables option:selected").text();
+    var dataTableName = "";
+    $("#object_dataTables option:selected").each(function(){
+      dataTableName += (dataTableName?":":"") + $(this).text();
+    });
+
+    $("#test").val(dataTableName);
+
+    $("label[for='object_dataTables']").parent().after('<div class="crudField crud_longtext"><label for="datatable_datacolumn">dataColumn</label><input type="hidden" name="object.datatable.datacolumn" value="" /><select id="datatable_datacolumn" name="object.datatable.datacolumn" multiple="yes"></select><span class="crudHelp"></span></div>');
+
+    
+    var jsonAction = #{jsAction @DataColumns.json(':datatable_name') /}
+    var jsonParam = {};
+    jsonParam['datatable_name'] = dataTableName;
+    $.getJSON(
+      jsonAction(jsonParam), 
+      function(datas) {
+        var options = "";
+        for(var i = 0; i < datas.length; i++) {
+          options += '<option selected="true">' + datas[i].name + "</option>"
+        }
+        $("#datatable_datacolumn").html(options);
+        $("#datatable_datacolumn").multiselect();
+      }
+    )
+
+  });
+})(jQuery);
+</script>
+%{
+  actiontype = object.function.actionPath.split("/").last().toString()
+  if( models.ActionType.find("byName", actiontype ).fetch().size() == 0 ){
+    actiontypeobj = models.ActionType.find("byName", "default" ).fetch().get(0)
+  } else {
+    actiontypeobj = models.ActionType.find("byName", actiontype ).fetch().get(0)
+  }
+}%
+<div id="result"></div>
+<textarea id="actiontypeobj_summary">
+${actiontypeobj.summary}
+</textarea>
+<textarea id="actiontypeobj_process">
+${actiontypeobj.process}
+</textarea>
+<textarea id="test">
+</textarea>
+
+
+<div id="crudShow" class="${type.name}">
+
+    <h2 id="crudShowTitle">&{'crud.show.title', type.modelName}</h2>
+
+    <div class="objectForm">
+    #{form action:@save(object._key()), enctype:'multipart/form-data'}
+        #{crud.form /}
+        <p class="crudButtons">
+            <input type="submit" name="_save" value="&{'crud.save', type.modelName}" />
+            <input type="submit" name="_saveAndContinue" value="&{'crud.saveAndContinue', type.modelName}" />
+        </p>
+    #{/form}
+    </div>
+
+    #{form @delete(object._key())}
+        <p class="crudDelete">
+            <input type="submit" value="&{'crud.delete', type.modelName}" />
+        </p>
+    #{/form}
+
+</div>

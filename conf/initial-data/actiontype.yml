@@ -1,0 +1,25 @@
+ActionType(default):
+  name: default
+  summary: "新しい :term:`$name<$term>` を登録します。または、登録済みの$nameの設定を編集します。" 
+  process: "$nameの登録画面が表示されます。\n\n[登録]部分\n^^^^^^^^^^\n\n以下の情報を入力し、[登録]をクリックします。"
+
+ActionType(list):
+  name: list
+  summary: ":term:`$name<$term>` を管理します。"
+  process: "登録されている$nameの一覧が表示されます。\n\n[検索]部分\n^^^^^^^^^^\n\n[検索開始]:\n  クリックし、検索条件を指定して表示される$nameを限定できます。\n\n[CSVダウンロード]:\n  クリックし、設定項目の一覧をCSVファイルとしてダウンロードできます。\n\n[一覧]部分\n^^^^^^^^^^\n\n[新規登録]:\n  クリックし、新規の$nameを登録します。\n\n[表示項目設定]:\n  クリックし、画面一覧に表示されている各行の表示項目を変更できます。"
+
+ActionType(add):
+  name: add
+  summary: "新しい :term:`$name<$term>` を登録します。または、登録済みの$nameの設定を編集します。"
+  process: "$nameの登録画面が表示されます。\n\n[登録]部分\n^^^^^^^^^^\n\n以下の情報を入力し、[登録]をクリックします。"
+
+ActionType(view):
+  name: view
+  summary: ":term:`$name<$term>` の登録情報を表示します。"
+  process: "$nameの登録情報の一覧が表示されます。以下は登録情報の詳細です。"
+
+ActionType(disabled):
+  name: disabled
+  summary: ":term:`$name<$term>` の登録情報を削除します。"
+  process: "削除する$nameの確認画面が表示されます。以下は確認画面に表示される登録情報です。"
+

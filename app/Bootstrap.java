@@ -16,6 +16,7 @@ public class Bootstrap extends Job {
       Fixtures.loadModels("initial-data/datatable.yml");
       Fixtures.loadModels("initial-data/datacolumn.yml");
       Fixtures.loadModels("initial-data/actionterm.yml");
+      Fixtures.loadModels("initial-data/actiontype.yml");
       Fixtures.loadModels("initial-data/action.yml");
     }
   }
