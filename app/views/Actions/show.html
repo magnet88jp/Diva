@@ -45,7 +45,7 @@ label[for='object_process'] {
       function(datas) {
         var options = "";
         for(var i = 0; i < datas.length; i++) {
-          options += '<option selected="true">' + datas[i].name + "</option>"
+          options += '<option selected="true" value="' + datas[i].id + '">' + datas[i].name + "</option>"
         }
         $("#datatable_datacolumn").html(options);
         $("#datatable_datacolumn").multiselect();
