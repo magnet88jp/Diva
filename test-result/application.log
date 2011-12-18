@@ -1,9 +1,45 @@
-25 9 2011 09:30:43,883 INFO  ~ Starting /Users/magnet/Workspace/play/Diva
-25 9 2011 09:30:43,889 WARN  ~ Declaring modules in application.conf is deprecated. Use dependencies.yml instead (module.crud)
-25 9 2011 09:30:43,890 INFO  ~ Module crud is available (/usr/local/lib/play-1.2.3/modules/crud)
-25 9 2011 09:30:43,890 WARN  ~ Declaring modules in application.conf is deprecated. Use dependencies.yml instead (module.secure)
-25 9 2011 09:30:43,891 INFO  ~ Module secure is available (/usr/local/lib/play-1.2.3/modules/secure)
-25 9 2011 09:30:45,011 WARN  ~ You're running Play! in DEV mode
-25 9 2011 09:30:45,230 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
-25 9 2011 09:30:58,392 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
-25 9 2011 09:31:00,050 INFO  ~ Application 'Diva' is now started !
+02 12 2011 01:16:30,805 INFO  ~ Starting /Users/magnet/Workspace/play/Diva
+02 12 2011 01:16:30,814 WARN  ~ Declaring modules in application.conf is deprecated. Use dependencies.yml instead (module.crud)
+02 12 2011 01:16:30,815 INFO  ~ Module crud is available (/usr/local/lib/play-1.2.3/modules/crud)
+02 12 2011 01:16:30,816 WARN  ~ Declaring modules in application.conf is deprecated. Use dependencies.yml instead (module.secure)
+02 12 2011 01:16:30,816 INFO  ~ Module secure is available (/usr/local/lib/play-1.2.3/modules/secure)
+02 12 2011 01:16:32,110 WARN  ~ You're running Play! in DEV mode
+02 12 2011 01:16:32,337 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+02 12 2011 01:17:10,895 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+02 12 2011 01:17:12,991 INFO  ~ Application 'Diva' is now started !
+02 12 2011 02:26:34,292 ERROR ~ 
+
+@68ho77632
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/controllers/Actions.java around line 12)
+The file /app/controllers/Actions.java could not be compiled. Error raised is : org.openqa.selenium.firefox.FirefoxDriver cannot be resolved
+
+play.exceptions.CompilationException: org.openqa.selenium.firefox.FirefoxDriver cannot be resolved
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:595)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+02 12 2011 02:29:00,437 ERROR ~ 
+
+@68ho77633
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/controllers/Actions.java around line 12)
+The file /app/controllers/Actions.java could not be compiled. Error raised is : org.openqa.selenium.firefox.FirefoxDriver cannot be resolved
+
+play.exceptions.CompilationException: org.openqa.selenium.firefox.FirefoxDriver cannot be resolved
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:595)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)

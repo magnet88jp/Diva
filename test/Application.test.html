@@ -2,6 +2,14 @@
 
 #{selenium}
     // Open the home page, and check that no error occured
-    open('/')
+    open('/secure/logout')
     assertNotTitle('Application error')
+    type('id=username', 'admin@shanon.co.jp')
+    type('id=password', 'abcd0123')
+
+//    File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+    // Now you can do whatever you need to do with it, for example copy somewhere
+//    FileUtils.copyFile(scrFile, new File("screenshot.png"));
+//    doCaptureEntirePageScreenshot('login.png') 
+    clickAndWait('id=signin')
 #{/selenium}

@@ -37,20 +37,72 @@ label[for='object_process'] {
     $("label[for='object_dataTables']").parent().after('<div class="crudField crud_longtext"><label for="datatable_datacolumn">dataColumn</label><input type="hidden" name="object.datatable.datacolumn" value="" /><select id="datatable_datacolumn" name="object.datatable.datacolumn" multiple="yes"></select><span class="crudHelp"></span></div>');
 
     
-    var jsonAction = #{jsAction @DataColumns.json(':datatable_name') /}
-    var jsonParam = {};
-    jsonParam['datatable_name'] = dataTableName;
+    var jsonCheck = #{jsAction @ActionColumns.json(':action_id') /}
+    var jsonCheckParam = {};
+    jsonCheckParam['action_id'] = ${object.id};
     $.getJSON(
-      jsonAction(jsonParam), 
+      jsonCheck(jsonCheckParam), 
       function(datas) {
         var options = "";
-        for(var i = 0; i < datas.length; i++) {
-          options += '<option selected="true" value="' + datas[i].id + '">' + datas[i].name + "</option>"
+        if(datas.length > 0) {
+//          for(var i = 0; i < datas.length; i++) {
+//            options += '<option selected="true" value="' + datas[i].id + '">' + datas[i].name + "</option>"
+//          }
+//          $("#datatable_datacolumn").html(options);
+//          $("#datatable_datacolumn").multiselect();
+          test2(datas);
+        } else {
+          test();
         }
-        $("#datatable_datacolumn").html(options);
-        $("#datatable_datacolumn").multiselect();
       }
     )
+
+    function test2(datas2) {
+      var jsonAction = #{jsAction @DataColumns.json(':datatable_name') /}
+      var jsonParam = {};
+      jsonParam['datatable_name'] = dataTableName;
+      $.getJSON(
+        jsonAction(jsonParam), 
+        function(datas3) {
+          var options = "";
+          for(var i = 0; i < datas3.length; i++) {
+            var flg = false;
+            for(var j=0; j < datas2.length; j++) {
+              if(datas3[i].id == datas2[j].id){
+                flg = true;
+                break;
+              }
+            }
+            if(flg) {
+              // selected
+              options += '<option selected="true" value="' + datas3[i].id + '">' + datas3[i].name + ":" + datas3[i].dataTable.name + "</option>"
+            } else {
+              // not selected
+              options += '<option value="' + datas3[i].id + '">' + datas3[i].name + ":" + datas3[i].dataTable.name + "</option>"
+            }
+          }
+          $("#datatable_datacolumn").html(options);
+          $("#datatable_datacolumn").multiselect();
+        }
+      )
+    }
+
+    function test() {
+      var jsonAction = #{jsAction @DataColumns.json(':datatable_name') /}
+      var jsonParam = {};
+      jsonParam['datatable_name'] = dataTableName;
+      $.getJSON(
+        jsonAction(jsonParam), 
+        function(datas) {
+          var options = "";
+          for(var i = 0; i < datas.length; i++) {
+            options += '<option selected="true" value="' + datas[i].id + '">' + datas[i].name + "</option>"
+          }
+          $("#datatable_datacolumn").html(options);
+          $("#datatable_datacolumn").multiselect();
+        }
+      )
+    }
 
   });
 })(jQuery);
