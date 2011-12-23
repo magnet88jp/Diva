@@ -2,6 +2,7 @@
 #{set title:messages.get('crud.show.title', type.modelName) /}
 
 <style>
+/*
 label[for='object_summary'],
 label[for='object_process'] {
   font-size: 8pt;
@@ -10,21 +11,26 @@ label[for='object_process'] {
   top: 14px;
   width: 500px;
 }
+*/
 </style>
 <script>
 (function($){
   $(function(){
-    var reBr = RegExp("(\r\n|\r|\n)", "g");
-    var labelSummary = $("label[for='object_summary']").text();
-    var labelProcess = $("label[for='object_process']").text();
-    var strSummary = $("#actiontypeobj_summary").val().replace(reBr,"<br />");
-    var strProcess = $("#actiontypeobj_process").val().replace(reBr,"<br />");
-    $("label[for='object_summary']").before("<label>"+labelSummary+"</label>");
-    $("label[for='object_summary']").html(strSummary);
-    $("label[for='object_summary']").inFieldLabels();
-    $("label[for='object_process']").before("<label>"+labelProcess+"</label>");
-    $("label[for='object_process']").html(strProcess);
-    $("label[for='object_process']").inFieldLabels();
+//    var reBr = RegExp("(\r\n|\r|\n)", "g");
+//    var labelSummary = $("label[for='object_summary']").text();
+//    var labelProcess = $("label[for='object_process']").text();
+//    var strSummary = $("#actiontypeobj_summary").val().replace(reBr,"<br />");
+//    var strProcess = $("#actiontypeobj_process").val().replace(reBr,"<br />");
+//    $("label[for='object_summary']").before("<label>"+labelSummary+"</label>");
+//    $("label[for='object_summary']").html(strSummary);
+//    $("label[for='object_summary']").inFieldLabels();
+//    $("label[for='object_process']").before("<label>"+labelProcess+"</label>");
+//    $("label[for='object_process']").html(strProcess);
+//    $("label[for='object_process']").inFieldLabels();
+  
+//    $("#object_summary").watermark("a\nb\nc\nd\ne\nf");
+    $("#object_summary").watermark( $("#actiontypeobj_summary").val() );
+    $("#object_process").watermark( $("#actiontypeobj_process").val() );
 
 //    var dataTableName = $("#object_dataTables option:selected").text();
     var dataTableName = "";
