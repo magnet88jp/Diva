@@ -13,6 +13,14 @@ label[for='object_process'] {
 }
 */
 </style>
+%{
+  actiontype = object.function.actionPath.split("/").last().toString()
+  if( models.ActionType.find("byName", actiontype ).fetch().size() == 0 ){
+    actiontypeobj = models.ActionType.find("byName", "default" ).fetch().get(0)
+  } else {
+    actiontypeobj = models.ActionType.find("byName", actiontype ).fetch().get(0)
+  }
+}%
 <script>
 (function($){
   $(function(){
@@ -29,8 +37,12 @@ label[for='object_process'] {
 //    $("label[for='object_process']").inFieldLabels();
   
 //    $("#object_summary").watermark("a\nb\nc\nd\ne\nf");
-    $("#object_summary").watermark( $("#actiontypeobj_summary").val() );
-    $("#object_process").watermark( $("#actiontypeobj_process").val() );
+    var strSummary = "${actiontypeobj.summary.replaceAll("(\r\n|\r|\n)","\\\\n").raw()}"
+    var strProcess = "${actiontypeobj.process.replaceAll("(\r\n|\r|\n)","\\\\n").raw()}";
+//    $("#object_summary").watermark( $("#actiontypeobj_summary").val() );
+//    $("#object_process").watermark( $("#actiontypeobj_process").val() );
+    $("#object_summary").watermark( strSummary );
+    $("#object_process").watermark( strProcess );
 
 //    var dataTableName = $("#object_dataTables option:selected").text();
     var dataTableName = "";
@@ -38,7 +50,7 @@ label[for='object_process'] {
       dataTableName += (dataTableName?":":"") + $(this).text();
     });
 
-    $("#test").val(dataTableName);
+//    $("#test").val(dataTableName);
 
     $("label[for='object_dataTables']").parent().after('<div class="crudField crud_longtext"><label for="datatable_datacolumn">dataColumn</label><input type="hidden" name="object.datatable.datacolumn" value="" /><select id="datatable_datacolumn" name="object.datatable.datacolumn" multiple="yes"></select><span class="crudHelp"></span></div>');
 
@@ -102,7 +114,7 @@ label[for='object_process'] {
         function(datas) {
           var options = "";
           for(var i = 0; i < datas.length; i++) {
-            options += '<option selected="true" value="' + datas[i].id + '">' + datas[i].name + "</option>"
+            options += '<option selected="true" value="' + datas[i].id + '">' + datas[i].name + ":" + datas[i].dataTable.name + "</option>"
           }
           $("#datatable_datacolumn").html(options);
           $("#datatable_datacolumn").multiselect();
@@ -122,15 +134,6 @@ label[for='object_process'] {
   }
 }%
 <div id="result"></div>
-<textarea id="actiontypeobj_summary">
-${actiontypeobj.summary}
-</textarea>
-<textarea id="actiontypeobj_process">
-${actiontypeobj.process}
-</textarea>
-<textarea id="test">
-</textarea>
-
 
 <div id="crudShow" class="${type.name}">
 
