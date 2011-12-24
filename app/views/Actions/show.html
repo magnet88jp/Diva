@@ -44,6 +44,10 @@ label[for='object_process'] {
     $("#object_summary").watermark( strSummary );
     $("#object_process").watermark( strProcess );
 
+//    $("#object_summary").after('<textarea rows="5" cols="48" readonly="true">' + strSummary + "</textarea>" );
+    $("#object_summary").after($("<textarea>").attr({rows:"5", cols:"48", readonly:"true"}).val(strSummary));
+    $("#object_process").after($("<textarea>").attr({rows:"5", cols:"48", readonly:"true"}).val(strProcess));
+
 //    var dataTableName = $("#object_dataTables option:selected").text();
     var dataTableName = "";
     $("#object_dataTables option:selected").each(function(){
