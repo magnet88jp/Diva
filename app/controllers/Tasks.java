@@ -63,6 +63,9 @@ public class Tasks extends CRUD {
     } else if (task.taskMode.id == 5 ) {
       Logger.info("MakeDataColumnCsvJob");
       new MakeDataColumnCsvJob().now();
+    } else if (task.taskMode.id == 6 ) {
+      Logger.info("MakeBacklogJob");
+      new MakeBacklogJob().now();
     } else {
       Logger.info("MakeRstJob");
       new MakeRstJob().now();

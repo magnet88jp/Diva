@@ -8,13 +8,14 @@ import play.data.validation.*;
 @Entity
 public class Faq extends Model {
   public String summary;
-  @MaxSize(4000)
+//  @MaxSize(4000)
   public String question;
+  @Lob
   @MaxSize(4000)
   public String answer;
-  @MaxSize(10000)
+//  @MaxSize(10000)
   public String detail;
-  @MaxSize(4000)
+//  @MaxSize(4000)
   public String privateComment;
   @ManyToMany
   public Set<Tag> tags;
@@ -27,4 +28,9 @@ public class Faq extends Model {
     this.privateComment = privateComment;
     this.tags = new TreeSet<Tag>();
   }
+
+  public String toString() {
+    return question;
+  }
 }
+

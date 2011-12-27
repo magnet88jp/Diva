@@ -26,6 +26,9 @@ TaskMode(4):
 TaskMode(5):
   name: テーブルカラム生成
 
+TaskMode(6):
+  name: Backlogデータ取得
+
 ActionMode(1):
   name: 全キャンペーン管理モード
 
