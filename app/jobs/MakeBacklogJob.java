@@ -44,8 +44,10 @@ public class MakeBacklogJob extends Job {
   
       int cnt = 0;
       String strKey = null;
+      String strUrl = null;
       String strSummary = null;
       String strDescription = null;
+      int itemCnt = 4;
       for(Node member: XPath.selectNodes("//data/value/struct/member", xmlDoc)) {
         String name = XPath.selectText("name", member);
         String value = XPath.selectText("value", member);
@@ -55,6 +57,9 @@ public class MakeBacklogJob extends Job {
           cnt++;
           strKey = value;
           Logger.info("key=" + value);
+        } else if (name.equals("url")) {
+          cnt++;
+          strUrl = value;
         } else if (name.equals("summary")) {
           cnt++;
           strSummary = value;
@@ -64,7 +69,7 @@ public class MakeBacklogJob extends Job {
           strDescription = value;
         }   
 
-        if(cnt == 3){
+        if(cnt == itemCnt){
           // create faq model
           // save faq data
           cnt = 0;
@@ -73,8 +78,26 @@ public class MakeBacklogJob extends Job {
 //          String aaa = strDescription.substring(0,300);
 //          Logger.info("aaa=" +aaa);
 //          Faq faq = new Faq(strKey, strSummary, aaa, "", "");
-          Faq faq = new Faq(strKey, strSummary, strDescription, "", "");
-//          faq.answer = strDescription;
+//          Faq faq = new Faq(strKey, strSummary, strDescription, "", "");
+
+
+          // search faq data
+          Faq faq = null;
+          List<Faq> faqs = Faq.find("byCode", strKey).fetch();
+          if(faqs.size() == 0) {
+            faq = new Faq(strKey, strUrl, strSummary, strDescription);
+          } else {
+            faq = faqs.get(0);
+            if(faq.checksum.equals(Faq.checkSum(strDescription))) {
+              Logger.info("equal1=" + faq.checksum);
+              Logger.info("equal2=" + Faq.checkSum(strDescription));
+            } else {
+              faq.originalDescription = strDescription;
+              Logger.info("not equal1=" + faq.checksum);
+              Logger.info("not equal2=" + Faq.checkSum(strDescription));
+            }
+          }
+
           faq._save();
         }
       
