@@ -30,12 +30,13 @@ public class Faq extends Model {
   @ManyToMany
   public Set<Tag> tags;
 
-  public Faq(String code, String url, String originalSummary, String originalDescription) {
+  public Faq(String code, String url, String originalSummary, String originalDescription, String updatedOn) {
     this.code = code;
     this.url = url;
     this.originalSummary = originalSummary;
     this.originalDescription = originalDescription;
-    this.checksum = checkSum(originalDescription);
+//    this.checksum = checkSum(originalDescription);
+    this.checksum = updatedOn;
     this.question = "";
     this.answer = "";
     this.detail = "";

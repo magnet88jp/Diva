@@ -47,7 +47,8 @@ public class MakeBacklogJob extends Job {
       String strUrl = null;
       String strSummary = null;
       String strDescription = null;
-      int itemCnt = 4;
+      String strUpdatedOn = null;
+      int itemCnt = 5;
       for(Node member: XPath.selectNodes("//data/value/struct/member", xmlDoc)) {
         String name = XPath.selectText("name", member);
         String value = XPath.selectText("value", member);
@@ -67,6 +68,9 @@ public class MakeBacklogJob extends Job {
         } else if (name.equals("description")) {
           cnt++;
           strDescription = value;
+        } else if (name.equals("updated_on")) {
+          cnt++;
+          strUpdatedOn = value;
         }   
 
         if(cnt == itemCnt){
@@ -85,17 +89,21 @@ public class MakeBacklogJob extends Job {
           Faq faq = null;
           List<Faq> faqs = Faq.find("byCode", strKey).fetch();
           if(faqs.size() == 0) {
-            faq = new Faq(strKey, strUrl, strSummary, strDescription);
+            faq = new Faq(strKey, strUrl, strSummary, strDescription, strUpdatedOn);
           } else {
             faq = faqs.get(0);
-            if(faq.checksum.equals(Faq.checkSum(strDescription))) {
-              Logger.info("equal1=" + faq.checksum);
-              Logger.info("equal2=" + Faq.checkSum(strDescription));
-            } else {
+            if(!faq.checksum.equals(strUpdatedOn)) {
+              faq.originalSummary = strSummary;
               faq.originalDescription = strDescription;
-              Logger.info("not equal1=" + faq.checksum);
-              Logger.info("not equal2=" + Faq.checkSum(strDescription));
             }
+//            if(faq.checksum.equals(Faq.checkSum(strDescription))) {
+//              Logger.info("equal1=" + faq.checksum);
+//              Logger.info("equal2=" + Faq.checkSum(strDescription));
+//            } else {
+//              faq.originalDescription = strDescription;
+//              Logger.info("not equal1=" + faq.checksum);
+//              Logger.info("not equal2=" + Faq.checkSum(strDescription));
+//            }
           }
 
           faq._save();
